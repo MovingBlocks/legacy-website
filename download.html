@@ -1,18 +1,4 @@
 ﻿<!--[if IE]>
-<style type='text/css'>
-body 
-{
-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='data/textures/bg1.jpg',
-sizingMethod='scale');
--ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='data/textures/bg1.jpg',
-sizingMethod='scale')";
-background-repeat:no-repeat;
-text-align:center;
-}
-</style>
-
 <body>
 <div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'>
 	<div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'>
@@ -58,6 +44,32 @@ For: Terasology <3
 		<script src="data/script/jquery.min.js" type="text/javascript"></script>
 		<script type="text/javascript" src="data/script/main.js"></script>
 		<script type="text/javascript" src="data/script/bg.js"></script>
+		
+		<!-- IE FIX Start -->
+			<!--[if IE]>
+			<style type='text/css'>
+			body 
+			{
+				filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+				src='data/textures/bg1.jpg',
+				sizingMethod='scale');
+				-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+				src='data/textures/bg1.jpg',
+				sizingMethod='scale')";
+				background-repeat:no-repeat;
+				text-align:center;
+			}
+			#footer {
+					position: absolute;
+					bottom: 0;
+			}
+			div.background{
+				display:none;
+			}
+			</style>
+			<![endif]-->
+		<!-- IE FIX End -->
+		
 		<!-- Meta Block Start -->
 		<meta name="author" content="Mahmood Dhia">
 		<meta name="publisher" content="Terasology">
