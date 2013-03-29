@@ -7,8 +7,8 @@ For: Terasology <3
 
 body
 {
-background-color:#000000;
-_behavior: url("csshover3.htc");
+	background-color:#000000;
+	_behavior: url("csshover3.htc");
 }
 .main
 {

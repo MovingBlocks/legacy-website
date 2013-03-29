@@ -1,0 +1,5 @@
+# Jekyll
+/_site/*
+
+# VIM
+*.swp

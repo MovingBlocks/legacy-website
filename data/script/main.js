@@ -1,9 +1,9 @@
-var readyStateCheckInterval = setInterval(function() {
+/*var readyStateCheckInterval = setInterval(function() {
 	if (document.readyState === "complete") {
 		fade('main');
 		clearInterval(readyStateCheckInterval);
 	}
-}, 300);
+}, 300);*/
 			
 var TimeToFade = 1000.0;
 function fade(eid)
@@ -99,3 +99,22 @@ function debug(x)
 		document.all['debug'].innerHTML = "Debug Mode</br>Name: " + x.id + "</br>Src: " + x.src + "</br>Scale: " + x.style.width + " x " + x.style.height;
 	}
 */
+
+function show_ajax(file) {
+	$.ajax({url: file}).done(function(data) {
+		$("#ajax_stuff").html(data);
+		load_ajax_cb();
+	});
+}
+
+function load_ajax_cb() {
+	$(".ajax").click(function() {
+		show_ajax($(this).attr("ajax"));
+	});
+}
+
+$(document).ready(function() {
+	fade("main");
+	load_ajax_cb();
+});
+
