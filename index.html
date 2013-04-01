@@ -1,13 +1,20 @@
 <!--[if IE]>
 <body>
 <center>
-
-	<div style='width: 800px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>      
-		<div style='width: 800px; float: left; font-family: Arial, sans-serif;'>
-    <p>IE doesn't fully support all features for this page. For a better experience use:  <a href='http://www.mozilla.org/en-US/' style='text-decoration: none;'><img src='data/textures/ie/firefox.png' alt='Mozilla Firefox' style='border: 0px solid white;' /></a> <a href='http://www.google.com/chrome' style='text-decoration: none;'><img src='data/textures/ie/chrome.png' alt='Google Chrome' style='border: 0px solid white;' /></a> <a href='http://www.apple.com/safari/' style='text-decoration: none;'><img src='data/textures/ie/safari.jpg' alt='Apple Safari' style='border: 0px solid white;' /></a>          
-		</div>         
-	</div>
-</div>
+ <div style='width: 800px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>
+        <div style='width: 800px; float: left; font-family: Arial, sans-serif;'>
+            <p>IE doesn't fully support all features for this page. For a better experience use: <a
+                    href='http://www.mozilla.org/en-US/' style='text-decoration: none;'><img
+                    src='data/textures/browsers/firefox.png' alt='Mozilla Firefox'
+                    style='border: 0px solid white;'/></a> <a href='http://www.google.com/chrome'
+                                                              style='text-decoration: none;'><img
+                    src='data/textures/browsers/chrome.png' alt='Google Chrome' style='border: 0px solid white;'/></a>
+                <a href='http://www.apple.com/safari/' style='text-decoration: none;'><img
+                        src='data/textures/browsers/safari.gif' alt='Apple Safari'
+                        style='border: 0px solid white;'/></a>
+        </div>
+    </div>
+   </div>
 </center>
 <![endif]-->
 
@@ -30,17 +37,19 @@ Later edited by: NowNewStart, MiJyn
 		<!-- IE FIX Start -->
 			<!--[if IE]>
 			<style type='text/css'>
-			body 
-			{
-				filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-				src='data/textures/bg1.jpg',
-				sizingMethod='scale');
-				-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
-				src='data/textures/bg1.jpg',
-				sizingMethod='scale')";
-				background-repeat:no-repeat;
-				text-align:center;
-			}
+       body 
+       {
+         filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+-        src='data/textures/bg1.jpg',
++        src='data/textures/backgrounds/bg6.jpg',
+         sizingMethod='scale');
+         -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+-        src='data/textures/bg1.jpg',
++        src='data/textures/backgrounds/bg6.jpg',
+         sizingMethod='scale')";
+         background-repeat:no-repeat;
+         text-align:center;
+      }
 			#footer {
 					position: absolute;
 					bottom: 0;
@@ -70,66 +79,70 @@ Later edited by: NowNewStart, MiJyn
 <a href="https://github.com/MovingBlocks/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
 	<div class="background" marginwidth="0" marginheight="0" topmargin="0" leftmargin="0" oncontextmenu="return false;" ondragstart="return false;" onselectstart="return false;" onselect="return false;" onbeforecopy="return false;" oncopy="return false;"> 
 		<!-- Random was in PHP =/ -->
-		<img src='data/textures/bg1.jpg' width='100%' height='100%' alt='pic1' />
-		<img src='data/textures/bg4.jpg' width='100%' height='100%' alt='pic2' />
-		<img src='data/textures/bg5.jpg' width='100%' height='100%' alt='pic3' />
-		<img src='data/textures/bg3.jpg' width='100%' height='100%' alt='pic4' />
-		<img src='data/textures/bg2.jpg' width='100%' height='100%' alt='pic5' />
-    <img src='data/textures/bg6.jpg' width='100%' height='100%' alt='pic6' />
-    <img src='data/textures/bg7.jpg' width='100%' height='100%' alt='pic7' />
-	</div>
+		<img src='data/textures/backgrounds/bg1.jpg' width='100%' height='100%' alt='pic1' />
+		<img src='data/textures/backgrounds/bg4.jpg' width='100%' height='100%' alt='pic2' />
+		<img src='data/textures/backgrounds/bg5.jpg' width='100%' height='100%' alt='pic3' />
+		<img src='data/textures/backgrounds/bg3.jpg' width='100%' height='100%' alt='pic4' />
+		<img src='data/textures/backgrounds/bg2.jpg' width='100%' height='100%' alt='pic5' />
+    <img src='data/textures/backgrounds/bg6.jpg' width='100%' height='100%' alt='pic6' />
+    <img src='data/textures/backgrounds/bg7.jpg' width='100%' height='100%' alt='pic7' />
+	  <img src='data/textures/backgrounds/bg8.jpg' width='100%' height='100%' alt='pic7' />
+    <img src='data/textures/backgrounds/bg9.jpg' width='100%' height='100%' alt='pic7' />
+
+  </div>
 	<body oncontextmenu="return false;" ondragstart="return false;" onselectstart="return false;" onselect="return false;" onbeforecopy="return false;" oncopy="return false;">
 		<table id="main" class="Main">
 			<tr>
 				<td>
 					<a onclick="fade('main');" />
-					<img src="data/textures/logo.png" class="logo" /></a><br /><br />
+					<img src="data/textures/logo.png" class="logo" /></a><br /><br>
 					<div class="button">
 						<div id="ajax_stuff">
+            	<a href='applet_content.html' />
+								<img src='data/textures/buttons/play.jpg' id='end' class='end_button' /><br /><br />
+							</a>
 							<a href='http://jenkins.movingblocks.net/job/Terasology/lastSuccessfulBuild/artifact/build/distributions/Terasology.zip' />
-								<img src='data/textures/button/download.jpg' id='download' class='download_button' /><br /><br />
+								<img src='data/textures/buttons/download.jpg' id='download' class='download_button' /><br /><br />
 							</a>
 							<a href='gameplay.html' />
-								<img src='data/textures/button/gameplay.jpg' id='gameplay' class='gameplay_button' /><br /><br />
+								<img src='data/textures/buttons/gameplay.jpg' id='gameplay' class='gameplay_button' /><br /><br />
 							</a>
               <a href='develop.html' />
-              <img src='data/textures/develop.jpg' id='develop' class='develop_button' /><br /><br />
+              <img src='data/textures/buttons/develop.jpg' id='develop' class='develop_button' /><br /><br />
               </a>
 							<a href='http://forum.movingblocks.net/' />
-								<img src='data/textures/button/forum.jpg' id='forum' class='forum_button' /><br /><br />
+								<img src='data/textures/buttons/forum.jpg' id='forum' class='forum_button' /><br /><br />
 							</a>
 							<br />
-							<a href='applet.html' />
-								<img src='data/textures/play.jpg' id='end' class='end_button' /><br /><br />
-							</a>
+
 						</div>
 						<br />
 						<br />
 						<br />
 						
 						<a href="https://www.facebook.com/Terasology" id='fb' class='fb_button'>
-							<img src='data/textures/fb.png' />
+							<img src='data/textures/site_buttons/fb.png' />
 						</a>
 						<a href="https://twitter.com/terasology">
-							<img src='data/textures/twitter.png' id='twitter' class='twitter_button' />
+							<img src='data/textures/site_buttons/twitter.png' id='twitter' class='twitter_button' />
 						</a>
 						<a href="http://github.com/MovingBlocks/Terasology">
-							<img src='data/textures/github.png' id='github' class='github_button' />
+							<img src='data/textures/site_buttons/github.png' id='github' class='github_button' />
 						</a>
 						<a href="http://jenkins.movingblocks.net">
-							<img src='data/textures/jenkins.png' id='jenkins' class='jenkins_button' />
+							<img src='data/textures/site_buttons/jenkins.png' id='jenkins' class='jenkins_button' />
 						</a>
 						<a href="https://plus.google.com/103835217961917018533">
-							<img src='data/textures/gplus.png' id='gplus' class='gplus_button' />
+							<img src='data/textures/site_buttons/gplus.png' id='gplus' class='gplus_button' />
 						</a>
 						<a href="http://www.youtube.com/user/blockmaniaTV">
-							<img src="data/textures/youtube.png" id='youtube' class='youtube_button' />
+							<img src="data/textures/site_buttons/youtube.png" id='youtube' class='youtube_button' />
 						</a>
             <a href="http://en.reddit.com/r/Terasology/">
-             <img src="data/textures/reddit.png" id='reddit' class='reddit_button' />
+             <img src="data/textures/site_buttons/reddit.png" id='reddit' class='reddit_button' />
              </a>
                           <a href="http://blog.movingblocks.net/blog/">
-             <img src="data/textures/wp.png" id="wp" class="wp_button" />
+             <img src="data/textures/site_buttons/wp.png" id="wp" class="wp_button" />
              </a>						
 					</div>
 				</td>
