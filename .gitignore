@@ -3,3 +3,7 @@
 
 # VIM
 *.swp
+
+# IntelliJ
+*.iml
+/.idea/*
