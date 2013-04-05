@@ -32,6 +32,7 @@ Later edited by: NowNewStart, MiJyn
 		<title>Terasology Frontpage</title>		
 		<link href="data/css/style.css" rel="stylesheet" type="text/css">
 		<script src="data/script/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="data/script/jquery.preload.min.js"></script>
 		<script type="text/javascript" src="data/script/main.js"></script>
 		<script type="text/javascript" src="data/script/bg.js"></script>
 		<script type="text/javascript">
@@ -40,6 +41,17 @@ Later edited by: NowNewStart, MiJyn
 				//Random Background
 				setInterval(rnd_background, 5000);
 				rnd_background();
+				//Pre Load Background Image
+				$.preload('data/textures/backgrounds/bg1.jpg',
+					'data/textures/backgrounds/bg2.jpg',
+					'data/textures/backgrounds/bg3.jpg',
+					'data/textures/backgrounds/bg4.jpg',
+					'data/textures/backgrounds/bg5.jpg',
+					'data/textures/backgrounds/bg6.jpg',
+					'data/textures/backgrounds/bg7.jpg',
+					'data/textures/backgrounds/bg8.jpg',
+					'data/textures/backgrounds/bg9.jpg'
+				);
 			});
 		</script>
 		<!-- IE FIX Start -->
