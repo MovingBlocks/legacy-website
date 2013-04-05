@@ -10,6 +10,20 @@ body
 	background-color:#000000;
 	_behavior: url("csshover3.htc");
 }
+#bg {
+	background-image: url(../textures/backgrounds/bg1.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	z-index: -1;
+}
 .main
 {
 	max-width: 512px;
@@ -36,21 +50,6 @@ body
   position: fixed;
   width: 100%;
   z-index: 5;
-}
-div.background {
-	position:absolute;
-	left:0px;
-	top:0px;
-	z-index:-1;
-}
-div.background img {
-	position:fixed;
-	list-style: none;
-	left:0px;
-	top:0px;
-}
-div.background ul li.show {
-	z-index:500
 }
 div.button img {
 	-webkit-transform:scale(1);

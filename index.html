@@ -37,6 +37,9 @@ Later edited by: NowNewStart, MiJyn
 		<script type="text/javascript">
 			$(document).ready(function() {
 				show_ajax("index_content.html");
+				//Random Background
+				setInterval(rnd_background, 5000);
+				rnd_background();
 			});
 		</script>
 		<!-- IE FIX Start -->
@@ -57,7 +60,7 @@ Later edited by: NowNewStart, MiJyn
 					position: absolute;
 					bottom: 0;
 			}
-			div.background{
+			div.bg{
 				display:none;
 			}
 
@@ -80,19 +83,8 @@ Later edited by: NowNewStart, MiJyn
 		<!-- Meta Block End -->
 	</head>
     <a href="https://github.com/MovingBlocks/Terasology"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
-	<div class="background" marginwidth="0" marginheight="0" topmargin="0" leftmargin="0" oncontextmenu="return false;" ondragstart="return false;" onselectstart="return false;" onselect="return false;" onbeforecopy="return false;" oncopy="return false;"> 
-		<!-- Random was in PHP =/ -->
-		<img src='data/textures/backgrounds/bg1.jpg' width='100%' height='100%' alt='pic1' />
-		<img src='data/textures/backgrounds/bg4.jpg' width='100%' height='100%' alt='pic2' />
-		<img src='data/textures/backgrounds/bg5.jpg' width='100%' height='100%' alt='pic3' />
-		<img src='data/textures/backgrounds/bg3.jpg' width='100%' height='100%' alt='pic4' />
-		<img src='data/textures/backgrounds/bg2.jpg' width='100%' height='100%' alt='pic5' />
-        <img src='data/textures/backgrounds/bg6.jpg' width='100%' height='100%' alt='pic6' />
-        <img src='data/textures/backgrounds/bg7.jpg' width='100%' height='100%' alt='pic7' />
-        <img src='data/textures/backgrounds/bg8.jpg' width='100%' height='100%' alt='pic8' />
-        <img src='data/textures/backgrounds/bg9.jpg' width='100%' height='100%' alt='pic9' />
-	</div>
 	<body oncontextmenu="return false;" ondragstart="return false;" onselectstart="return false;" onselect="return false;" onbeforecopy="return false;" oncopy="return false;">
+		<div id="bg"></div>
 		<table id="main" class="Main">
 			<tr>
 				<td>
@@ -102,38 +94,34 @@ Later edited by: NowNewStart, MiJyn
                     <br />
 
 					<div class="button">
-
-                       <div id="ajax_stuff">
-                           <a href='applet_content.html'>
-                               <img src='data/textures/buttons/play.jpg' id='end' class='play_button' />
-                               <br />
-                               <br />
-                           </a>
-                           <a href='http://jenkins.movingblocks.net/job/Terasology/lastSuccessfulBuild/artifact/build/distributions/Terasology.zip'>
-                               <img src='data/textures/buttons/download.jpg' id='download' class='download_button' />
-                               <br />
-                               <br />
-                           </a>
-                           <a href='gameplay_content.html'>
-                               <img src='data/textures/buttons/gameplay.jpg' id='gameplay' class='gameplay_button' />
-                               <br />
-                               <br />
-                           </a>
-                           <a href='develop_content.html'>
-                               <img src='data/textures/buttons/develop.jpg' id='develop' class='develop_button' />
-                               <br />
-                               <br />
-                           </a>
-                           <a href='http://forum.movingblocks.net/'>
-                               <img src='data/textures/buttons/forum.jpg' id='forum' class='forum_button' />
-                               <br />
-                               <br />
-                           </a>
-                       </div>
-                       <br />
-                       <br />
-                       <br />
-                        <a href="https://www.facebook.com/Terasology" id='fb' class='fb_button'>
+                        <div id="ajax_stuff">
+							<a href='applet_content.html'>
+								<img src='data/textures/buttons/play.jpg' id='end' class='play_button' />
+								<br />
+								<br />
+							</a>
+							<a href='http://jenkins.movingblocks.net/job/Terasology/lastSuccessfulBuild/artifact/build/distributions/Terasology.zip'>
+								<img src='data/textures/buttons/download.jpg' id='download' class='download_button' />
+								<br />
+								<br />
+							</a>
+							<a href='gameplay_content.html'>
+								<img src='data/textures/buttons/gameplay.jpg' id='gameplay' class='gameplay_button' />
+								<br />
+								<br />
+							</a>
+							<a href='develop_content.html'>
+								<img src='data/textures/buttons/develop.jpg' id='develop' class='develop_button' />
+								<br />
+								<br />
+							</a>
+							<a href='http://forum.movingblocks.net/'>
+								<img src='data/textures/buttons/forum.jpg' id='forum' class='forum_button' />
+								<br />
+								<br />
+							</a>
+						</div>
+						<a href="https://www.facebook.com/Terasology" id='fb' class='fb_button'>
 							<img src='data/textures/site_buttons/fb.png' />
 						</a>
 						<a href="https://twitter.com/terasology">
@@ -151,9 +139,9 @@ Later edited by: NowNewStart, MiJyn
 						<a href="http://www.youtube.com/user/blockmaniaTV">
 							<img src="data/textures/site_buttons/youtube.png" id='youtube' class='youtube_button' />
 						</a>
-                        <a href="http://reddit.com/r/Terasology">
-                            <img src="data/textures/site_buttons/reddit.png" id='reddit' class='reddit_button' />
-                        </a>
+						<a href="http://reddit.com/r/Terasology">
+							<img src="data/textures/site_buttons/reddit.png" id='reddit' class='reddit_button' />
+						</a>
                        <a href="http://blog.movingblocks.net/blog/">
                            <img src="data/textures/site_buttons/wp.png" id="wordpress" class="wordpress_button" />
                        </a>

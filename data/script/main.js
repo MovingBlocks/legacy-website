@@ -72,27 +72,7 @@ function spolier(x)
 	}
 
 /*
-Old Hover Script & Debug
-function bigImg(x)
-			{
-				x.style.height="35px";
-				x.style.width="266px";
-				name = x.id;
-				x.src = "data/textures/button/"+ name +"-over.jpg";
-				debug(x);
-				
-			}
-
-function normalImg(x)
-	{
-		x.style.height="29px";
-		x.style.width="256px";
-		name = x.id;
-		x.src = "data/textures/button/"+ name +".jpg";
-		debug(x);
-	}
-
-	
+Debug
 //debug
 function debug(x)
 	{
@@ -117,4 +97,3 @@ $(document).ready(function() {
 	fade("main");
 	load_ajax_cb();
 });
-
