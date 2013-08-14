@@ -84,3 +84,11 @@ div.button img:hover{
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
+#fader {
+  display: block;
+  position: absolute;
+  top:0;
+  left: 10px;
+  z-index: -10;
+  padding: -10px -50px -10px -10px;
+}

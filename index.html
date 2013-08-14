@@ -97,8 +97,7 @@ Later edited by: NowNewStart, MiJyn
 		<meta name="robots" content="index, follow">
 		<!-- Meta Block End -->
 	</head>
-    <a href="https://github.com/MovingBlocks/Terasology"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
-	<body oncontextmenu="return false;" ondragstart="return false;" onselectstart="return false;" onselect="return false;" onbeforecopy="return false;" oncopy="return false;">
+    <body oncontextmenu="return false;" ondragstart="return false;" onselectstart="return false;" onselect="return false;" onbeforecopy="return false;" oncopy="return false;">
 		<noscript>
             <h3><center>This site requires Javascript to see fancy features</center></h3>
             <h4><center>In the meantime here are some links:</center></h4>
@@ -110,14 +109,16 @@ Later edited by: NowNewStart, MiJyn
 
 
 		<div id="bg"></div>
+    <div id="hide" class="hide">
+    <a href="https://github.com/MovingBlocks/Terasology" id="fork" class="fork"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
 		<table id="main" class="Main">
 			<tr>
 				<td>
-					<a onclick="fade('main');">
-					    <img src="data/textures/logo.png" class="logo" />
+					<a onclick="fade('hide');">
+					    <img src="data/textures/logo.png" class="logo" alt="Clicking the logo fades out everything except the background! Click it again to bring stuff back" title="Clicking the logo fades out everything except the background! Click it again to bring stuff back."/>
                     </a>
                     <br />
-
+                    
 					<div class="button">
                         <div id="ajax_stuff">
 							<a href='applet_content.html'>
@@ -146,6 +147,9 @@ Later edited by: NowNewStart, MiJyn
 								<br />
 							</a>
 						</div>
+            </div>
+            <div class="fix"></div>
+            <div class="button">
 						<a href="https://www.facebook.com/Terasology" id='fb' class='fb_button'>
 							<img src='data/textures/site_buttons/fb.png' />
 						</a>
@@ -174,5 +178,6 @@ Later edited by: NowNewStart, MiJyn
 				</td>
 			</tr>
 		</table>
+    </div>
 	</body>
 </html>
