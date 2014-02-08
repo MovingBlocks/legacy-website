@@ -3,12 +3,21 @@ $(function() {
     // menu initialization
     var $menu = $('#menu');
     var $menuEntries = $menu.children('div');
+    var $playIframe = $('#play iframe');
     $(window).on('hashchange', function() {
         $menuEntries.hide();
         var clickedMenuEntry =
             $menuEntries.filter(window.location.hash).size() ?
             window.location.hash :
             '#index';
+
+        // actually active "play" iframe
+        // because for now applet is self-signed, Java plugin displays security window
+        // this code need to be removed when applet will be signed properly
+        if (clickedMenuEntry === '#play' && !$playIframe.attr('src')) {
+            $playIframe.attr('src', $playIframe.data('src'));
+        }
+
         $(clickedMenuEntry).show();
     }).trigger('hashchange'); // initial
 
