@@ -21,6 +21,12 @@ $(function() {
         $(clickedMenuEntry).show();
     }).trigger('hashchange'); // initial
 
+    var $body = $('body');
+    var $content = $('#content');
+    $body.on('click', function(e) {
+        if (e.target === $body.get(0)) $content.fadeToggle();
+    });
+
 });
 
 $(window).load(function() {
