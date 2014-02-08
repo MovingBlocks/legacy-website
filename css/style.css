@@ -64,12 +64,13 @@ body {
   width: 256px;
   height: 29px;
 
-  background: url(img/button.jpg);
+  background: url(img/button.jpg) no-repeat;
   text-decoration: none;
   color: white;
   font-family: Minecraftia;
   text-shadow: -1px 1px 1px black;
 }
+.menu > div > a:hover { background-image: url(img/button_hover.jpg); }
 .menu a.back { margin-top: 60px; }
 .menu .thumbs a { display: inline-block; }
 
