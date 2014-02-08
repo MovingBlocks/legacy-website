@@ -3,15 +3,18 @@ $(function() {
     // menu initialization
     var $menu = $('#menu');
     var $menuEntries = $menu.children('div');
-    $(window).on('hashchange load', function() {
+    $(window).on('hashchange', function() {
         $menuEntries.hide();
         var clickedMenuEntry =
             $menuEntries.filter(window.location.hash).size() ?
             window.location.hash :
             '#index';
         $(clickedMenuEntry).show();
-    });
+    }).trigger('hashchange'); // initial
 
+});
+
+$(window).load(function() {
     var curBackground = 1;
     var backgroundsCount = 10;
     var backgroundsExt = '.jpg';
@@ -24,6 +27,7 @@ $(function() {
 
     var $backgroundContainer = $('#background');
 
+    // background images cycling
     setInterval(function() {
         $backgroundContainer.fadeOut('slow', function() {
             $backgroundContainer.css(
@@ -33,5 +37,4 @@ $(function() {
         });
         curBackground = (curBackground === backgroundsCount) ? 1 : ++curBackground;
     }, 5000);
-
 });
