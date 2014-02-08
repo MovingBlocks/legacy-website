@@ -1,184 +1,117 @@
-<!--[if IE]>
-<body>
-<center>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="description" content="Terasology is a game that pays ample tribute to Minecraft in initial look and origin, but stakes out its own niche by adopting the NPC-helper and caretaker feel from such games as Dwarf Fortress and Dungeon Keeper.">
+      <meta name="keywords" content="Terasology, Minecraft, Clone, Copy, Open, Source, Free, Mahmood, Dhia, Dwarf, Fortress, Dungeon, Keeper, Voxel, Creature, Creatures, Empire, Civilization, Portal, Moving, Blocks">
 
-    <div style='width: 800px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>
-        <div style='width: 800px; float: left; font-family: Arial, sans-serif;'>
-            <p>IE doesn't fully support all features for this page. For a better experience use: <a
-                    href='http://www.mozilla.org/en-US/' style='text-decoration: none;'><img
-                    src='data/textures/browsers/firefox.png' alt='Mozilla Firefox'
-                    style='border: 0px solid white;'/></a> <a href='http://www.google.com/chrome'
-                                                              style='text-decoration: none;'><img
-                    src='data/textures/browsers/chrome.png' alt='Google Chrome' style='border: 0px solid white;'/></a>
-                <a href='http://www.apple.com/safari/' style='text-decoration: none;'><img
-                        src='data/textures/browsers/safari.gif' alt='Apple Safari'
-                        style='border: 0px solid white;'/></a>
+      <title>Terasology Splash Site</title>
+      <link rel="shortcut icon" type="image/png" href="/img/icon.png">
+
+      <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+
+      <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+      <script src="scripts/main.js"></script>
+
+      <script src="scripts/analytics.js"></script>
+    </head>
+
+    <body>
+      <noscript><style>.menu > div { display: block; } .menu a.back { display: none; }</style></noscript>
+
+      <div class="content">
+        <div class="wrapper-for-centering">
+          <h1 class="logo">Terasology</h1>
+
+          <nav id="menu" class="menu">
+              <div id="index">
+                <a href="#play">Play (PC)</a>
+                <a href="#download">Download</a>
+                <a href="#gameplay">Gameplay</a>
+                <a href="#development">Development</a>
+                <a href="http://forum.movingblocks.net/">Forum</a>
+              </div>
+
+              <div id="play">
+                <iframe
+                  src="http://blog.movingblocks.net/applet/index.html"
+                  style="height: 376px; width: 650px;"
+                  frameBorder="0"
+                ></iframe>
+                <a href="#" class="back">Back</a>
+              </div>
+
+              <div id="download">
+                <a href="http://jenkins.movingblocks.net/job/TerasologyLauncherStable/lastStableBuild/artifact/build/distributions/TerasologyLauncher.zip">Launcher</a>
+                <a href="http://jenkins.movingblocks.net/job/TerasologyStable/lastSuccessfulBuild/artifact/build/distributions/Terasology.zip">Stable Client</a>
+                <a href="http://jenkins.movingblocks.net/job/Terasology/lastSuccessfulBuild/artifact/build/distributions/Terasology.zip">Latest Client</a>
+                <a href="http://terasologymods.net">Modules</a>
+                <a href="#" class="back">Back</a>
+              </div>
+
+              <div id="gameplay">
+                <a href="http://youtu.be/eLonNWP93h0">Blockmania TV</a>
+
+                <div class="thumbs"><!-- TODO: add alt attribute to the images -->
+                  <a href="http://www.youtube.com/watch?feature=player_embedded&v=H3qItsrpceY">
+                    <img src="img/video_thumbnails/letstest_gronkh.png">
+                  </a>
+                  <a href="http://www.youtube.com/watch?v=E4TbqZ0TMXg">
+                    <img src="img/video_thumbnails/letstest_aldro.png">
+                  </a>
+                  <a href="http://www.youtube.com/watch?v=eLonNWP93h0">
+                    <img src="img/video_thumbnails/dyshadows_begla.png">
+                  </a>
+                  <a href="http://www.youtube.com/watch?v=9kP97RCahqc">
+                    <img src="img/video_thumbnails/water_begla.png">
+                  </a>
+                  <a href="http://www.youtube.com/watch?v=yXcHe1NL1uE">
+                    <img src="img/video_thumbnails/style_begla.png">
+                  </a>
+                  <a href="http://www.youtube.com/watch?v=-cdhxguyMpA">
+                    <img src="img/video_thumbnails/crafting.png">
+                  </a>
+                  <a href="http://www.youtube.com/watch?v=H8-afb0yUoc">
+                    <img src="img/video_thumbnails/leap.png" alt="Leap Motion preview">
+                  </a>
+                </div>
+
+                <a href="#" class="back">Back</a>
+              </div>
+
+              <div id="development">
+                <a href="https://github.com/MovingBlocks/Terasology/archive/develop.zip">Source</a>
+                <a href="https://github.com/MovingBlocks/Terasology/wiki/Contributor-Guide">Contributor Guide</a>
+                <a href="http://forum.movingblocks.net/forums/contributor-introductions.7/">Contributor Intro</a>
+                <a href="https://github.com/MovingBlocks/Terasology/wiki/Dev-Setup">Development Setup</a>
+                <a href="https://github.com/MovingBlocks/Terasology/wiki/Modding-Guide">Modding Guide</a>
+                <a href="#" class="back">Back</a>
+              </div>
+          </nav>
+
+          <div class="footer">
+            <a href="https://www.facebook.com/Terasology" class="fb"></a>
+            <a href="https://twitter.com/terasology" class="twitter"></a>
+            <a href="https://plus.google.com/103835217961917018533" class="gplus"></a>
+            <a href="http://www.youtube.com/user/blockmaniaTV" class="youtube"></a>
+            <a href="http://reddit.com/r/Terasology" class="reddit"></a>
+            <a href="http://github.com/MovingBlocks" class="github"></a>
+
+            <!-- Since this is a splash site, do users need to know what Jenkins is? -->
+            <a href="http://jenkins.movingblocks.net" class="jenkins"></a>
+
+            <a href="http://blog.movingblocks.net/blog/" class="wp"></a>
+          </div>
         </div>
-    </div>
-    </div>
-</center>
-<![endif]-->
 
-<!--
-Author: Blackplayer27 / 3000Lane
-Realname: Mahmood Dhia
-Date: 27.07.2012
-For: Terasology <3
-Later edited by: NowNewStart, MiJyn
--->
+        <!-- Fork Me Ribbon -->
+        <a href="https://github.com/MovingBlocks/Terasology" style="position:absolute;top:0;right:0;border:0;">
+          <img src="//s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub">
+        </a>
+      </div>
 
-<html>
-	<head>
-		<title>Terasology Splash Site</title>
-		<link href="data/css/style.css" rel="stylesheet" type="text/css">
-		<script src="data/script/jquery.min.js" type="text/javascript"></script>
-		<script type="text/javascript" src="data/script/jquery.preload.min.js"></script>
-		<script type="text/javascript" src="data/script/main.js"></script>
-		<script type="text/javascript" src="data/script/bg.js"></script>
-        <script type="text/javascript" src="data/script/analytics.js"></script>
-        <link rel="icon" type="image/png" href="data/textures/icon.png" />
-        <link rel="shortcut icon" type="image/png" href="data/textures/icon.png" />
-		<script type="text/javascript">
-			$(document).ready(function() {
-				show_ajax("index_content.html");
-				//Random Background
-				setInterval(rnd_background, 5000);
+      <div class="background" id="background"></div>
 
-				//Pre Load Background Image. If you add more also adjust the var bg_end in bg.js
-				$.preload('data/textures/backgrounds/bg1.jpg',
-					'data/textures/backgrounds/bg2.jpg',
-					'data/textures/backgrounds/bg3.jpg',
-					'data/textures/backgrounds/bg4.jpg',
-					'data/textures/backgrounds/bg5.jpg',
-					'data/textures/backgrounds/bg6.jpg',
-					'data/textures/backgrounds/bg7.jpg',
-					'data/textures/backgrounds/bg8.jpg',
-                    'data/textures/backgrounds/bg9.jpg',
-					'data/textures/backgrounds/bg10.jpg'
-				);
-			});
-		</script>
-		<!-- IE FIX Start -->
-			<!--[if IE]>
-			<style type='text/css'>
-			body 
-			{
-				filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-				src='data/textures/backgrounds/bg6.jpg',
-				sizingMethod='scale');
-				-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
-				src='data/textures/backgrounds/bg6.jpg',
-				sizingMethod='scale')";
-				background-repeat:no-repeat;
-				text-align:center;
-			}
-			#footer {
-					position: absolute;
-					bottom: 0;
-			}
-			div.bg{
-				display:none;
-			}
-
-			</style>
-			<![endif]-->
-		<!-- IE FIX End -->
-		<style type='text/css'>
-    </style>
-		<!-- Meta Block Start -->
-		<meta name="author" content="Mahmood Dhia">
-		<meta name="publisher" content="Terasology">
-		<meta name="copyright" content="Mahmood Dhia for Terasology, 2012">
-		<meta name="description" content="Terasology is a game that pays ample tribute to Minecraft in initial look and origin, but stakes out its own niche by adopting the NPC-helper and caretaker feel from such games as Dwarf Fortress and Dungeon Keeper.">
-		<meta name="keywords" content="Terasology, Minecraft, Clone, Copy, Open, Source, Free, Mahmood, Dhia, Dwarf, Fortress, Dungeon, Keeper, Voxel, Creature, Creatures, Empire, Civilization, Portal, Moving, Blocks">
-		<meta name="page-topic" content="Games">
-		<meta name="page-type" content="Software Download">
-		<meta name="audience" content="All">
-		<meta http-equiv="content-language" content="en">
-		<meta name="robots" content="index, follow">
-		<!-- Meta Block End -->
-	</head>
-    <body oncontextmenu="return false;" ondragstart="return false;" onselectstart="return false;" onselect="return false;" onbeforecopy="return false;" oncopy="return false;">
-		<noscript>
-            <h3><center>This site requires Javascript to see fancy features</center></h3>
-            <h4><center>In the meantime here are some links:</center></h4>
-            <h4><center><a href='http://jenkins.movingblocks.net/job/TerasologyLauncherStable/lastStableBuild/artifact/build/distributions/TerasologyLauncher.zip'>Launcher download</a></center></h4>
-            <h4><center><a href='http://jenkins.movingblocks.net/job/TerasologyStable/lastStableBuild/artifact/build/distributions/Terasology.zip'>Direct game download</a></center></h4>
-            <h4><center><a href='http://forum.movingblocks.net/pages/applet'>Applet page</a></center></h4>
-        </noscript>
-
-
-
-		<div id="bg"></div>
-    <div id="hide" class="hide">
-    <a href="https://github.com/MovingBlocks/Terasology" id="fork" class="fork"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
-		<table id="main" class="Main">
-			<tr>
-				<td>
-					<a onclick="fade('hide');">
-					    <img src="data/textures/logo.png" class="logo" alt="Clicking the logo fades out everything except the background! Click it again to bring stuff back" title="Clicking the logo fades out everything except the background! Click it again to bring stuff back."/>
-                    </a>
-                    <br />
-                    
-					<div class="button">
-                        <div id="ajax_stuff">
-							<a href='applet_content.html'>
-								<img src='data/textures/buttons/play.jpg' id='end' class='play_button' />
-								<br />
-								<br />
-							</a>
-							<a href='download_content.html'>
-								<img src='data/textures/buttons/download.jpg' id='download' class='download_button' />
-								<br />
-								<br />
-							</a>
-							<a href='gameplay_content.html'>
-								<img src='data/textures/buttons/gameplay.jpg' id='gameplay' class='gameplay_button' />
-								<br />
-								<br />
-							</a>
-							<a href='develop_content.html'>
-								<img src='data/textures/buttons/develop.jpg' id='develop' class='develop_button' />
-								<br />
-								<br />
-							</a>
-							<a href='http://forum.movingblocks.net/'>
-								<img src='data/textures/buttons/forum.jpg' id='forum' class='forum_button' />
-								<br />
-								<br />
-							</a>
-						</div>
-            </div>
-            <div class="fix"></div>
-            <div class="button">
-						<a href="https://www.facebook.com/Terasology" id='fb' class='fb_button'>
-							<img src='data/textures/site_buttons/fb.png' />
-						</a>
-						<a href="https://twitter.com/terasology">
-							<img src='data/textures/site_buttons/twitter.png' id='twitter' class='twitter_button' />
-						</a>
-						<a href="http://github.com/MovingBlocks">
-							<img src='data/textures/site_buttons/github.png' id='github' class='github_button' />
-						</a>
-						<a href="http://jenkins.movingblocks.net">
-							<img src='data/textures/site_buttons/jenkins.png' id='jenkins' class='jenkins_button' />
-						</a>
-						<a href="https://plus.google.com/103835217961917018533">
-							<img src='data/textures/site_buttons/gplus.png' id='gplus' class='gplus_button' />
-						</a>
-						<a href="http://www.youtube.com/user/blockmaniaTV">
-							<img src="data/textures/site_buttons/youtube.png" id='youtube' class='youtube_button' />
-						</a>
-						<a href="http://reddit.com/r/Terasology">
-							<img src="data/textures/site_buttons/reddit.png" id='reddit' class='reddit_button' />
-						</a>
-                       <a href="http://blog.movingblocks.net/blog/">
-                           <img src="data/textures/site_buttons/wp.png" id="wordpress" class="wordpress_button" />
-                       </a>
-					</div>
-				</td>
-			</tr>
-		</table>
-    </div>
-	</body>
+    </body>
 </html>

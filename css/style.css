@@ -1,0 +1,110 @@
+@font-face {
+  /**
+   * By Andrew Tyler (www.AndrewTyler.net and font@andrewtyler.net)
+   * Creative Commons BY-SA license
+   */
+  font-family: Minecraftia;
+  src: url(Minecraftia.ttf);
+}
+
+* {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+} /* FTW! */
+
+
+/**
+ * Base styles
+ */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background-color: black;
+}
+
+.logo {
+  margin: 0;
+  font-family: Minecraftia;
+  font-size: 72px;
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+.background {
+  background: url(img/backgrounds/1.jpg) 0 0 no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  z-index: -1;
+}
+
+.content {
+  width: 650px;
+  height: 100%;
+  margin: 0 auto;
+  display: table;
+  overflow: hidden;
+}
+
+.wrapper-for-centering {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/**
+ * Menu buttons and thumbnails
+ */
+.menu > div { display: none; } /** initial menu state **/
+.menu > div > a {
+  display: block;
+  margin: 15px auto;
+  width: 256px;
+  height: 29px;
+
+  background: url(img/button.jpg);
+  text-decoration: none;
+  color: white;
+  font-family: Minecraftia;
+  text-shadow: -1px 1px 1px black;
+}
+.menu a.back { margin-top: 60px; }
+.menu .thumbs a { display: inline-block; }
+
+/**
+ * Social and other buttons
+ * TODO: transform them into CSS sprite
+ */
+.footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.footer a {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+}
+
+.fb            { background-image: url(img/footer_buttons/fb.png); }
+.fb:hover      { background-image: url(img/footer_buttons/fb_hover.png); }
+
+.twitter       { background-image: url(img/footer_buttons/twitter.png); }
+.twitter:hover { background-image: url(img/footer_buttons/twitter_hover.png); }
+
+.gplus         { background-image: url(img/footer_buttons/gplus.png); }
+.gplus:hover   { background-image: url(img/footer_buttons/gplus_hover.png); }
+
+.youtube       { background-image: url(img/footer_buttons/youtube.png); }
+.youtube:hover { background-image: url(img/footer_buttons/youtube_hover.png); }
+
+.reddit        { background-image: url(img/footer_buttons/reddit.png); }
+.reddit:hover  { background-image: url(img/footer_buttons/reddit_hover.png); }
+
+.github        { background-image: url(img/footer_buttons/github.png); }
+.github:hover  { background-image: url(img/footer_buttons/github_hover.png); }
+
+.jenkins       { background-image: url(img/footer_buttons/jenkins.png); }
+
+.wp            { background-image: url(img/footer_buttons/wp.png); }
