@@ -88,24 +88,26 @@ body {
   height: 48px;
 }
 
-.fb       { background-image: url(img/footer_buttons/fb.png); }
-.fb:hover { background-image: url(img/footer_buttons/fb_hover.png); }
+.fb            { background-image: url(img/footer_buttons/fb.png); }
+.fb:hover      { background-image: url(img/footer_buttons/fb_hover.png); }
 
-.tw       { background-image: url(img/footer_buttons/tw.png); }
-.tw:hover { background-image: url(img/footer_buttons/tw_hover.png); }
+.tw            { background-image: url(img/footer_buttons/tw.png); }
+.tw:hover      { background-image: url(img/footer_buttons/tw_hover.png); }
 
-.gp       { background-image: url(img/footer_buttons/gp.png); }
-.gp:hover { background-image: url(img/footer_buttons/gp_hover.png); }
+.gp            { background-image: url(img/footer_buttons/gp.png); }
+.gp:hover      { background-image: url(img/footer_buttons/gp_hover.png); }
 
-.yt       { background-image: url(img/footer_buttons/yt.png); }
-.yt:hover { background-image: url(img/footer_buttons/yt_hover.png); }
+.yt            { background-image: url(img/footer_buttons/yt.png); }
+.yt:hover      { background-image: url(img/footer_buttons/yt_hover.png); }
 
-.ri       { background-image: url(img/footer_buttons/ri.png); }
-.ri:hover { background-image: url(img/footer_buttons/ri_hover.png); }
+.ri            { background-image: url(img/footer_buttons/ri.png); }
+.ri:hover      { background-image: url(img/footer_buttons/ri_hover.png); }
 
-.gh       { background-image: url(img/footer_buttons/gh.png); }
-.gh:hover { background-image: url(img/footer_buttons/gh_hover.png); }
+.gh            { background-image: url(img/footer_buttons/gh.png); }
+.gh:hover      { background-image: url(img/footer_buttons/gh_hover.png); }
 
-.jenkins  { background-image: url(img/footer_buttons/jenkins.png); }
+.jenkins       { background-image: url(img/footer_buttons/jenkins.png); }
+.jenkins:hover { background-image: url(img/footer_buttons/jenkins_hover.png); }
 
-.wp       { background-image: url(img/footer_buttons/wp.png); }
+.wp            { background-image: url(img/footer_buttons/wp.png); }
+.wp:hover      { background-image: url(img/footer_buttons/wp_hover.png); }
