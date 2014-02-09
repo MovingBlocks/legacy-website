@@ -57,8 +57,8 @@ body {
 /**
  * Menu buttons and thumbnails
  */
-.menu > div { display: none; } /** initial menu state **/
-.menu > div > a {
+nav > div { display: none; } /** initial menu state **/
+nav > div > a {
   display: block;
   margin: 15px auto;
   width: 256px;
@@ -70,29 +70,29 @@ body {
   font-family: Minecraftia;
   text-shadow: -1px 1px 1px black;
 }
-.menu > div > a:hover { background-image: url(img/button_hover.jpg); }
-.menu a.back { margin-top: 60px; }
-.menu .thumbs a { display: inline-block; }
+nav > div > a:hover { background-image: url(img/button_hover.jpg); }
+nav a.back { margin-top: 60px; }
+nav .thumbs a { display: inline-block; }
 
 /**
  * Social and other buttons
  * TODO: transform them into CSS sprite
  */
-.footer {
+footer {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.footer a {
+footer a {
   display: inline-block;
   width: 48px;
   height: 48px;
 }
-.footer a {
+footer a {
   filter: grayscale(100%);
   filter: url(grayscale.svg#grayscale); /* Firefox 4+ */
   filter: gray; /* IE6-8 */
 }
-.footer a:hover { filter: none; }
+footer a:hover { filter: none; }
 
 .fb      { background-image: url(img/footer_buttons/fb.png); }
 .tw      { background-image: url(img/footer_buttons/tw.png); }
