@@ -55,6 +55,35 @@ body {
 }
 
 /**
+ * Mini player styles
+ */
+
+.player {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 10px;
+  line-height: 20px;
+  color: white;
+}
+.player-btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.player-btn:before {
+  font-weight: bold;
+  content: "▶";
+}
+.player-btn.playing:before { content: "||"; }
+
+.player-title {
+  color: white;
+  text-decoration: none;
+}
+
+/**
  * Menu buttons and thumbnails
  */
 nav > div { display: none; } /** initial menu state **/

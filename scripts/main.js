@@ -21,12 +21,6 @@ $(function() {
         $(clickedMenuEntry).show();
     }).trigger('hashchange'); // initial
 
-    var $body = $('body');
-    var $content = $('#content');
-    $body.on('click', function(e) {
-        if (e.target === $body.get(0)) $content.fadeToggle();
-    });
-
 });
 
 $(window).load(function() {
@@ -48,8 +42,50 @@ $(window).load(function() {
             $backgroundContainer.css(
                 'background-image',
                 'url(' + backgroundsUrlPrefix + curBackground + backgroundsExt + ')'
-            ).fadeIn('slow');
+            ).fadeIn(3000);
         });
         curBackground = (curBackground === backgroundsCount) ? 1 : ++curBackground;
-    }, 5000);
+    }, 10000);
+
+    // "fullscreen" background image viewing (by hiding the content)
+    var $body = $('body');
+    var $content = $('#content');
+    $body.on('click', function(e) {
+        if (e.target === $body.get(0)) $content.fadeToggle();
+    });
+
+    // mini player
+    window.tracks = [];
+    var $playerBtn = $('#player .player-btn');
+    var $playerTitle = $('#player .player-title');
+
+    var playNextTrack = function() {
+        var track = tracks[Math.floor(Math.random() * tracks.length)];
+        // soundManager.useHTML5Audio = true;
+        SC.stream(
+            track.uri,
+            { onfinish: playNextTrack, autoPlay: true, html5only: true },
+            function(track) { currentTrack = track; }
+        );
+        $playerTitle.attr('href', track.permalink_url).text(track.title);
+    };
+    var currentTrack = { togglePause: playNextTrack };
+
+    // async player loading and initialization
+    $.getScript('//connect.soundcloud.com/sdk.js', function() {
+        var clientId = 'e123680e99cfdd302dd0c76d47a69385';
+
+        SC.initialize({ client_id: clientId });
+
+        var playlistUrl = 'http://api.soundcloud.com/playlists/2353797';
+        $.getJSON(playlistUrl, { client_id: clientId }, function(playlistData) {
+            tracks = playlistData.tracks;
+            $playerBtn
+                .fadeIn()
+                .on('click', function() {
+                    $playerBtn.toggleClass('playing');
+                    currentTrack.togglePause();
+                });
+        });
+    });
 });
