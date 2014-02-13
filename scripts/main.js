@@ -55,9 +55,10 @@ $(window).load(function() {
     });
 
     // mini player
-    window.tracks = [];
-    var $playerBtn = $('#player .player-btn');
-    var $playerTitle = $('#player .player-title');
+    var tracks = [];
+    var $player = $('#player');
+    var $playerBtn = $player.find('.player-btn');
+    var $playerTitle = $player.find('.player-title');
 
     var playNextTrack = function() {
         var track = tracks[Math.floor(Math.random() * tracks.length)];
@@ -80,12 +81,11 @@ $(window).load(function() {
         var playlistUrl = 'http://api.soundcloud.com/playlists/2353797';
         $.getJSON(playlistUrl, { client_id: clientId }, function(playlistData) {
             tracks = playlistData.tracks;
-            $playerBtn
-                .fadeIn()
-                .on('click', function() {
-                    $playerBtn.toggleClass('playing');
-                    currentTrack.togglePause();
-                });
+            $player.fadeIn();
+            $playerBtn.on('click', function() {
+                $playerBtn.toggleClass('playing');
+                currentTrack.togglePause();
+            });
         });
     });
 });
