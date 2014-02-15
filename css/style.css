@@ -90,13 +90,8 @@ body {
 /**
  * Menu buttons and thumbnails
  */
-.menu-block {
-  margin: 0;
-  padding: 0;
-  display: none; /** initial menu state **/
-}
-
-.menu-block > a, .menu-block > li > a {
+nav > div { display: none; } /** initial menu state **/
+nav > div > a {
   display: block;
   margin: 15px auto;
   width: 256px;
@@ -107,11 +102,9 @@ body {
   color: white;
   text-shadow: -1px 1px 1px black;
 }
-.menu-block > a:hover,
-.menu-block > li > a:hover { background-image: url(img/button_hover.jpg); }
-.menu-block a.back { margin-top: 60px; }
-
-.menu-block .thumbs a { display: inline-block; }
+nav > div > a:hover { background-image: url(img/button_hover.jpg); }
+nav a.back { margin-top: 60px; }
+nav .thumbs a { display: inline-block; }
 
 /**
  * Social and other buttons

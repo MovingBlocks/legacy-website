@@ -2,7 +2,7 @@ $(function() {
 
     // menu initialization
     var $menu = $('#menu');
-    var $menuEntries = $menu.children('.menu-block');
+    var $menuEntries = $menu.children('div');
     var $playIframe = $('#play iframe');
     $(window).on('hashchange', function() {
         $menuEntries.hide();
