@@ -3,8 +3,8 @@
    * By Andrew Tyler (www.AndrewTyler.net and font@andrewtyler.net)
    * Creative Commons BY-SA license
    */
-  font-family: Minecraftia;
-  src: url(Minecraftia.ttf);
+  font-family:  NotoSans.ttf;
+  src: url( NotoSans-Regular.ttf);
 }
 
 * {
@@ -18,7 +18,7 @@
 html, body {
   width: 100%;
   height: 100%;
-  font-family: Minecraftia;
+  font-family:  NotoSans.ttf;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 
 .logo {
   margin: 0;
-  font-family: Minecraftia;
+  font-family:  NotoSans.ttf;
   font-size: 72px;
   color: white;
   text-shadow: 0 0 5px black;
