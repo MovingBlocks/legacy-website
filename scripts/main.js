@@ -73,7 +73,7 @@ $(window).load(function() {
     var currentTrack = { togglePause: playNextTrack };
 
     // async player loading and initialization
-    $.getScript('//connect.soundcloud.com/sdk.js', function() {
+    $.getScript('https://connect.soundcloud.com/sdk.js', function() {
         var clientId = 'e123680e99cfdd302dd0c76d47a69385';
 
         SC.initialize({ client_id: clientId });
