@@ -94,15 +94,20 @@ nav > div { display: none; } /** initial menu state **/
 nav > div > a {
   display: block;
   margin: 15px auto;
-  width: 256px;
-  height: 29px;
+  width: 192px;
+  height: 32px;
+  padding-top: 8px;
 
-  background: url(img/button.jpg) no-repeat;
+  background: url(img/button.png) no-repeat;
   text-decoration: none;
   color: white;
   text-shadow: -1px 1px 1px black;
 }
-nav > div > a:hover { background-image: url(img/button_hover.jpg); }
+nav > div > a:hover { 
+  background-image: url(img/button_hover.png); 
+  color: yellow;
+}
+
 nav a.back { margin-top: 60px; }
 nav .thumbs a { display: inline-block; }
 
