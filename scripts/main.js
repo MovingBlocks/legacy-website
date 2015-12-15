@@ -78,7 +78,7 @@ $(window).load(function() {
 
         SC.initialize({ client_id: clientId });
 
-        var playlistUrl = 'http://api.soundcloud.com/playlists/2353797';
+        var playlistUrl = 'https://api.soundcloud.com/playlists/2353797';
         $.getJSON(playlistUrl, { client_id: clientId }, function(playlistData) {
             tracks = playlistData.tracks;
             $player.fadeIn();
