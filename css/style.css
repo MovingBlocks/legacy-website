@@ -125,11 +125,11 @@ footer a {
   height: 48px;
 }
 footer a {
-  filter: grayscale(100%);
-  filter: url(grayscale.svg#grayscale); /* Firefox 4+ */
-  filter: gray; /* IE6-8 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: gray; /* IE6-9 */
 }
-footer a:hover { filter: none; }
+footer a:hover { filter: none; -webkit-filter: none; }
 
 .fb      { background-image: url(img/footer_buttons/fb.png); }
 .tw      { background-image: url(img/footer_buttons/tw.png); }
