@@ -15,6 +15,8 @@
       <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -27,11 +29,11 @@
 
     <body>
       <noscript><style scoped>nav > div { display: block; } nav a.back { display: none; }</style></noscript>
-
-      <div class="content" id="content">
+      <nav class="logo-wrapper">
+        <img src="img/logo.png" class="main-logo" alt="Terasology Logo">
+      </nav>
+      <div class="container-fluid">
         <div class="wrapper-for-centering">
-          <img src="img/logo.png" alt="Terasology Logo">
-
           <nav id="menu">
               <div id="index">
                 <a href="#download">Download</a>
@@ -116,26 +118,24 @@
                 <a href="#" class="back">Back</a>
               </div>
           </nav>
-
-          <footer>
-            <a href="https://www.facebook.com/Terasology" class="fb"></a>
-            <a href="https://twitter.com/terasology" class="tw"></a>
-            <a href="https://plus.google.com/103835217961917018533" class="gp" rel="publisher"></a>
-            <a href="https://www.youtube.com/user/blockmaniaTV" class="yt"></a>
-            <a href="https://reddit.com/r/Terasology" class="ri"></a>
-            <a href="https://github.com/MovingBlocks" class="gh"></a>
-
-            <!-- Since this is a splash site, do users need to know what Jenkins is? -->
-            <a href="http://jenkins.terasology.org" class="jenkins"></a>
-
-          </footer>
         </div>
-
         <!-- Fork Me Ribbon -->
         <a href="https://github.com/MovingBlocks/Terasology" style="position:absolute;top:0;right:0;border:0;">
           <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub">
         </a>
       </div>
+      <footer class="footer">
+        <div class="social-buttons-wrapper">
+          <a href="https://www.facebook.com/Terasology" class="fb"></a>
+          <a href="https://twitter.com/terasology" class="tw"></a>
+          <a href="https://plus.google.com/103835217961917018533" class="gp" rel="publisher"></a>
+          <a href="https://www.youtube.com/user/blockmaniaTV" class="yt"></a>
+          <a href="https://reddit.com/r/Terasology" class="ri"></a>
+          <a href="https://github.com/MovingBlocks" class="gh"></a>
+          <!-- Since this is a splash site, do users need to know what Jenkins is? -->
+          <a href="http://jenkins.terasology.org" class="jenkins"></a>
+        </div>
+      </footer>
 
       <div class="background" id="background"></div>
 
