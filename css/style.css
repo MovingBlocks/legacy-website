@@ -15,16 +15,21 @@
 /**
  * Base styles
  */
-html, body {
-  width: 100%;
+html {
   height: 100%;
   font-family:  NotoSans.ttf;
 }
 
 body {
+  min-height: 100%;
+  position: relative;
   text-align: center;
   background-color: black;
-}
+}body:after {
+   content: '';
+   display: block;
+   height: 100px;
+ }
 
 .logo {
   margin: 0;
@@ -34,25 +39,19 @@ body {
   text-shadow: 0 0 5px black;
 }
 
+.logo-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
 .background {
   background: url(img/backgrounds/1.jpg) 0 0 no-repeat;
   background-size: cover;
   position: fixed;
   top: 0; bottom: 0; left: 0; right: 0;
   z-index: -1;
-}
-
-.content {
-  width: 650px;
-  height: 100%;
-  margin: 0 auto;
-  display: table;
-  overflow: hidden;
-}
-
-.wrapper-for-centering {
-  display: table-cell;
-  vertical-align: middle;
 }
 
 /**
@@ -103,8 +102,8 @@ nav > div > a {
   color: white;
   text-shadow: -1px 1px 1px black;
 }
-nav > div > a:hover { 
-  background-image: url(img/button_hover.png); 
+nav > div > a:hover {
+  background-image: url(img/button_hover.png);
   color: yellow;
 }
 
@@ -115,9 +114,37 @@ nav .thumbs a { display: inline-block; }
  * Social and other buttons
  * TODO: transform them into CSS sprite
  */
+
+.social-buttons-wrapper {
+  display: inline-block;
+}
+
+@media only screen and (min-height: 100px) {
+  .wrapper-for-centering {
+    margin-top: 15%;
+    margin-bottom: 5%;
+  }
+}
+
+@media only screen and (min-height: 500px) {
+  .wrapper-for-centering {
+    margin-top: 20%;
+    margin-bottom: 5%;
+  }
+}
+
+#menu {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
 footer {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
 }
 footer a {
   display: inline-block;
