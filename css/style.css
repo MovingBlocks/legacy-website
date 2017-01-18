@@ -47,7 +47,7 @@ body {
 }
 
 .background {
-  background: url(img/backgrounds/1.jpg) 0 0 no-repeat;
+  background: url(../img/backgrounds/1.jpg) 0 0 no-repeat;
   background-size: cover;
   position: fixed;
   top: 0; bottom: 0; left: 0; right: 0;
@@ -97,13 +97,13 @@ nav > div > a {
   height: 32px;
   padding-top: 8px;
 
-  background: url(img/button.png) no-repeat;
+  background: url(../img/button.png) no-repeat;
   text-decoration: none;
   color: white;
   text-shadow: -1px 1px 1px black;
 }
 nav > div > a:hover {
-  background-image: url(img/button_hover.png);
+  background-image: url(../img/button_hover.png);
   color: yellow;
 }
 
@@ -158,11 +158,13 @@ footer a {
 }
 footer a:hover { filter: none; -webkit-filter: none; }
 
-.fb      { background-image: url(img/footer_buttons/fb.png); }
-.tw      { background-image: url(img/footer_buttons/tw.png); }
-.gp      { background-image: url(img/footer_buttons/gp.png); }
-.yt      { background-image: url(img/footer_buttons/yt.png); }
-.ri      { background-image: url(img/footer_buttons/ri.png); }
-.gh      { background-image: url(img/footer_buttons/gh.png); }
-.jenkins { background-image: url(img/footer_buttons/jenkins.png); }
-.wp      { background-image: url(img/footer_buttons/wp.png); }
+.fb      { background-image: url(../img/footer_buttons/fb.png); }
+.tw      { background-image: url(../img/footer_buttons/tw.png); }
+.gp      { background-image: url(../img/footer_buttons/gp.png); }
+.yt      { background-image: url(../img/footer_buttons/yt.png); }
+.ri      { background-image: url(../img/footer_buttons/ri.png); }
+.gh      { background-image: url(../img/footer_buttons/gh.png); }
+.jenkins { background-image: url(../img/footer_buttons/jenkins.png); }
+.wp      { background-image: url(../img/footer_buttons/wp.png); }
+.dc      { background-image: url(../img/footer_buttons/dc.png); }
+
