@@ -27,7 +27,7 @@ $(window).load(function() {
     var curBackground = 1;
     var backgroundsCount = 10;
     var backgroundsExt = '.jpg';
-    var backgroundsUrlPrefix = 'css/img/backgrounds/';
+    var backgroundsUrlPrefix = 'img/backgrounds/';
 
     // simple images preloading
     for (var i = curBackground; i <= backgroundsCount; i++) {
