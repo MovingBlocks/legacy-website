@@ -1,0 +1,4 @@
+[Default]
+bears = HTMLLintBear
+files = **/*.html
+use_spaces = 
