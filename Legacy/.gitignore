@@ -1,9 +1,0 @@
-# Jekyll
-/_site/*
-
-# VIM
-*.swp
-
-# IntelliJ
-*.iml
-/.idea/*
