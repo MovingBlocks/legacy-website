@@ -7,14 +7,14 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/styles.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="{{ "/css/materialize.min.css" | prepend: site.github.url }}"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.github.url }}" media="screen,projection"/>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ "favicon.ico" | prepend: site.github.url }}" type="image/x-icon">
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/init.js"></script>
+    <script type="text/javascript" src="{{ "/js/materialize.min.js" | prepend: site.github.url }}"></script>
+    <script type="text/javascript" src="{{ "/js/init.js" | prepend: site.github.url}}"></script>
 <!-- Stop ignoring HTMLLintBear -->
