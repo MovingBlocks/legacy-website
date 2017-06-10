@@ -3,21 +3,21 @@
     <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper light-green darken-1">
-                <a href="#!" class="brand-logo"><img src="img/logo.png"></a>
+                <a class="brand-logo"><img src="{{ "/img/logo.png" | prepend: site.github.url }}"></a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="{{ "/index.html" | prepend: site.github.url }}">Home</a></li>
+                    <li><a href="{{ "/about.html" | prepend: site.github.url }}">About Us</a></li>
+                    <li><a href="{{ "/gallery.html" | prepend: site.github.url }}">Gallery</a></li>
                     <li><a href="http://forum.terasology.org">Forum</a></li>
                     <li><a href="https://github.com/MovingBlocks/TerasologyLauncher/releases/tag/v3.1.0">Download</a></li>
                 </ul>
         </nav>
         </div>
         <ul class="side-nav" id="mobile-demo">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="{{ "/index.html" | prepend: site.github.url }}">Home</a></li>
+            <li><a href="{{ "/about.html" | prepend: site.github.url }}">About Us</a></li>
+            <li><a href="{{ "/gallery.html" | prepend: site.github.url }}">Gallery</a></li>
             <li><a href="http://forum.terasology.org">Forum</a></li>
             <li><a href="https://github.com/MovingBlocks/TerasologyLauncher/releases/tag/v3.1.0">Download</a></li>
         </ul>

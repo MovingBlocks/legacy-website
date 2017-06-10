@@ -41,6 +41,44 @@
                     </div>
                 </div>
                 <br /><br />
+                <div class="divider"></div>
+                <br /><br />
+                <div class="row">
+                <!-- This loops through the paginated posts -->
+                {% for post in paginator.posts %}
+                  <div class="col s12 m6">
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="{{ site.github.url }}/{{ post.header-img }}">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">{{ post.title }}<i class="material-icons right">more_vert</i></span>
+                        <p class="grey-text text-darken-2">By: {{ post.author }} on {{ post.timestamp }}</p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">{{ post.title }}<i class="material-icons right">close</i></span>
+                        <p><a href="{{ site.github.url }}{{ post.url }}">See the full article here</a><p>
+                        <p>{{ post.excerpt }}</p>
+                      </div>
+                    </div>
+                  </div>
+                {% endfor %}
+                </div>
+                <!-- Pagination links -->
+                <div class="pagination">
+                  {% if paginator.previous_page %}
+                    <a href="{{ site.github.url }}{{ paginator.previous_page_path }}" class="waves-effect waves-light btn light-green lighten-1 light-green-text text-darken-3 previous" style="margin-right: 15px;"><i class="material-icons">keyboard_arrow_left</i></a>
+                  {% else %}
+                    <a class="waves-effect waves-light btn disabled previous" style="margin-right: 15px;"><i class="material-icons">keyboard_arrow_left</i></a>
+                  {% endif %}
+                  <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+                  {% if paginator.next_page %}
+                    <a href="{{ site.github.url }}{{ paginator.next_page_path }}" class="waves-effect waves-light btn light-green lighten-1 light-green-text text-darken-3 next" style="margin-left: 15px;"><i class="material-icons">keyboard_arrow_right</i></a>
+                  {% else %}
+                    <a class="waves-effect waves-light disabled btn next" style="margin-left: 15px;"><i class="material-icons">keyboard_arrow_right</i></a>
+                  {% endif %}
+                </div>
+                <br /><br />
             </div>
         </div>
         <div class="section grey lighten-3">
@@ -48,7 +86,7 @@
             </div>
         </div>
         <div class="parallax-container">
-            <div class="parallax"><img src="img/ss_2.jpg"></div>
+            <div class="parallax"><img src="{{ site.github.url }}/img/ss_2.jpg"></div>
         </div>
     </main>
     {% include footer.html %}
