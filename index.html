@@ -35,8 +35,7 @@
                     </div>
                     <div class="col s12 m6">
                         <h4><i>Like an open-source Minecraft</i></h4>
-                        <p class="green-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                        <p class="green-text">The Terasology project was born from a Minecraft-inspired tech demo and is becoming a stable platform for various types of gameplay settings in a voxel world. The creators and maintainers are a diverse mix of software developers, designers, game testers, graphic artists, and musicians. We encourage others to join!</p>
                         <a href="about.html" class="waves-effect waves btn light-green lighten-1 light-green-text text-darken-3" onclick="Materialize.toast('Redirecting...', 4000)"><i class="material-icons left">live_help</i>Learn more</a>
                     </div>
                 </div>
@@ -49,7 +48,7 @@
                   <div class="col s12 m6">
                     <div class="card">
                       <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="{{ site.github.url }}/{{ post.header-img }}">
+                        <img class="activator" src="{{ site.github.url }}{{ post.header-img }}">
                       </div>
                       <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">{{ post.title }}<i class="material-icons right">more_vert</i></span>
@@ -58,7 +57,7 @@
                       <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">{{ post.title }}<i class="material-icons right">close</i></span>
                         <p><a href="{{ site.github.url }}{{ post.url }}">See the full article here</a><p>
-                        <p>{{ post.excerpt }}</p>
+                        <p>{{ post.description }}</p>
                       </div>
                     </div>
                   </div>
