@@ -24,10 +24,28 @@ gallery:
   - image_path: img/ss_10.jpg
     title: SS 10
 ---
-<div class="row">
-    {% for image in page.gallery %}
+{% for image in page.gallery %}
+  {% assign loopindex = forloop.index | modulo: 4 %}
+  {% if loopindex == 1 or forloop.first %}
+  <div class="row hide-on-med-and-down">
+  {% endif %}
     <div class="col s6 l3">
         <img class="img-margin fwidth materialboxed z-depth-3" src="{{ image.image_path }}" alt="{{ image.title }}">
     </div>
-    {% endfor %}
-</div>
+  {% if loopindex == 0 or forloop.last %}
+  </div>
+  {% endif %}
+{% endfor %}
+
+{% for image in page.gallery %}
+  {% assign loopindex = forloop.index | modulo: 2 %}
+  {% if loopindex == 1 or forloop.first %}
+  <div class="row hide-on-large-only">
+  {% endif %}
+    <div class="col s6 l3">
+        <img class="img-margin fwidth materialboxed z-depth-3" src="{{ image.image_path }}" alt="{{ image.title }}">
+    </div>
+  {% if loopindex == 0 or forloop.last %}
+  </div>
+  {% endif %}
+{% endfor %}
