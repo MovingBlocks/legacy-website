@@ -13,14 +13,21 @@ Before pushing any image to the repo, please make sure that it is web-optimized.
 Use programs like [ImageOptim](https://imageoptim.com/) or services like
 [PunyPNG](http://www.punypng.com/).
 
+Adding New Gallery Images
+------------
+
+Adding new gallery image is now extremely easy!
+
+ 1. Insert your image into the `/img` folder
+ 2. Add this code in the front-matter of  `gallery.html` file
+```yaml 
+  - image_path: img/image file
+
+    title: title of image`
+```
 Credits
 -------
 
-The splash page was designed and contributed by @3000Lane - many thanks! Later
-edits have been made by @NowNewStart and @MiJyn.
+The legacy splash page was designed and contributed by @3000Lane and edited by @NowNewStart and @MiJyn. The new splash page was designed and contributed by @smsunarto.
 
-![CreativeCommons](https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
-
-The Terasology Splash Site is licensed under the [Creative Commons
-License](https://creativecommons.org/licenses/by-nc-sa/3.0/) and available in
-source code form at GitHub.
+The Terasology splash site is licensed under Apache 2.0

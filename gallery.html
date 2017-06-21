@@ -1,0 +1,51 @@
+---
+layout: page
+title: "Gallery"
+header-img: "/img/ss_3.jpg"
+gallery:
+  - image_path: img/ss_1.jpg
+    title: SS 1
+  - image_path: img/ss_2.jpg
+    title: SS 2
+  - image_path: img/ss_3.jpg
+    title: SS 3
+  - image_path: img/ss_4.jpg
+    title: SS 4
+  - image_path: img/ss_5.jpg
+    title: SS 5
+  - image_path: img/ss_6.jpg
+    title: SS 6
+  - image_path: img/ss_7.jpg
+    title: SS 7
+  - image_path: img/ss_8.jpg
+    title: SS 8
+  - image_path: img/ss_9.jpg
+    title: SS 9
+  - image_path: img/ss_10.jpg
+    title: SS 10
+---
+{% for image in page.gallery %}
+  {% assign loopindex = forloop.index | modulo: 4 %}
+  {% if loopindex == 1 or forloop.first %}
+  <div class="row hide-on-med-and-down">
+  {% endif %}
+    <div class="col s6 l3">
+        <img class="img-margin fwidth materialboxed z-depth-3" src="{{ image.image_path }}" alt="{{ image.title }}">
+    </div>
+  {% if loopindex == 0 or forloop.last %}
+  </div>
+  {% endif %}
+{% endfor %}
+
+{% for image in page.gallery %}
+  {% assign loopindex = forloop.index | modulo: 2 %}
+  {% if loopindex == 1 or forloop.first %}
+  <div class="row hide-on-large-only">
+  {% endif %}
+    <div class="col s6 l3">
+        <img class="img-margin fwidth materialboxed z-depth-3" src="{{ image.image_path }}" alt="{{ image.title }}">
+    </div>
+  {% if loopindex == 0 or forloop.last %}
+  </div>
+  {% endif %}
+{% endfor %}

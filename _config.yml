@@ -1,0 +1,16 @@
+title: Terasology Project
+description: > # this means to ignore newlines until "baseurl:"
+  Terasology is a game that pays ample tribute to Minecraft in initial look and origin,
+  but stakes out its own niche by adopting the NPC-helper and
+  caretaker feel from such games as Dwarf Fortress and Dungeon Keeper.
+baseurl: ""
+url: "http://terasology.org"
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+exclude:
+  - Gemfile
+  - Gemfile.lock
+paginate: 6
+paginate_path: "/blog/page:num/"
