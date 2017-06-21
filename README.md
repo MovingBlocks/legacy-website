@@ -30,6 +30,7 @@ header-img: "/img/ss_8.jpg" #This is the header image that you see above your po
 ---
 #content goes here
 ```
+  3. If you created your post file correctly, the post will be visible on the front page of the site automatically. Make sure that all your images, authors, and date and description appear correctly on the post.
 
 
 
@@ -46,6 +47,7 @@ Adding new gallery image is now extremely easy!
 
     title: title of image
 ```
+  3. If you added the image correctly, your image will now be visible on the gallery page.
 
 Credits
 -------
