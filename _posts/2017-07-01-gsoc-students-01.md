@@ -79,7 +79,16 @@ Read more on this topic in [David's Blog][].
 - Swastik 'Shine' Garg - Physics-based Combat System
 
 ## Sectors
-- Vizaxo: Sectors - http://forum.terasology.org/threads/new-conceptual-layer-sector-plus-musings-on-multi-world-node.1420/#post-15124, https://vizaxo.github.io/2017/06/28/google-summer-of-code-introduction.html
+The focus of this project is to add sectors to the Terasology engine. Sectors are a level of entity storage between
+chunk-scope and global-scope, which allows entities that would usually be put in the global scope to be split into
+multiple groups. Each of these groups can be run on a separate thread, or even on a separate server node.
+
+Sector-level entities are still loaded when their chunks are unloaded, allowing simulations to continue when the player
+is away, but they can be stopped if a whole sector is unloaded to increase performance. Vizaxo currently is in the
+process of integrating this concept with [Dynamic Cities][] (developed during last year's GSOC) and potentially extend
+it towards even more dynamic (moving) simulation subjects.
+
+Get more information on this project in [Vizaxo's Blog][] and the [forum update posts][sector updates].
 
 ## Scenario Creation
 - Tyler 'Cata' Thompson: Scenarios
@@ -90,5 +99,8 @@ Read more on this topic in [David's Blog][].
 [Arpan's Blog]: http://arpan98.github.io/2017/07/01/gsoc-anatomy-complete.html
 [Gianluca's Blog]: https://gianluca-nitti.github.io/GSoC-2017-devlog/
 [David's Blog]: https://dkambersky.github.io/tera/2017/07/07/on-responsiveness.html
+[Vizaxo's Blog]: https://vizaxo.github.io/2017/06/28/google-summer-of-code-introduction.html
+[Sector Updates]: http://forum.terasology.org/threads/new-conceptual-layer-sector-plus-musings-on-multi-world-node.1420/#post-15124
 [GSOC]: https://summerofcode.withgoogle.com/
 [DestSol]: http://destinationsol.org/
+[Dynamic Cities]: http://forum.terasology.org/threads/dynamic-cities.1555/
