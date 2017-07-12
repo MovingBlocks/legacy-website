@@ -91,8 +91,18 @@ it towards even more dynamic (moving) simulation subjects.
 Get more information on this project in [Vizaxo's Blog][] and the [forum update posts][sector updates].
 
 ## Scenario Creation
-- Tyler 'Cata' Thompson: Scenarios
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/UiCuz4s5nmE?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+Tyler 'Cata' took inspiration from the Minecraft community along with some pre-existing suggestions and ideas within
+Terasology. The concept of Scenarios has been suggested in the past and is essential in order to properly develop any
+notion of _static_ worlds such as what would exist for [Light & Shadow][]. In addition, it provides assistance to
+creation of exploration worlds such parkour or puzzle maps.
+
+Implementing scenarios can be thought of as basically creating a _game maker_ utility set built baked into Terasology.
+The following video shows the tool for defining regions in action. Regions, for instance, can be used by map makers to
+trigger events when the player enters.
+
+<div style="position:relative;height:0;padding-bottom:56.25%">
+<iframe src="https://www.youtube.com/embed/UiCuz4s5nmE?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+</div>
 
 
 <!-- References -->
@@ -104,3 +114,4 @@ Get more information on this project in [Vizaxo's Blog][] and the [forum update 
 [GSOC]: https://summerofcode.withgoogle.com/
 [DestSol]: http://destinationsol.org/
 [Dynamic Cities]: http://forum.terasology.org/threads/dynamic-cities.1555/
+[Light & Shadow]: http://forum.terasology.org/threads/las-light-and-shadow-art-discussion.762/
