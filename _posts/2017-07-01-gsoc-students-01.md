@@ -66,8 +66,15 @@ Read more on this topic in [David's Blog][].
 - Kartikey: Blender Exporter
 
 ## Destination Sol Overhaul
-- [Destination Sol][DestSol]
-- Vampcat: Destination Sol
+Started back in 2015 as a demo, [Destination Sol][DestSol] is a Space Shooter that gives the player a chance to be the
+captain of his own fantasy ship, fighting enemies and looting gold. After the initial hype settled down, the developers
+who originally made the game drifted off to other projects, and Destination Sol came to be managed by Moving Blocks.
+However, the game has gone too long without updates, the associated tools that were once used to create assets for the
+game are no longer functioning, and a lot of features just leave the player discontent.
+
+This project aims to change all that, and more. 'Vampcat' already applied a lot of work under the hood, for instance
+splitting up the games core and engined, fixing the asset handling, and more. Have a look at [Vampcat's Project Board][]
+to learn more about the project status and what is yet to come.
 
 ## Exploration World Gameplay
 - Nihal: - http://nihal111.github.io/tags/#GSoC
@@ -115,3 +122,4 @@ trigger events when the player enters.
 [DestSol]: http://destinationsol.org/
 [Dynamic Cities]: http://forum.terasology.org/threads/dynamic-cities.1555/
 [Light & Shadow]: http://forum.terasology.org/threads/las-light-and-shadow-art-discussion.762/
+[Vampcat's Project Board]: https://github.com/orgs/MovingBlocks/projects/1
