@@ -63,7 +63,14 @@ be nothing stopping you from bringing some clever mobs to the game!
 Read more on this topic in [David's Blog][].
 
 ## Blender MD5 Exporter
-- Kartikey: Blender Exporter
+Kartikey chose to improving the current md5 exporter for blender to be better suited to the needs of Terasology. The
+script will automate most of the tasks for creating new blocks and models while providing an easy to use GUI for the
+blender environment. Features like automating triangulation of faces, separating faces, exporting multiple animations,
+creating a prefab file for specific AI animations and GUI development will be implemented during this project. I
+probably have to point out that this projects sticks out of the others in that it uses Python for implementation (we are
+Java/JVM language dominated, otherwise).
+
+You may want to check out [Kartikey's Project Board][] to stay up-to-date.
 
 ## Destination Sol Overhaul
 Started back in 2015 as a demo, [Destination Sol][DestSol] is a Space Shooter that gives the player a chance to be the
@@ -94,7 +101,21 @@ You should check out [Nihal's Blog][] for details, explanations, and background 
 </div>
 
 ## Telemetry System
-- Gabriel: Telemetry - https://gabrielxia.github.io/telemetry.html
+Terasology has a CrashReporter that allows users to upload log files and report bug in forum or Github issues. However,
+the error reporting process is kind of manual. It might limit the awareness of existing error. Besides, developers treat
+the error report in an inconvenient way: they need to read the log file line by line, collects the environment
+information manually and guess what might be the cause of the error.
+Furthermore, more _feedback_ from users is also needed: What are their systems? Does Terasology run smoothly in their
+PCs? What is the users' favorite module? Collecting this data can help Terasology make the decision of what kind of
+optimization could be applied as well as help Terasology provide more fun for users.
+
+![](https://gabrielxia.github.io/img/telemetry/launch.png){: .center-image}
+
+Therefore, Gabriel is implementing automatic metric & error reporting.
+Exceptions and errors, i.e., abnormal behavior of the game, are tracked locally and may be send to a server to collect
+the reports. For metrics, [Snowplow][] tools are used to collect custom metric events. The data can be visualized on a dashboard for easy consumption. Note that no information is sent without the user's confirmation (opt-in).
+
+Check out [Gabriel's Blog][] for more information.
 
 ## Physics-based Combat System
 - Swastik 'Shine' Garg - Physics-based Combat System
@@ -125,6 +146,14 @@ trigger events when the player enters.
 <iframe src="https://www.youtube.com/embed/UiCuz4s5nmE?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
 </div>
 
+---
+
+> _The way students report their progress is determined by the student and their mentors. There is no policy applying to
+> all participants, that's why you might find blogs, forum reports for others, or only technical discussion and
+> documentation for one or another student. We encourage this diversity and are always excited about the format of
+> project documentation._
+>
+> _The project summaries and descriptions are partly taken from the student's proposals._
 
 <!-- References -->
 [Arpan's Blog]: http://arpan98.github.io/2017/07/01/gsoc-anatomy-complete.html
@@ -132,9 +161,12 @@ trigger events when the player enters.
 [David's Blog]: https://dkambersky.github.io/tera/2017/07/07/on-responsiveness.html
 [Vizaxo's Blog]: https://vizaxo.github.io/2017/06/28/google-summer-of-code-introduction.html
 [Nihal's Blog]: http://nihal111.github.io/tags/#GSoC
+[Gabriel's Blog]: https://gabrielxia.github.io/telemetry.html
 [Sector Updates]: http://forum.terasology.org/threads/new-conceptual-layer-sector-plus-musings-on-multi-world-node.1420/#post-15124
 [GSOC]: https://summerofcode.withgoogle.com/
 [DestSol]: http://destinationsol.org/
 [Dynamic Cities]: http://forum.terasology.org/threads/dynamic-cities.1555/
 [Light & Shadow]: http://forum.terasology.org/threads/las-light-and-shadow-art-discussion.762/
 [Vampcat's Project Board]: https://github.com/orgs/MovingBlocks/projects/1
+[Kartikey's Project Board]: https://github.com/orgs/MovingBlocks/projects/7
+[Snowplow]: https://snowplowanalytics.com/

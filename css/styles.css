@@ -50,6 +50,11 @@ footer.page-footer {
   margin: 10px;
 }
 
+.center-image {
+  margin: 0 auto;
+  display: block;
+}
+
 h1 {
   font-size: 2.82rem;
   color: green;
