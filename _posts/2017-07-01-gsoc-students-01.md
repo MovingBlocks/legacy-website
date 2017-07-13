@@ -118,7 +118,14 @@ the reports. For metrics, [Snowplow][] tools are used to collect custom metric e
 Check out [Gabriel's Blog][] for more information.
 
 ## Physics-based Combat System
-- Swastik 'Shine' Garg - Physics-based Combat System
+Currently, Terasology lacks a proper physics-based combat system. Basic combat, based entirely on proximity and angles,
+can be simulated currently but creating a combat system that could use high velocity projectiles and reacts with
+environment much more dynamically (e.g., projectiles bouncing off surfaces) will be an important addition to the
+gameplay.
+
+'0shine0' aims at restoring much of the functionality of an old branch of the legacy combat system while also improving
+AI with regard to new events and situations introduced by a functional combat system. The project also aims at defining
+the characters in anatomical way with different body parts and making them susceptible to disease.
 
 ## Sectors
 The focus of this project is to add sectors to the Terasology engine. Sectors are a level of entity storage between
