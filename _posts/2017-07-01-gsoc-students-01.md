@@ -77,7 +77,21 @@ splitting up the games core and engined, fixing the asset handling, and more. Ha
 to learn more about the project status and what is yet to come.
 
 ## Exploration World Gameplay
-- Nihal: - http://nihal111.github.io/tags/#GSoC
+The idea of this project is to bring together a ton of different independent features and develop a gameplay mode that
+has more depth. Currently Terasology has a lot of different features, but there is not really a good way for the user to
+enjoy them. What is really missing is a consistent gameplay setting which offers some challenge to the end-user and
+makes the game enjoyable.
+
+With this background Nihal is dragging _all the modules_ together - brining wild animals to life (oh my deer!),
+integrating exploration logs into the journal, and building a bunch of traps and puzzles. There are videos and images
+in the blog posts alongside great summaries of the work done. For a taste, here is a video showcasing the "Wipe Out
+Lava Room".
+
+You should check out [Nihal's Blog][] for details, explanations, and background information.
+
+<div style="position:relative;height:0;padding-bottom:56.25%">
+<iframe src="https://www.youtube.com/embed/djTG0Ovf_UI?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+</div>
 
 ## Telemetry System
 - Gabriel: Telemetry - https://gabrielxia.github.io/telemetry.html
@@ -117,6 +131,7 @@ trigger events when the player enters.
 [Gianluca's Blog]: https://gianluca-nitti.github.io/GSoC-2017-devlog/
 [David's Blog]: https://dkambersky.github.io/tera/2017/07/07/on-responsiveness.html
 [Vizaxo's Blog]: https://vizaxo.github.io/2017/06/28/google-summer-of-code-introduction.html
+[Nihal's Blog]: http://nihal111.github.io/tags/#GSoC
 [Sector Updates]: http://forum.terasology.org/threads/new-conceptual-layer-sector-plus-musings-on-multi-world-node.1420/#post-15124
 [GSOC]: https://summerofcode.withgoogle.com/
 [DestSol]: http://destinationsol.org/
