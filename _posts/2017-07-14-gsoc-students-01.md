@@ -67,7 +67,7 @@ Kartikey chose to improving the current md5 exporter for blender to be better su
 script will automate most of the tasks for creating new blocks and models while providing an easy to use GUI for the
 blender environment. Features like automating triangulation of faces, separating faces, exporting multiple animations,
 creating a prefab file for specific AI animations and GUI development will be implemented during this project. I
-probably have to point out that this projects sticks out of the others in that it uses Python for implementation (we are
+probably have to point out that this project sticks out of the others in that it uses Python for implementation (we are
 Java/JVM language dominated, otherwise).
 
 You may want to check out [Kartikey's Project Board][] to stay up-to-date.
@@ -89,7 +89,7 @@ has more depth. Currently Terasology has a lot of different features, but there 
 enjoy them. What is really missing is a consistent gameplay setting which offers some challenge to the end-user and
 makes the game enjoyable.
 
-With this background Nihal is dragging _all the modules_ together - brining wild animals to life (oh my deer!),
+With this background Nihal is dragging _all the modules_ together - bringing wild animals to life (oh my deer!),
 integrating exploration logs into the journal, and building a bunch of traps and puzzles. There are videos and images
 in the blog posts alongside great summaries of the work done. For a taste, here is a video showcasing the "Wipe Out
 Lava Room".
@@ -101,9 +101,9 @@ You should check out [Nihal's Blog][] for details, explanations, and background 
 </div>
 
 ## Telemetry System
-Terasology has a CrashReporter that allows users to upload log files and report bug in forum or Github issues. However,
+Terasology has a CrashReporter that allows users to upload log files and report bugs in forum or Github issues. However,
 the error reporting process is kind of manual. It might limit the awareness of existing error. Besides, developers treat
-the error report in an inconvenient way: they need to read the log file line by line, collects the environment
+the error report in an inconvenient way: they need to read the log file line by line, collect the environment
 information manually and guess what might be the cause of the error.
 Furthermore, more _feedback_ from users is also needed: What are their systems? Does Terasology run smoothly in their
 PCs? What is the users' favorite module? Collecting this data can help Terasology make the decision of what kind of
@@ -119,7 +119,7 @@ Check out [Gabriel's Blog][] for more information.
 
 ## Physics-based Combat System
 Currently, Terasology lacks a proper physics-based combat system. Basic combat, based entirely on proximity and angles,
-can be simulated currently but creating a combat system that could use high velocity projectiles and reacts with
+can currently be simulated. However, creating a combat system that could use high velocity projectiles and reacts with
 environment much more dynamically (e.g., projectiles bouncing off surfaces) will be an important addition to the
 gameplay.
 
@@ -145,7 +145,7 @@ Terasology. The concept of Scenarios has been suggested in the past and is essen
 notion of _static_ worlds such as what would exist for [Light & Shadow][]. In addition, it provides assistance to
 creation of exploration worlds such parkour or puzzle maps.
 
-Implementing scenarios can be thought of as basically creating a _game maker_ utility set built baked into Terasology.
+Implementing scenarios can be thought of as creating a _game maker_ utility set baked into Terasology.
 The following video shows the tool for defining regions in action. Regions, for instance, can be used by map makers to
 trigger events when the player enters.
 
