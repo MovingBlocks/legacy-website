@@ -127,6 +127,8 @@ gameplay.
 AI with regard to new events and situations introduced by a functional combat system. The project also aims at defining
 the characters in anatomical way with different body parts and making them susceptible to disease.
 
+Check out the [module's wiki][Combat Wiki] to learn more about the available features.
+
 ## Sectors
 The focus of this project is to add sectors to the Terasology engine. Sectors are a level of entity storage between
 chunk-scope and global-scope, which allows entities that would usually be put in the global scope to be split into
@@ -177,3 +179,4 @@ trigger events when the player enters.
 [Vampcat's Project Board]: https://github.com/orgs/MovingBlocks/projects/1
 [Kartikey's Project Board]: https://github.com/orgs/MovingBlocks/projects/7
 [Snowplow]: https://snowplowanalytics.com/
+[Combat Wiki]: https://github.com/Terasology/CombatSystem/wiki
