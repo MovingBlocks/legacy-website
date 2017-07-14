@@ -1,41 +1,86 @@
-  body {
-  	display: flex;
-  	min-height: 100vh;
-  	flex-direction: column;
-  }
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
-  main {
-  	flex: 1 0 auto;
-  }
-  blockquote{
-    border-left: 5px solid #388E3C;
-  }
-  footer.page-footer {
-  	padding-top: 0px;
-    margin-top: 0px;
-  }
-  .brand-logo img {
-  	height: 56px;
-  }
-  .welcome {
-    margin-left: 25px;
-  }
-  .mascot img {
-    width: 100%;
-    margin-top: -75px;
-  }
-  .acme {
-    font-family: 'Acme', sans-serif;
-  }
-  .dc {
-    background-image: url("../img/dc.png");
-  }
-  .fwidth {
-    width: 100%;
-  }
-  .text-container{
-    font-size: 18px;
-  }
-  .img-margin{
-    margin: 10px;
-  }
+main {
+  flex: 1 0 auto;
+}
+
+blockquote {
+  border-left: 5px solid #388E3C;
+}
+
+footer.page-footer {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.brand-logo img {
+  height: 56px;
+}
+
+.welcome {
+  margin-left: 25px;
+}
+
+.mascot img {
+  width: 100%;
+  margin-top: -75px;
+}
+
+.acme {
+  font-family: 'Acme', sans-serif;
+}
+
+.dc {
+  background-image: url("../img/dc.png");
+}
+
+.fwidth {
+  width: 100%;
+}
+
+.text-container {
+  font-size: 18px;
+}
+
+.img-margin {
+  margin: 10px;
+}
+
+.center-image {
+  margin: 0 auto;
+  display: block;
+}
+
+h1 {
+  font-size: 2.82rem;
+  color: green;
+}
+
+h2 {
+  font-size: 2.00rem;
+  color: green;
+}
+
+h3 {
+  font-size: 1.41rem;
+  color: green;
+}
+
+h4 {
+  font-size: 1.19rem;
+  color: green;
+}
+
+h5 {
+  font-size: 1.00rem;
+  color: green;
+}
+
+h5 {
+  font-size: 0.84rem;
+  color: green;
+}
