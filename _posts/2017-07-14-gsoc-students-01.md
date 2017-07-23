@@ -79,8 +79,8 @@ who originally made the game drifted off to other projects, and Destination Sol 
 However, the game has gone too long without updates, the associated tools that were once used to create assets for the
 game are no longer functioning, and a lot of features just leave the player discontent.
 
-This project aims to change all that, and more. 'Vampcat' already applied a lot of work under the hood, for instance
-splitting up the games core and engined, fixing the asset handling, and more. Have a look at [Vampcat's Project Board][]
+This project aims to change all that, and more. Aresh Mishra (vampcat) already applied a lot of work under the hood, for instance
+splitting up the game's core and engine, fixing the asset handling, and more. Have a look at [Vampcat's blog][] or [his project board][Vampcat's Project Board]
 to learn more about the project status and what is yet to come.
 
 ## Exploration World Gameplay
@@ -123,7 +123,7 @@ can currently be simulated. However, creating a combat system that could use hig
 environment much more dynamically (e.g., projectiles bouncing off surfaces) will be an important addition to the
 gameplay.
 
-'0shine0' aims at restoring much of the functionality of an old branch of the legacy combat system while also improving
+Swastik Garg(0shine0) aims at restoring much of the functionality of an old branch of the legacy combat system while also improving
 AI with regard to new events and situations introduced by a functional combat system. The project also aims at defining
 the characters in anatomical way with different body parts and making them susceptible to disease.
 
@@ -169,6 +169,7 @@ trigger events when the player enters.
 [Gianluca's Blog]: https://gianluca-nitti.github.io/GSoC-2017-devlog/
 [David's Blog]: https://dkambersky.github.io/tera/2017/07/07/on-responsiveness.html
 [Vizaxo's Blog]: https://vizaxo.github.io/2017/06/28/google-summer-of-code-introduction.html
+[Vampcat's blog]: https://vampcat.github.io/destinationSol/index.html
 [Nihal's Blog]: http://nihal111.github.io/tags/#GSoC
 [Gabriel's Blog]: https://gabrielxia.github.io/telemetry.html
 [Sector Updates]: http://forum.terasology.org/threads/new-conceptual-layer-sector-plus-musings-on-multi-world-node.1420/#post-15124
