@@ -96,8 +96,8 @@ Lava Room".
 
 You should check out [Nihal's Blog][] for details, explanations, and background information.
 
-<div style="position:relative;height:0;padding-bottom:56.25%">
-<iframe src="https://www.youtube.com/embed/djTG0Ovf_UI?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/djTG0Ovf_UI?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Telemetry System
@@ -151,8 +151,8 @@ Implementing scenarios can be thought of as creating a _game maker_ utility set 
 The following video shows the tool for defining regions in action. Regions, for instance, can be used by map makers to
 trigger events when the player enters.
 
-<div style="position:relative;height:0;padding-bottom:56.25%">
-<iframe src="https://www.youtube.com/embed/UiCuz4s5nmE?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/UiCuz4s5nmE?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ---
