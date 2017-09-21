@@ -18,12 +18,12 @@
     <main>
         {% include social.html %}
         <div class="parallax-container">
-            <div class="parallax"><img src="{{ site.github.url }}{% if page.header-img %}{{ page.header-img }}{% else %}/img/ss_4.jpg{% endif %}"></div>
+            <div class="parallax"><img src="{{ site.baseurl }}{% if page.header-img %}{{ page.header-img }}{% else %}/img/ss_4.jpg{% endif %}"></div>
         </div>
         <div class="section white">
             <div class="container">
                 <div class="row">
-                    <div class="col s3 mascot"><img src="{{ site.github.url }}/img/mascot.png"></div>
+                    <div class="col s3 mascot"><img src="{{ site.baseurl }}/img/mascot.png"></div>
                 </div>
                 <div class="row">
                     <h1 class="header green-text text-darken-3">{{ page.title }}</h1>
