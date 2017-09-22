@@ -17,6 +17,10 @@ footer.page-footer {
   margin-top: 0px;
 }
 
+img {
+  max-width: 100%;
+}
+
 .brand-logo img {
   height: 56px;
 }
