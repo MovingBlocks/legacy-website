@@ -53,6 +53,7 @@ footer.page-footer {
 .center-image {
   margin: 0 auto;
   display: block;
+  max-width: 100%;
 }
 
 h1 {
