@@ -54,4 +54,4 @@ Credits
 
 The legacy splash page was designed and contributed by @3000Lane and edited by @NowNewStart and @MiJyn. The new splash page was designed and contributed by @smsunarto.
 
-The Terasology splash site is licensed under Apache 2.0
+The Terasology splash site is licensed under Apache 2.0, artwork and assets are licensed under CC-BY 4.0 unless stated otherwise.
