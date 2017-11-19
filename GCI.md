@@ -1,3 +1,7 @@
+Welcome to Terasology Google Code-in 2017 Showcase site!
+
+This page is created to serve as a tutorial on how to create content for the Google Code-in 2017 showcase page.
+
 # Installation
 ## Prerequisites
 ### Mac OSX/Linux
