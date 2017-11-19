@@ -88,3 +88,29 @@ h5 {
   font-size: 0.84rem;
   color: green;
 }
+.img-circle {
+  border-radius: 50%;
+  height: 100px;
+  float: left;
+  margin-right: 25px;
+  padding-bottom: 25px;
+  display: inline-block;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+@media only screen and (min-width: 601px)
+  .container {
+    width: 85%;
+}
+@media only screen and (min-width: 993px)
+  .container {
+    width: 70%;
+}
+.chip a{
+  margin-right: 0px !important;
+  text-transform: none !important;
+  color: #1e88e5 !important;
+}

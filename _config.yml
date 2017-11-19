@@ -14,3 +14,6 @@ exclude:
   - Gemfile.lock
 paginate: 6
 paginate_path: "/blog/page:num/"
+collections:
+- mentors
+- students
