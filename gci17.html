@@ -36,7 +36,7 @@
                 <div class="container">
                     <div class="card-panel green lighten-3">
                         <div class="row">
-                            <h1 class="header green-text text-darken-3"><center>Mentor</center></h1>
+                            <h1 class="header green-text text-darken-3"><center>Mentors</center></h1>
                                 <div class="container">
                                     {% for mentor in site.mentors %}
                                     {% assign loopindex = forloop.index | modulo: 2 %}
@@ -103,78 +103,6 @@
                                     {% endif %}
                                     {% endfor %}
                                 </div>
-                        </div>
-                    </div>
-        <br /><br />
-                    <div class="card-panel green lighten-3">
-                        <div class="row">
-                            <h1 class="header green-text text-darken-3"><center>Students</center></h1>
-                            <div class="container">
-                                {% for student in site.students %}
-                                {% assign loopindex = forloop.index | modulo: 2 %}
-                                {% if loopindex == 1 or forloop.first %}
-                                <div class="row hide-on-small-only">
-                                    {% endif %}
-                                    <div class="col m6">
-                                      <div class="card light-green lighten-5">
-                                          <div class="card-content black-text">
-                                              <img class="img-circle" src="https://github.com/{{ student.github }}.png?size=100">
-                                              <div class="card-text">
-                                                  <span class="card-title">{{ student.name }}</span>
-                                                  GitHub: <a href="https://github.com/{{ student.github }}">@{{ student.github }}</a>
-                                              </div>
-                                          </div>
-                                          <div class="card-action">
-                                              <div class="chip light-green lighten-2">
-                                                  <img src="flags/{{ student.country }}.svg" alt="Flag">
-                                                  <script>getCountryName("{{ student.country }}")</script>
-                                              </div>
-                                              <div class="chip light-green lighten-2">
-                                                Local Time:
-                                                <script>
-                                                  document.write(moment.tz(moment(), '{{ student.timezone }}').format('HH:mm [(GMT] Z[)]'));
-                                                </script>
-                                              </div>
-                                          </div>
-                                      </div>
-                                    </div>
-                                    {% if loopindex == 0 or forloop.last %}
-                                </div>
-                                {% endif %}
-                                {% endfor %}
-                                {% for student in site.students %}
-                                {% assign loopindex = forloop.index%}
-                                {% if loopindex == 1 or forloop.first%}
-                                <div class="row hide-on-med-and-up">
-                                    {% endif %}
-                                    <div class="col s12">
-                                      <div class="card light-green lighten-5">
-                                          <div class="card-content black-text">
-                                              <img class="img-circle" src="https://github.com/{{ student.github }}.png?size=100">
-                                              <div class="card-text">
-                                                  <span class="card-title">{{ student.name }}</span>
-                                                  GitHub: <a href="https://github.com/{{ student.github }}">@{{ student.github }}</a>
-                                              </div>
-                                          </div>
-                                          <div class="card-action">
-                                              <div class="chip light-green lighten-2">
-                                                  <img src="flags/{{ student.country }}.svg" alt="Flag">
-                                                  <script>getCountryName("{{ student.country }}")</script>
-                                              </div>
-                                              <div class="chip light-green lighten-2">
-                                                Local Time:
-                                                <script>
-                                                  document.write(moment.tz(moment(), '{{ student.timezone }}').format('HH:mm [(GMT] Z[)]'));
-                                                </script>
-                                              </div>
-                                          </div>
-                                      </div>
-                                    </div>
-                                    {% if loopindex == 0 or forloop.last %}
-                                </div>
-                                {% endif %}
-                                {% endfor %}
-                            </div>
                         </div>
                     </div>
                     <br /><br />
