@@ -63,3 +63,19 @@ fields:
 ```
 **NOTE**
 - You can check your country code and timezone from this [Wikipedia page](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Country code is written `CC` and Timezone is `TZ`
+
+# Adding a world generator
+
+Create a <world generator name>.md file in `_worldgen`, you need to use the following format and fill in the information accordingly.
+
+```yaml
+---
+name: World generator's name
+description: >
+  World generator description goes here
+author: World generator's author
+banner-img: "/img/world-gen-img-goes-here.jpg"
+---
+```
+**NOTE**
+- Add your banner image to folder `/img/`
