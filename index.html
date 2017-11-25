@@ -65,10 +65,9 @@
                 <br /><br />
                 <div class="divider"></div>
                 <br /><br />
-                <div class="row">
                 <!-- This loops through the paginated posts -->
-                {% for post in paginator.posts %}
-                  <div class="col s12 m6">
+                <div class="hide-on-large-only">
+                  {% for post in paginator.posts %}
                     <div class="card">
                       <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="{{ site.baseurl }}{{ post.header-img }}">
@@ -83,9 +82,34 @@
                         <p>{{ post.description }}</p>
                       </div>
                     </div>
-                  </div>
-                {% endfor %}
+                  {% endfor %}
                 </div>
+
+                {% for post in paginator.posts %}
+                  {% assign loopindex = forloop.index | modulo: 2 %}
+                  {% if loopindex == 1 or forloop.first %}
+                    <div class="row hide-on-med-and-down">
+                  {% endif %}
+                    <div class="col s12 m6">
+                      <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="{{ site.baseurl }}{{ post.header-img }}">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">{{ post.title }}<i class="material-icons right">more_vert</i></span>
+                          <p class="grey-text text-darken-2">By: {{ post.author }} on {{ post.date | date: '%B %d, %Y' }}</p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">{{ post.title }}<i class="material-icons right">close</i></span>
+                          <p><a href="{{ site.baseurl }}{{ post.url }}">See the full article here</a><p>
+                          <p>{{ post.description }}</p>
+                        </div>
+                      </div>
+                    </div>
+                  {% if loopindex == 0 or forloop.last %}
+                    </div>
+                  {% endif %}
+                {% endfor %}
                 <!-- Pagination links -->
                 <div class="pagination">
                   {% if paginator.previous_page %}
