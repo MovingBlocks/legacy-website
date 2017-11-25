@@ -1,8 +1,8 @@
 ---
 name: Scott Moses Sunarto
-github: smsunarto
-timezone: Asia/Bangkok
 country: ID
+timezone: Asia/Bangkok
+github: smsunarto
 introduction: >
   Hello! My name is Scott! It's nice to meet you, I hope you enjoy your stay in MovingBlocks :D
 fields:

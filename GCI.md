@@ -50,9 +50,9 @@ Create a <github username>.md file in `_mentors`, you need to use the following 
 ```yaml
 ---
 name: Mentor's full name
-github: Mentor's GitHub username
-timezone: Mentor's timezone
 country: Mentor's country (2 Letter)
+timezone: Mentor's timezone
+github: Mentor's GitHub username
 introduction: >
   Hello! My name is XXX! It's nice to meet you, I hope you enjoy your stay in MovingBlocks :D
   // This is an example introduction
@@ -71,10 +71,10 @@ Create a <world generator name>.md file in `_worldgen`, you need to use the foll
 ```yaml
 ---
 name: World generator's name
-description: >
-  World generator description goes here
 author: World generator's author
 banner-img: "/img/world-gen-img-goes-here.jpg"
+description: >
+  World generator description goes here
 ---
 ```
 **NOTE**
