@@ -38,6 +38,7 @@
                         <div class="row">
                             <h1 class="header green-text text-darken-3"><center>Mentors</center></h1>
                                 <div class="container">
+                                    <!-- Web Version -->
                                     {% for mentor in site.mentors %}
                                     {% assign loopindex = forloop.index | modulo: 2 %}
                                     {% if loopindex == 1 or forloop.first %}
@@ -49,7 +50,7 @@
                                                     <img class="img-circle" src="https://github.com/{{ mentor.github }}.png?size=100">
                                                     <div class="card-text">
                                                         <span class="card-title">{{ mentor.name }}</span>
-                                                        GitHub: <a href="https://github.com/{{ mentor.github }}">@{{ mentor.github }}</a>
+                                                        <a class="modal-trigger" href="#modal{{ mentor.github }}">More about me!</a>
                                                     </div>
                                                 </div>
                                                 <div class="card-action">
@@ -70,6 +71,8 @@
                                     </div>
                                     {% endif %}
                                     {% endfor %}
+
+                                    <!-- Mobile version -->
                                     {% for mentor in site.mentors %}
                                     {% assign loopindex = forloop.index%}
                                     {% if loopindex == 1 or forloop.first%}
@@ -80,8 +83,8 @@
                                               <div class="card-content black-text">
                                                   <img class="img-circle" src="https://github.com/{{ mentor.github }}.png?size=100">
                                                   <div class="card-text">
-                                                      <span class="card-title">{{ mentor.name }}</span>
-                                                      GitHub: <a href="https://github.com/{{ mentor.github }}">@{{ mentor.github }}</a>
+                                                    <span class="card-title">{{ mentor.name }}</span>
+                                                    <a class="modal-trigger" href="#modal{{ mentor.github }}">More about me!</a>
                                                   </div>
                                               </div>
                                               <div class="card-action">
@@ -101,6 +104,38 @@
                                     {% if loopindex == 0 or forloop.last %}
                                     </div>
                                     {% endif %}
+                                    {% endfor %}
+
+                                    <!-- Generate modals -->
+                                    {% for mentor in site.mentors %}
+                                    <div id="modal{{ mentor.github }}" class="modal">
+                                      <div class="modal-content">
+                                        <div class="black-text">
+                                          <h1>{{ mentor.name }}</h1>
+                                          <p>{{ mentor.introduction }}</p>
+                                          <blockquote>
+                                            <div>Github: <a href="https://github.com/{{ mentor.github }}">@{{ mentor.github }}</a></div>
+                                            <div>Country: <script>getCountryName("{{ mentor.country }}")</script></div>
+                                            <div>
+                                              Local Time:
+                                              <script>
+                                                document.write(moment.tz(moment(), '{{ mentor.timezone }}').format('HH:mm [(GMT] Z[)]'));
+                                              </script>
+                                            </div>
+                                          </blockquote>
+                                          <br />
+                                          <h3>Talk to this mentor about:</h3>
+                                          {% for field in mentor.fields %}
+                                            <div class="chip light-green lighten-2">
+                                              {{ field }}
+                                            </div>
+                                          {% endfor %}
+                                        </div>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                      </div>
+                                    </div>
                                     {% endfor %}
                                 </div>
                         </div>

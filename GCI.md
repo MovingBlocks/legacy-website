@@ -49,10 +49,16 @@ Create a <github username>.md file in `_mentors`, you need to use the following 
 
 ```yaml
 ---
-name: Mentor's name
+name: Mentor's full name
 github: Mentor's GitHub username
 timezone: Mentor's timezone
-country: Mentor's countrycode
+country: Mentor's country (2 Letter)
+introduction: >
+  Hello! My name is XXX! It's nice to meet you, I hope you enjoy your stay in MovingBlocks :D
+  // This is an example introduction
+fields:
+  - enter your field here
+  - enter your field here
 ---  
 ```
 **NOTE**
