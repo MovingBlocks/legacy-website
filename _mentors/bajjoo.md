@@ -1,13 +1,12 @@
 ---
-name: Scott Moses Sunarto
-country: ID
-timezone: Asia/Bangkok
-github: smsunarto
+name: Vaibhav Bajaj
+country: US
+timezone: America/Chicago
+github: VaibhavBajaj
 introduction: >
-  Hello! My name is Scott! It's nice to meet you, I hope you enjoy your stay in MovingBlocks :D
+  Hey. Nice to meet you all. Just another person that turns coffee into suftware.
 fields:
-  - Outreach
-  - Web Design
-  - Game Design
-  - World Generation
+  - Game Dev
+  - Testing
+  - Photoshop
 ---
