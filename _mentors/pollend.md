@@ -4,7 +4,7 @@ github: pollend
 timezone: America/Los_Angeles
 country: US
 introduction: >
-  Math, Physics and The more niche bits of Terasology
+  Math, Physics and the more niche bits of Terasology
 fields:
  - Rails
  - Programming
