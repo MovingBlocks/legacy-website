@@ -4,8 +4,9 @@ github: pollend
 timezone: America/Los_Angeles
 country: US
 introduction: >
-  Hello World
+  Math, Physics and the more niche bits of Terasology
 fields:
  - Rails
  - Programming
+ - Signalling
 ---
