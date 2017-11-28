@@ -1,6 +1,6 @@
 ---
 name: Quinn Roberts
-country: Australia
+country: AU
 timezone: Australia/Melbourne
 github: jellysnake
 introduction: >
