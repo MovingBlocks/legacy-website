@@ -1,6 +1,6 @@
 ---
 name: Aresh Mishra
-country: India
+country: IN
 timezone: Asia/Kolkata
 github: vampcat
 introduction: >

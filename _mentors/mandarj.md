@@ -1,6 +1,6 @@
 ---
 name: Mandar Juvekar
-country: India
+country: IN
 timezone: Asia/Kolkata
 github: mjuvekar7
 introduction: >
