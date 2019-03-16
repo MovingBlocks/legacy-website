@@ -101,3 +101,29 @@ h5 {
   width: 100%;
   height: 100%;
 }
+
+.nojs{
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   right:0;
+   left:0;
+   width:100%;
+}
+.nojs img{
+  display:block;
+  position:absolute;
+  left:0%;
+  bottom:0;
+  min-width:100%;
+  min-height:100%;
+  transform:translateX(-50%);
+  transform: translateY(37%);
+
+}
+.nojs2 img{
+  width:100%;
+  position: absolute;
+  z-index:-1;
+}
