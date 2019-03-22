@@ -15,23 +15,23 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper light-green darken-1">
-        <a class="brand-logo" href="{{ site.baseurl }}/"><img alt="Terasology" src="{{ "/img/logo.png" | prepend: site.baseurl }}"></a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a aria-label="Terasology Logo" class="brand-logo" href="{{ site.baseurl }}/"><img alt="Terasology" src="{{ "/img/logo.png" | prepend: site.baseurl }}"></a>
+        <a aria-label="Menu" href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="{{ "/index.html" | prepend: site.baseurl }}">Home</a></li>
-          <li><a href="{{ "/about.html" | prepend: site.baseurl }}">About Us</a></li>
-          <li><a href="{{ "/gallery.html" | prepend: site.baseurl }}">Gallery</a></li>
-          <li><a href="http://forum.terasology.org">Forum</a></li>
-          <li class="green darken-2"><a class="dl-link" href="https://github.com/MovingBlocks/TerasologyLauncher/releases/latest"><i class="material-icons left">cloud_download</i>Get The Game!</a></li>
+          <li><a aria-label="Homepage" href="{{ "/index.html" | prepend: site.baseurl }}">Home</a></li>
+          <li><a aria-label="About Us" href="{{ "/about.html" | prepend: site.baseurl }}">About Us</a></li>
+          <li><a aria-label="Gallery" href="{{ "/gallery.html" | prepend: site.baseurl }}">Gallery</a></li>
+          <li><a aria-label="Forum" href="http://forum.terasology.org">Forum</a></li>
+          <li class="green darken-2"><a aria-label="Download Terasology" class="dl-link" href="https://github.com/MovingBlocks/TerasologyLauncher/releases/latest"><i class="material-icons left">cloud_download</i>Get The Game!</a></li>
         </ul>
     </nav>
   </div>
   <ul class="side-nav" id="mobile-demo">
-    <li><a href="{{ "/index.html" | prepend: site.baseurl }}">Home</a></li>
-    <li><a href="{{ "/about.html" | prepend: site.baseurl }}">About Us</a></li>
-    <li><a href="{{ "/gallery.html" | prepend: site.baseurl }}">Gallery</a></li>
-    <li><a href="http://forum.terasology.org">Forum</a></li>
-    <li class="grey lighten-2"><a class="dl-link" href="https://github.com/MovingBlocks/TerasologyLauncher/releases/latest"><i class="material-icons right">cloud_download</i>Download</a></li>
+    <li><a aria-label="Homepage"  href="{{ "/index.html" | prepend: site.baseurl }}">Home</a></li>
+    <li><a aria-label="About Us" href="{{ "/about.html" | prepend: site.baseurl }}">About Us</a></li>
+    <li><a aria-label="Gallery"  href="{{ "/gallery.html" | prepend: site.baseurl }}">Gallery</a></li>
+    <li><a aria-label="Forum"  href="http://forum.terasology.org">Forum</a></li>
+    <li class="grey lighten-2"><a aria-label="Download Terasology" class="dl-link" href="https://github.com/MovingBlocks/TerasologyLauncher/releases/latest"><i class="material-icons right">cloud_download</i>Download</a></li>
   </ul>
 </header>
 <!-- Stop ignoring HTMLLintBear -->

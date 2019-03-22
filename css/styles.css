@@ -35,6 +35,7 @@ p img {
 }
 
 .acme {
+  font-display: auto;
   font-family: 'Acme', sans-serif;
 }
 
