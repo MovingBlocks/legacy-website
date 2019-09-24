@@ -1,0 +1,10 @@
+{
+	"name": "jekyll",
+	"image": "jekyll/jekyll:3.8",
+	"appPort": 4000,
+	"context": "..",
+	"runArgs":[
+		"-v", "${localWorkspaceFolder}:/srv/jekyll"
+	],
+	"extensions": ["streetsidesoftware.code-spell-checker"]
+}
