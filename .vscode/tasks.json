@@ -4,9 +4,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "jekyll serve",
+      "label": "preview",
       "type": "shell",
-      "command": "jekyll serve --watch -P 4000 --force_polling -H 0.0.0.0"
+      "command": "jekyll serve --watch -P 4000 --force_polling -H 0.0.0.0 --drafts"
     }
   ]
 }
