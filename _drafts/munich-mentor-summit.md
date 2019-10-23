@@ -11,22 +11,31 @@ header-img: "/img/2019-10-24-munich-mentor-summit/munich_beer.jpg"
 
 ## TeraCon 2019 - Munich Edition
 
-Contributing out part to the big [Merge-athon]- out of competition, though. 
+Contributing our part to the big [Merge-athon]- out of competition, though. 
 
 From Monday, October 14th, till Sunday, October 20th, we've [**merged 35
 PRs**][PRs-merged] and [created 9 new PRs (or drafts)][PRs-created].
 
-Monday, October 14
+### Monday, October 14
+
 The first Terasologist to arrive in Munich is eviltak. After some hours of flight and an unexpectedly long time in the waiting line at immigrations, he is the first to check-in. Three hours later, skaldarnar and niruandaleth join him in the AirBnB after a five hours train ride through the country and stopping by the grocery store. After some short introductions and setting up the chromecast, we get to work: eviltak explains the new [AutoConfigPR] which replaces the previous [FlexibleConfigs], while skaldarnar and niruandaleth begin to cook spaghetti bolognese; soon the PR is merged and dinner is served - adhering to bavarian "tradition" - accompanied by a glass of beer ;) A bit later qwc also joins the crowd, leaving jellysnake as the only Terasologist still missing in our crew. The remaining evening is mainly filled with recalling the focus and extent of the tasks of previous years' GCI and discussing what we learnt from those years and what we want to do different for this year's GCI.
 
 ![Terasologist at Work - part 1]({{site.baseurl}}/img/2019-10-24-munich-mentor-summit/munich_group_01.jpg){: .center-image}{:style="width:48%;"}
 
-Tuesday, October 15
+### Tuesday, October 15
+
 The second day of our stay in Munich starts with a nice breakfast outside on the balcony with scrambled eggs, toast and a lot of sunshine ☀️. While eviltak goes out exploring the bavarian capital, the other three of us stay in to code. As skaldarnar and niruandaleth have to work for their day-job, however, the only one actually making progress with Terasology is qwc by cleaning up his server and the docker build stuff on it. In the evening we get together again to do a first playtest - well... try to at least. While qwc and niruandaleth experience some strange world generation issues when starting up Light & Shadow, the daytime adventuring through Munich soon takes its toll on eviltak and he (in his own words) "falls asleep basically right on his face". Eventually, skaldarnar and qwc manage to play a first round of Light & Shadow capture the flag. With regard to jellysnakes estimated arrival early next morning and the necessity of a good night's sleep to have a productive TeraCon, though, further rounds are postponed in favor of heading to bed early.
 
 ![Terasologist at Work - part 2]({{site.baseurl}}/img/2019-10-24-munich-mentor-summit/munich_group_02.jpg){: .center-image}{:style="width:48%;"}
 
-Wednesday, October 16
+### Wednesday, October 16
+
+This year's TeraCon started early with jellysnake arriving at 8 o'clock german time. After a quick introduction round and a few slices of toast for breakfast, we set up qwc's spare laptop to go through all the open PRs in the Terasology Core repository with everybody being able to take notes, check related issues or updating the communication channels at the same time. Soon we have a list of all PRs, annotated with "merged", "closed" or "revisit".
+Next up was a quick update for jellysnake on the results of Monday's GCI discussions, followed by a first GCI Trello board clean-up effort and another discussion round concerning
+- what possible GCI tasks and task chains could look like
+- which of the three levels "beginner", "learning"/"tutorial", and "productive" to put these tasks in
+- how to precisely communicate acceptance and rejection criteria
+After enjoying some slices of yummy pizza, we continued with play-testing both Light & Shadow and Metal Renegades. For both play-tests we listed issues we encountered. Together we were able to in-game debug and sometimes even pinpoint the exact problem. Later-on qwc even started writing out issues respectively.
 
 
 ## Google Mentor Summit
