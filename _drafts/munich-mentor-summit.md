@@ -30,18 +30,33 @@ Wednesday, October 16
 
 ## Google Mentor Summit
 
-The remainder of the week was reserved for the [Mentor Summit], hosted by Google at the Marriott Hotel Munich. We were among 318 attendees from 42 countries. The 10 Google volunteers made a great job organizing everything and giving us a great time - Thanks to all of you!
+The remainder of the week was reserved for the [Mentor Summit], hosted by Google at the Marriott Hotel Munich.
+Unfortunately, _vampcat_ could not attend, so _skaldarnar_ dropped in and joined _eviltak_ and _jellysnake_  for the
+fun. We were among 318 attendees from 42 countries! The 10 Google volunteers made a great job organizing everything and
+giving us a great time - Thanks to all of you!
 
+Meeting so many other open source enthusiasts was an exciting experience to us all. Be it fellow game developers from
+[Godot Engine], scientists from [PEcAn] who study ecosystems from crops to forests, or tech-talk about Gradle and JavaFX
+with some new friends from [JabRef]. But it was not only just talking - we tried out the [Checker Framework] on the spot
+in [MovingBlocks/Terasology#3769], leading to a small improvement merged in [MovingBlocks/Terasology#3769].
 
+![]({{ site.baseurl }}/img/2019-10-24-munich-mentor-summit/munich_mentor-summit-stage.jpg){: .center-image}{:style="width:66%"}
+
+Besides some fun activities such as a scavenger hunt through Munich or a castle tour the mentor summit is an **unconference**. There is no predefined schedule (beside lunch time, of course 🍔🥗) the attendees have to follow. Instead, everything is self-organized. 
 
 <!-- References -->
+[Checker Framework]: https://checkerframework.org/
 [DestSol]: http://destinationsol.org/
+[Godot Engine]: https://godotengine.org/
 [GSOC]: https://summerofcode.withgoogle.com/
-[Merge-athon]: https://github.com/MovingBlocks/Terasology/issues/3737
+[JabRef]: http://www.jabref.org/
 [Mentor Summit]: https://sites.google.com/view/gsoc-mentorsummit2019/home
+[Merge-athon]: https://github.com/MovingBlocks/Terasology/issues/3737
+[MovingBlocks/Terasology#3769]: https://github.com/MovingBlocks/Terasology/pull/3769
+[MovingBlocks/Terasology#3770]: https://github.com/MovingBlocks/Terasology/pull/3770
+[PEcAn]: https://pecanproject.github.io/
+[PRs-created]: https://github.com/search?q=org%3AMovingBlocks+org%3ATerasology+is%3Apr+created%3A2019-10-14..2019-10-20+is%3Aopen&type=Issues
+[PRs-merged]: https://github.com/search?q=org%3AMovingBlocks+org%3ATerasology+is%3Apr+created%3A2019-10-14..2019-10-20+is%3Amerged&type=Issues
 [Terasology Launcher]: https://github.com/MovingBlocks/TerasologyLauncher
 [Terasology]: https://terasology.org
 [The Terasology Foundation]: https://summerofcode.withgoogle.com/organizations/4777549354237952
-
-[PRs-merged]: https://github.com/search?q=org%3AMovingBlocks+org%3ATerasology+is%3Apr+created%3A2019-10-14..2019-10-20+is%3Amerged&type=Issues
-[PRs-created]: https://github.com/search?q=org%3AMovingBlocks+org%3ATerasology+is%3Apr+created%3A2019-10-14..2019-10-20+is%3Aopen&type=Issues
