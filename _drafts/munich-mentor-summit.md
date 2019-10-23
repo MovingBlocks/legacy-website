@@ -62,6 +62,7 @@ Besides some fun activities such as a scavenger hunt through Munich or a castle 
 [GSOC]: https://summerofcode.withgoogle.com/
 [JabRef]: http://www.jabref.org/
 [Mentor Summit]: https://sites.google.com/view/gsoc-mentorsummit2019/home
+[Mentor Summit Sessions]: https://sites.google.com/view/gsoc-mentorsummit2019/more-info/session-notes
 [Merge-athon]: https://github.com/MovingBlocks/Terasology/issues/3737
 [MovingBlocks/Terasology#3769]: https://github.com/MovingBlocks/Terasology/pull/3769
 [MovingBlocks/Terasology#3770]: https://github.com/MovingBlocks/Terasology/pull/3770
