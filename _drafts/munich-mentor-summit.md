@@ -16,6 +16,15 @@ Contributing out part to the big [Merge-athon]- out of competition, though.
 From Monday, October 14th, till Sunday, October 20th, we've [**merged 35
 PRs**][PRs-merged] and [created 9 new PRs (or drafts)][PRs-created].
 
+Monday, October 14
+The first Terasologist to arrive in Munich is eviltak. After some hours of flight and an unexpectedly long time in the waiting line at immigrations, he is the first to check-in. Three hours later, skaldarnar and niruandaleth join him in the AirBnB after a five hours train ride through the country and stopping by the grocery store. After some short introductions and setting up the chromecast, we get to work: eviltak explains the new [AutoConfigPR] which replaces the previous [FlexibleConfigs], while skaldarnar and niruandaleth begin to cook spaghetti bolognese; soon the PR is merged and dinner is served - adhering to bavarian "tradition" - accompanied by a glass of beer ;) A bit later qwc also joins the crowd, leaving jellysnake as the only Terasologist still missing in our crew. The remaining evening is mainly filled with recalling the focus and extent of the tasks of previous years' GCI and discussing what we learnt from those years and what we want to do different for this year's GCI.
+
+Tuesday, October 15
+The second day of our stay in Munich starts with a nice breakfast outside on the balcony with scrambled eggs, toast and a lot of sunshine :sunny:. While eviltak goes out exploring the bavarian capital, the other three of us stay in to code. As skaldarnar and niruandaleth have to work for their day-job, however, the only one actually making progress with Terasology is qwc by cleaning up his server and the docker build stuff on it. In the evening we get together again to do a first playtest - well... try to at least. While qwc and niruandaleth experience some strange world generation issues when starting up Light & Shadow, the daytime adventuring through Munich soon takes its toll on eviltak and he (in his own words) "falls asleep basically right on his face". Eventually, skaldarnar and qwc manage to play a first round of Light & Shadow capture the flag. With regard to jellysnakes estimated arrival early next morning and the necessity of a good night's sleep to have a productive TeraCon, though, further rounds are postponed in favor of heading to bed early.
+
+Wednesday, October 16
+
+
 ![Terasologist at Work - part 1]({{site.baseurl}}/img/2019-10-24-munich-mentor-summit/munich_group_01.jpg){:style="width:48%;float:left"}![Terasologist at Work - part 2]({{site.baseurl}}/img/2019-10-24-munich-mentor-summit/munich_group_02.jpg){:style="width:48%;float:right"}
 
 
