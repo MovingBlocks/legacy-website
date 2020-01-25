@@ -35,7 +35,7 @@ issue] in the GitHub repo. We're more likely to hear you that way.)_
 
 ---------------------
 
-![Fancy trees and stuff]({{site.baseurl}}/img/terasaturday/1/grass_color.png){: .center-image}{:style="width:48%;"}
+![Fancy trees and stuff]({{site.baseurl}}/img/terasaturday/1/grass_color.png){: .center-image}{:style="width:88%;"}
 
 * Leaves and grass have looked a little sad and dead since the BiomesAPI update last May removed block colorization. 
 It was an unfortunate side-effect of progress; since biomes were no longer part of the engine, the engine could not
@@ -44,14 +44,14 @@ returned, relying upon the humidity and temperature directly instead of the biom
 
 ---------------------
 
-![Cotton]({{site.baseurl}}/img/terasaturday/1/cotton.png){: .center-image}{:style="width:48%;"}
+![Cotton]({{site.baseurl}}/img/terasaturday/1/cotton.png){: .center-image}{:style="width:88%;"}
 
 * That is not the only way in which the basic flora has improved this week. [Cotton] textures in CoreAssets have been
 replaced with brand new art from TheStygianHawk.
 
 ---------------------
 
-![An example of torches generated with askneller's work](https://user-images.githubusercontent.com/17286005/72514970-de110d80-389a-11ea-83c4-1376126fdfbb.png){: .center-image}{:style="width:48%;"}
+![An example of torches generated with askneller's work](https://user-images.githubusercontent.com/17286005/72514970-de110d80-389a-11ea-83c4-1376126fdfbb.png){: .center-image}{:style="width:88%;"}
 
 * New contributor askneller is working on better cave generation; as an intermediary step, world generating rasterizers
  (the systems that place the specific blocks) [can depend on another rasterizer][MovingBlocks/Terasology#3825] which 
@@ -60,7 +60,7 @@ replaced with brand new art from TheStygianHawk.
 
 #### Bugfixes and Optimizations (The Nerdy Stuff)
 
-![0 stars do not recommend these snacks]({{site.baseurl}}/img/terasaturday/1/soap_mint.png){: .center-image}{:style="width:90%;"}
+![0 stars do not recommend these snacks]({{site.baseurl}}/img/terasaturday/1/soap_mint.png){: .center-image}{:style="width:88%;"}
 
 * Adrijaned has made improvements to the [asset loading system][MovingBlocks/Terasology#3589], including lots of 
 documentation in an area that definitely needed more of it. Even for clever devs like _(ahem)_ yours truly, figuring out
