@@ -4,7 +4,7 @@ title: TeraSaturday #1
 description: >
   A summary of what has been going on in the past week of Terasology, from January 17 through 24, 2020.
 author: Jordan H. (Qwertygiy)
-header-img: "/img/terasaturday/logo.png"
+header-img: "/img/terasaturday/1/logo.png"
 ---
 
 _And now for something completely different: **TeraSaturday**, a weekly update post about all the neat stuff that has been going on in
@@ -18,6 +18,8 @@ _And now for something completely different: **TeraSaturday**, a weekly update p
 * The biggest Terasology news this week is that it marks the end of this year's Google Code-In, and a big _thank you!_ 
 goes out to everyone who participated, students and mentors alike! It's been great helping everyone experiment and learn
 over the past couple of months, and I certainly hope to see everyone more in the future.
+
+------------------------
 
 #### New Features (The Fun Stuff)
 
@@ -57,6 +59,8 @@ replaced with brand new art from TheStygianHawk.
  (the systems that place the specific blocks) [can depend on another rasterizer][MovingBlocks/Terasology#3825] which 
  must run first. This is important, because if you try to decorate your caves before you have any caves to decorate, 
  you're going to wind up with an empty cave and a visit from the Time Police for violating the laws of cause and effect. 
+
+----------------------
 
 #### Bugfixes and Optimizations (The Nerdy Stuff)
 
