@@ -33,6 +33,8 @@ getting confused about which way is up, and it is 100% laser-shark-free, guarant
 bugs, however. So if you spot one, make sure you jump on a table and scream at us to squish it. _(Or just [create an
 issue] in the GitHub repo. We're more likely to hear you that way.)_
 
+---------------------
+
 ![Fancy trees and stuff]({{site.baseurl}}/img/terasaturday/1/grass_color.png){: .center-image}{:style="width:48%;"}
 
 * Leaves and grass have looked a little sad and dead since the BiomesAPI update last May removed block colorization. 
@@ -40,10 +42,14 @@ It was an unfortunate side-effect of progress; since biomes were no longer part 
 rely on the biome to tell it what colors the grass should be. But vibrant plants are sacrificed no more! They have
 returned, relying upon the humidity and temperature directly instead of the biome.
 
+---------------------
+
 ![Cotton]({{site.baseurl}}/img/terasaturday/1/cotton.png){: .center-image}{:style="width:48%;"}
 
 * That is not the only way in which the basic flora has improved this week. [Cotton] textures in CoreAssets have been
 replaced with brand new art from TheStygianHawk.
+
+---------------------
 
 ![An example of torches generated with askneller's work](https://user-images.githubusercontent.com/17286005/72514970-de110d80-389a-11ea-83c4-1376126fdfbb.png){: .center-image}{:style="width:48%;"}
 
@@ -61,25 +67,35 @@ documentation in an area that definitely needed more of it. Even for clever devs
 how to use code without any documentation is often bitter and confusing. Like those little soap-flavored mints on hotel
 pillows. Always comment your code, kids. Don't make soap-flavored mints.
 
+--------------------
+
 * BenjaminAmos has done similar work over in the [Sensors] module. So if you're into creating monsters that watch from
 the shadows, or traps that activate when you step on them, or raptors that perform laser eye surgery when they see a
 shark, now you can proceed while knowing what you're doing. _(Knowing **why** you're doing it is something you'll have
 to figure out on your own. We can't help you there, sorry.)_
+
+---------------------
 
 * DarkWeird has [streamlined the chunk loading process][MovingBlocks/Terasology#3804] for worlds that have already been 
 generated, which should be noticeably better at loading more of the world faster in multiplayer games when players are 
 far apart, or if you happen to be playing Terasology on a potato or a toaster. _(Unfortunately, we do not, at this time, 
 support playing Terasology on toasted potatoes. Potato toasters, however, are fine.)_
 
+---------------------
+
 * Pollend has [optimized the Discord Rich Presence integration][MovingBlocks/Terasology#3821], which reduces Terasology's
  overall CPU usage by up to 2%. _(Note for future developers: increasing a counter to 5000 every millisecond instead of
  just waiting 5 seconds is... not fast. So don't do that. Please. Your CPU will thank you. Not literally, because that
  would be creepy. It'll thank you in a non-verbal metaphorical way. By working faster. That is all.)_
  
+ --------------------
+ 
 * [Windows XP users][MovingBlocks/Terasology#3823] might be able to play Terasology again, thanks to sladyn98. There's
 just one problem... none of us has a Windows XP system lying around anymore to fix it. _(Not even the people with potatoes 
 and toasters.)_ So if you or a loved one has been diagnosed with Microsoft Windows XP, you may be entitled to confirmation.
 Please, try it out and let us know if it works.
+
+---------------------
 
 Thus concludes the first TeraSaturday changeblog. Hopefully, despite the absence of flashy lights and fierce creatures, 
 your thirst for coolness has been satiated. _(If not, I recommend a low-calorie sports drink.)_ Enjoy the game, and I'll 
