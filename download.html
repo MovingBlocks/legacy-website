@@ -1,0 +1,37 @@
+---
+layout: page
+title: "Download Terasology Launcher"
+header-img: "/img/ss_3.jpg"
+---
+
+<div class="row">
+  <div class="col s6 l3">
+    <h3>Select OS:</h3>
+  </div>
+  <div class="col s6 l3">
+    <select style="display: block;" id="OS">
+      <option>macOs</option>
+      <option>Windows</option>
+      <option>Linux</option>`
+    </select>
+  </div>
+  <div class="col s6 l3">
+    <select style="display: block;" id="Bit">
+      <option>64-bit</option>
+      <option>32-bit</option>
+    </select>
+  </div>
+  <script src="{{ base.url | prepend: site.url }}/js/OSdetect.js"></script>
+  <div class="col s6 l3">
+    <a class="waves-effect waves btn light-green lighten-1 light-green-text text-darken-3" onclick="call()"><i
+        class="material-icons left">cloud_download</i>Download</a>
+  </div>
+  <div class="row">
+    <div class="col s6 l9"></div>
+    <div class="col s6 l3">
+      <p>OR <a
+          href="https://github.com/MovingBlocks/TerasologyLauncher/releases/download/v3.3.0/TerasologyLauncher.zip">Download
+          without JRE</a></p>
+    </div>
+  </div>
+</div>
