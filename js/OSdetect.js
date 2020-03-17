@@ -1,37 +1,35 @@
 if (navigator.appVersion.indexOf("Win") != -1) {
-    document.getElementById('OS').selectedIndex = 1;
+    document.getElementById('OS').selectedIndex = 2;
 }
 if (navigator.appVersion.indexOf("Mac") != -1) {
     document.getElementById('OS').selectedIndex = 0;
 }
 if (navigator.appVersion.indexOf("Linux") != -1) {
-    document.getElementById('OS').selectedIndex = 2;
+    document.getElementById('OS').selectedIndex = 4;
 
 }
 function call() {
     var s = "";
-    var bit = (document.getElementById('Bit').selectedIndex == 0);
+    
     switch (document.getElementById('OS').selectedIndex) {
         case 0:
-            s += "mac";
+            s = "mac";
             break;
         case 1:
-            s += "windows";
-            if (bit) {
-                s += "64";
-            } else {
-                s += "32";
-            }
+            s = "mac";
             break;
         case 2:
-            s += "linux";
-            if (bit) {
-                s += "64";
-            } else {
-                s += "32";
-            }
+            s = "windows64";
             break;
-
+        case 3:
+            s = "windows32";
+            break;
+        case 4:
+            s = "linux64";
+            break;
+        case 5:
+            s = "linux32";
+            break;
     }
 
     var xmlhttp = new XMLHttpRequest();
