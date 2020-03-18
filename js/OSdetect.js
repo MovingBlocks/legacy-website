@@ -15,7 +15,7 @@ if (navigator.appVersion.indexOf("Win") != -1) {
     selectElement("Windows (64-bit)");
 }
 if (navigator.appVersion.indexOf("Mac") != -1) {
-    selectElement("MacOs (64-Bit)");
+    selectElement("MacOs");
 }
 if (navigator.appVersion.indexOf("Linux") != -1) {
     selectElement("Linux (64-Bit)");
@@ -29,7 +29,7 @@ function downloadPackage() {
     let selectedOS = document.getElementById('OS').options[document.getElementById('OS').selectedIndex].value;
     console.log(selectedOS);
     switch (selectedOS) {
-        case "MacOs (64-Bit)":
+        case "MacOs":
             OS = "mac";
             break;
         case "Windows (64-bit)":
