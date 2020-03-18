@@ -1,50 +1,58 @@
+function selectElement(val) {
+    let sel = document.getElementById('OS');
+    var opts = sel.options;
+    for (var opt, j = 0; opt = opts[j]; j++) {
+        if (opt.value == val) {
+            sel.selectedIndex = j;
+            console.log("true");
+            break;
+        }
+    }
+
+}
+
 if (navigator.appVersion.indexOf("Win") != -1) {
-    document.getElementById('OS').selectedIndex = 2;
+    selectElement("Windows (64-bit)");
 }
 if (navigator.appVersion.indexOf("Mac") != -1) {
-    document.getElementById('OS').selectedIndex = 0;
+    selectElement("MacOs (64-Bit)");
 }
 if (navigator.appVersion.indexOf("Linux") != -1) {
-    document.getElementById('OS').selectedIndex = 4;
-
+    selectElement("Linux (64-Bit)");
 }
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.open("GET", "https://api.github.com/repos/MovingBlocks/TerasologyLauncher/releases/tags/v4.0.0-rc.2", true);
 xmlhttp.send();
+
 function downloadPackage() {
     let OS = "";
-    
-    switch (document.getElementById('OS').selectedIndex) {
-        case 0:
+    let selectedOS = document.getElementById('OS').options[document.getElementById('OS').selectedIndex].value;
+    console.log(selectedOS);
+    switch (selectedOS) {
+        case "MacOs (64-Bit)":
             OS = "mac";
             break;
-        case 1:
-            OS = "mac";
-            break;
-        case 2:
+        case "Windows (64-bit)":
             OS = "windows64";
             break;
-        case 3:
+        case "Windows (32-bit)":
             OS = "windows32";
             break;
-        case 4:
+        case "Linux (64-Bit)":
             OS = "linux64";
             break;
-        case 5:
+        case "Linux (32-Bit)":
             OS = "linux32";
             break;
     }
-
-
-        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-            var data = JSON.parse(xmlhttp.response);
-            data.assets.forEach(element => {
-                if (element.name.indexOf(OS) != -1) {
-                    window.location = element.browser_download_url;
-                }
-            });
-        }
+    console.log(OS);
+    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        var data = JSON.parse(xmlhttp.response);
+        data.assets.forEach(element => {
+            if (element.name.indexOf(OS) != -1) {
+                console.log(element.browser_download_url);
+                window.location = element.browser_download_url;
+            }
+        });
+    }
 }
-
-
-
