@@ -4,7 +4,6 @@ function selectElement(val) {
     for (var opt, j = 0; opt = opts[j]; j++) {
         if (opt.value == val) {
             sel.selectedIndex = j;
-            console.log("true");
             break;
         }
     }
@@ -27,7 +26,6 @@ xmlhttp.send();
 function downloadPackage() {
     let OS = "";
     let selectedOS = document.getElementById('OS').options[document.getElementById('OS').selectedIndex].value;
-    console.log(selectedOS);
     switch (selectedOS) {
         case "MacOs":
             OS = "mac";
@@ -45,12 +43,10 @@ function downloadPackage() {
             OS = "linux32";
             break;
     }
-    console.log(OS);
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
         var data = JSON.parse(xmlhttp.response);
         data.assets.forEach(element => {
             if (element.name.indexOf(OS) != -1) {
-                console.log(element.browser_download_url);
                 window.location = element.browser_download_url;
             }
         });
