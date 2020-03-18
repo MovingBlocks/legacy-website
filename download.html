@@ -4,11 +4,11 @@ title: "Download Terasology Launcher"
 header-img: "/img/ss_3.jpg"
 ---
 
-<div class="row">
-  <div class="col s6 l3">
-    <h3>Select OS:</h3>
+<div class="row align-items-center">
+  <div class="col s6 l2 my-auto" style="display: flex;justify-content: center;">
+    <h4>Select OS:</h4>
   </div>
-  <div class="col s6 l6">
+  <div class="col s6 l7">
     <select style="display: block;" id="OS">
       <option>macOs (64-Bit)</option>
       <option>macOs (32-Bit)</option>
@@ -19,16 +19,17 @@ header-img: "/img/ss_3.jpg"
     </select>
   </div>
   <script src="{{ base.url | prepend: site.url }}/js/OSdetect.js"></script>
-  <div class="col s6 l3">
-    <a class="waves-effect waves btn light-green lighten-1 light-green-text text-darken-3" onclick="call()"><i
-        class="material-icons left">cloud_download</i>Download</a>
+  <div class="col s6 l3" style="display: flex;justify-content: center;">
+    <a class="waves-effect waves btn light-green lighten-1 light-green-text text-darken-3"
+      onclick="downloadPackage()"><i class="material-icons left">cloud_download</i>Download</a>
   </div>
-  <div class="row">
-    <div class="col s6 l9"></div>
-    <div class="col s6 l3">
-      <p>OR <a
-          href="https://github.com/MovingBlocks/TerasologyLauncher/releases/download/v3.3.0/TerasologyLauncher.zip">Download
-          without JRE</a></p>
-    </div>
+</div>
+<div class="row">
+  <div class="col s6 l9"></div>
+  <div class="col s6 l3" style="display: flex;justify-content: center;">
+    <p>OR <a
+        href="https://github.com/MovingBlocks/TerasologyLauncher/releases/download/v3.3.0/TerasologyLauncher.zip">Download
+        without JRE</a></p>
   </div>
+
 </div>

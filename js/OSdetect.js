@@ -8,8 +8,11 @@ if (navigator.appVersion.indexOf("Linux") != -1) {
     document.getElementById('OS').selectedIndex = 4;
 
 }
-function call() {
-    var s = "";
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", "https://api.github.com/repos/MovingBlocks/TerasologyLauncher/releases/tags/v4.0.0-rc.2", true);
+xmlhttp.send();
+function downloadPackage() {
+    let s = "";
     
     switch (document.getElementById('OS').selectedIndex) {
         case 0:
@@ -32,8 +35,7 @@ function call() {
             break;
     }
 
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function () {
+
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             var data = JSON.parse(xmlhttp.response);
             data.assets.forEach(element => {
@@ -42,11 +44,6 @@ function call() {
                 }
             });
         }
-    };
-
-    xmlhttp.open("GET", "https://api.github.com/repos/MovingBlocks/TerasologyLauncher/releases/tags/v4.0.0-rc.2", true);
-    xmlhttp.send();
-
 }
 
 
