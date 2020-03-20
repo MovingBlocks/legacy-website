@@ -26,7 +26,7 @@ function downloadPackage() {
     let OS = "";
     let selectedOS = document.getElementById('OS').options[document.getElementById('OS').selectedIndex].value;
     switch (selectedOS) {
-        case "MacOs":
+        case "macOS":
             OS = "mac";
             break;
         case "Windows (64-bit)":
