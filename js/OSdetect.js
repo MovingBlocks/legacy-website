@@ -7,7 +7,6 @@ function selectElement(val) {
             break;
         }
     }
-
 }
 
 if (navigator.appVersion.indexOf("Win") != -1) {
