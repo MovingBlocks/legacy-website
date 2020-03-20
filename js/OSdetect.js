@@ -13,7 +13,7 @@ if (navigator.appVersion.indexOf("Win") != -1) {
     selectElement("Windows (64-bit)");
 }
 if (navigator.appVersion.indexOf("Mac") != -1) {
-    selectElement("MacOs");
+    selectElement("macOS");
 }
 if (navigator.appVersion.indexOf("Linux") != -1) {
     selectElement("Linux (64-Bit)");
