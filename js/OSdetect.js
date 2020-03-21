@@ -19,7 +19,7 @@ if (navigator.appVersion.indexOf("Linux") != -1) {
     selectElement("Linux (64-Bit)");
 }
 var xmlhttp = new XMLHttpRequest();
-xmlhttp.open("GET", "https://api.github.com/repos/MovingBlocks/TerasologyLauncher/releases/tags/v4.0.0-rc.3", true);
+xmlhttp.open("GET", "https://api.github.com/repos/MovingBlocks/TerasologyLauncher/releases/tags/v4.0.0-rc.4", true);
 xmlhttp.send();
 
 function downloadPackage() {
