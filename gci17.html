@@ -1,0 +1,297 @@
+---
+
+---
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="1Zo5ff2j0ysKtpdf-TvSQW6y2-hoD3ASV1CiR9Bq6-0" />
+  <meta name="keywords"
+    content="Terasology, Minecraft, Open, Source, Free, Mahmood, Dhia, Dwarf, Fortress, Dungeon, Keeper, Voxel, Creature, Creatures, Empire, Civilization, Portal, Moving, Blocks" />
+  <title>Terasology Google Code-in 2017</title>
+  {% include imports.html %}
+  <link type="text/css" rel="stylesheet" href="{{ "/css/gci17.css" | prepend: site.baseurl }}"
+    media="screen,projection" />
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  {% include nav.html %}
+  <main>
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="../img/ss_1.jpg"> <!-- random image -->
+        </li>
+        <li>
+          <img src="../img/ss_2.jpg"> <!-- random image -->
+        </li>
+        <li>
+          <img src="../img/ss_3.jpg"> <!-- random image -->
+        </li>
+        <li>
+          <img src="../img/ss_4.jpg"> <!-- random image -->
+        </li>
+        </ul>
+    </div>
+    <div class="section white">
+      <div class="container">
+        <div class="card-panel green lighten-3">
+          <div class="row">
+            <h1 class="header green-text text-darken-3">
+              <center>Mentors</center>
+            </h1>
+          </div>
+          <div>
+            <div class="container" id="container">
+              <!-- Web Version -->
+              <div class="row hide-on-med-and-down" id="webhere">
+
+                <!-- Cards for Web view will be populated here -->
+
+              </div>
+
+              <!-- Mobile version -->
+              <div class="row hide-on-large-only" id="mobilehere">
+
+              <!-- Cards for Mobile view will be populated here -->
+
+              </div>
+              
+            </div>
+
+            <script>
+              function makeCard(image, trelloCard_name, github, Country, TimeZone) {
+
+                const time = moment.tz(moment(), TimeZone).format('HH:mm [(GMT] Z[)]');
+                const webcard = `
+                <div class="col m6">
+                  <div class="card light-green lighten-5">
+                    <div class="card-content black-text"> 
+                      <img class="img-circle" src=`+ image + `>
+                      <div class="card-text"> 
+                        <span class="card-title"> ` + trelloCard_name + ` </span> 
+                        <a class="waves-effect waves-light btn modal-trigger" href="#modal`+ github + `">More about me!</a>
+                         </div> 
+                         </div>
+                      <div class="card-action">
+                        <div class="chip light-green lighten-2"> 
+                          <img src=../flags/`+ Country + `.svg alt="Flag">
+                          `+ getCountryName(Country) + `
+                        </div>
+                        <div class="chip light-green lighten-2"> 
+                          Local Time:`+ time + `
+                          </div>
+                      </div>
+                    </div>
+                  </div>`;
+
+                  const mobilecard = `
+                <div class="col s12">
+                  <div class="card light-green lighten-5">
+                    <div class="card-content black-text"> 
+                      <img class="img-circle" src=`+ image + `>
+                      <div class="card-text"> 
+                        <span class="card-title"> ` + trelloCard_name + ` </span> 
+                        <a class="waves-effect waves-light btn modal-trigger" href="#modal`+ github + `">More about me!</a>
+                         </div> 
+                         </div>
+                      <div class="card-action">
+                        <div class="chip light-green lighten-2"> 
+                          <img src=../flags/`+ Country + `.svg alt="Flag">
+                          `+ getCountryName(Country) + `
+                        </div>
+                        <div class="chip light-green lighten-2"> 
+                          Local Time:`+ time + `
+                          </div>
+                      </div>
+                    </div>
+                  </div>`;
+
+                const modal =
+                  `<div id="modal` + github + `" class="modal">
+                    <div class="modal-content">
+                     <div class="black-text">
+                  <h1>`+ trelloCard_name + `</h1>
+                  <p>Intro Placeholder</p>
+                  <blockquote>
+                    <div>Github: <a href="https://github.com/`+ github + `">@` + github + `</a></div>
+                    <div>Country:
+                    `+ getCountryName(Country) + `
+                    </div>
+                    <div>
+                      Local Time:
+                      `+ time + `
+                          </div>
+                  </blockquote>
+                  <br />
+                  <h3>Talk to this mentor about:</h3>
+                  <div class="chip light-green lighten-2">
+                  Placeholder for Fields
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+              </div>
+              </div>`;
+
+                $('#webhere').append(webcard);
+                $('#mobilehere').append(mobilecard);
+                $('#container').append(modal);
+
+              }
+
+              const list_id = "5e86fe1cdce66d046aa319f8";
+
+              $.getJSON('https://api.trello.com/1/lists/' + list_id + '/cards', function (trelloList) {
+
+                $.each(trelloList, function (index, trelloCards) {
+
+                  const url = trelloCards.url + '.json?fields=name,labels,cover,desc&customFields=true&customFieldItems=true'
+
+                  var Label;
+                  var github;
+                  var TimeZone;
+                  var Country;
+
+                  $.getJSON(url, function (trelloCard) {
+
+                    const image = trelloCard.cover.scaled[4].url;
+                    $.each(trelloCard.labels, function (index, element) {
+                      Label = Label + element.name + ' ';
+
+                    });
+
+                    $.each(trelloCard.customFieldItems, function (index, customFieldItem) {
+                      if (customFieldItem.value.text != undefined) {
+                        $.each(trelloCard.customFields, function (index2, customField) {
+
+                          if (customFieldItem.idCustomField == customField.id) {
+
+                            if (customField.name == "Github") {
+                              github = customFieldItem.value.text;
+                            }
+                            else if (customField.name == "TimeZone") {
+                              TimeZone = customFieldItem.value.text;
+                            }
+                            else if (customField.name == "Country") {
+                              Country = customFieldItem.value.text;
+                            }
+                          }
+                        });
+                      }
+                    });
+
+                    makeCard(image, trelloCard.name, github, Country, TimeZone);
+
+                    // Init Modal
+                    $(document).ready(function () {
+                      $('.modal').modal();
+                    });
+
+                  }); //each-card call
+
+                });// for each 
+
+              }); //list call 
+            </script>
+
+          </div>
+        </div>
+        <br /><br />
+        <div class="card-panel green lighten-3">
+          <div class="row">
+            <h1 class="header green-text text-darken-3">
+              <center>World Generators</center>
+            </h1>
+          </div>
+          <div class="container">
+            <!-- Mobile Version -->
+            <div class="hide-on-large-only">
+              {% for gen in site.worldgens %}
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="{{ site.baseurl }}{{ gen.banner-img }}">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">{{ gen.name }}<i
+                      class="material-icons right">more_vert</i></span>
+                  <p class="grey-text text-darken-2">By: {{ gen.author }}</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">{{ gen.name }}<i
+                      class="material-icons right">close</i></span>
+                  <p>{{ gen.description }}</p>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+
+            <!-- Web Version -->
+            {% for gen in site.worldgens %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+            {% if loopindex == 1 or forloop.first %}
+            <div class="row hide-on-med-and-down">
+              {% endif %}
+              <div class="col s12 m6">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="{{ site.baseurl }}{{ gen.banner-img }}">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">{{ gen.name }}<i
+                        class="material-icons right">more_vert</i></span>
+                    <p class="grey-text text-darken-2">By: {{ gen.author }}</p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">{{ gen.name }}<i
+                        class="material-icons right">close</i></span>
+                    <p>{{ gen.description }}</p>
+                  </div>
+                </div>
+              </div>
+              {% if loopindex == 0 or forloop.last %}
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="divider"></div>
+        <br /><br />
+      </div>
+    </div>
+    <div class="section grey lighten-3">
+      <div class="container">
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/ss_2.jpg"></div>
+    </div>
+  </main>
+  {% include footer.html %}
+</body>
+
+<!-- Filter Feature for mentor cards -->
+<!-- <script>
+  function filter(sortby) {
+    resetVisibility();
+    var Filter = document.querySelectorAll("[id*=' " + sortby + " ']");
+    Array.prototype.forEach.call(Filter, function (node) {
+      node.style.display = "none";
+    });
+  }
+
+  function resetVisibility() //makes all columns visible
+  {
+    const allColumns = document.getElementsByClassName("column");
+    for (var i = 0; i < allColumns.length;) {
+      allColumns[i].style.display = "block";
+    }
+  }
+
+</script> -->
+</html>
