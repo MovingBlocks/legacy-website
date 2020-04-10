@@ -63,7 +63,7 @@
             </div>
 
             <script>
-              function makeCard(image, trelloCard_name, github, Country, TimeZone) {
+              function makeCard(image, trelloCard_name=" ", github=" ", Country=" ", TimeZone=" ") {
 
                 const time = moment.tz(moment(), TimeZone).format('HH:mm [(GMT] Z[)]');
                 const webcard = `
@@ -159,8 +159,11 @@
                   var Country;
 
                   $.getJSON(url, function (trelloCard) {
-
-                    const image = trelloCard.cover.scaled[4].url;
+                    var image="./img/profile-placeholder.png";
+                    
+                    if(trelloCard.cover.scaled!=undefined){
+                     image = trelloCard.cover.scaled[4].url;}
+                    
                     $.each(trelloCard.labels, function (index, element) {
                       Label = Label + element.name + ' ';
 
