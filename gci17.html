@@ -24,16 +24,16 @@
     <div class="slider">
       <ul class="slides">
         <li>
-          <img src="../img/ss_1.jpg"> <!-- random image -->
+          <img src="img/ss_1.jpg"> <!-- random image -->
         </li>
         <li>
-          <img src="../img/ss_2.jpg"> <!-- random image -->
+          <img src="img/ss_2.jpg"> <!-- random image -->
         </li>
         <li>
-          <img src="../img/ss_3.jpg"> <!-- random image -->
+          <img src="img/ss_3.jpg"> <!-- random image -->
         </li>
         <li>
-          <img src="../img/ss_4.jpg"> <!-- random image -->
+          <img src="img/ss_4.jpg"> <!-- random image -->
         </li>
         </ul>
     </div>
@@ -79,7 +79,7 @@
                          </div>
                       <div class="card-action">
                         <div class="chip light-green lighten-2"> 
-                          <img src=../flags/`+ Country + `.svg alt="Flag">
+                          <img src=flags/`+ Country + `.svg alt="Flag">
                           `+ getCountryName(Country) + `
                         </div>
                         <div class="chip light-green lighten-2"> 
@@ -101,7 +101,7 @@
                          </div>
                       <div class="card-action">
                         <div class="chip light-green lighten-2"> 
-                          <img src=../flags/`+ Country + `.svg alt="Flag">
+                          <img src=flags/`+ Country + `.svg alt="Flag">
                           `+ getCountryName(Country) + `
                         </div>
                         <div class="chip light-green lighten-2"> 
@@ -160,7 +160,7 @@
                   var Country;
 
                   $.getJSON(url, function (trelloCard) {
-                    var image="./img/profile-placeholder.png";
+                    var image="img/profile-placeholder.png";
                     
                     if(trelloCard.cover.scaled!=undefined){
                      image = trelloCard.cover.scaled[4].url;}
