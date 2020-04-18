@@ -1,0 +1,19 @@
+{
+  "name": "movingblocks.github.com",
+  "version": "1.0.0",
+  "description": "Terasology Splash Site -----------------------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheShubham99/movingblocks.github.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheShubham99/movingblocks.github.com/issues"
+  },
+  "homepage": "https://github.com/TheShubham99/movingblocks.github.com#readme"
+}
