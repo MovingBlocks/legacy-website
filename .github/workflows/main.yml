@@ -12,30 +12,23 @@ jobs:
       - name: Testing the Js
         uses: ./actions
 
-build:
-    runs-on: ubuntu-latest
+  build:
+      runs-on: ubuntu-latest
 
-    if: github.event_name == 'pull_request'
+      if: github.event_name == 'pull_request'
 
-    strategy:
-      matrix:
-        node-version: [8.x, 10.x, 12.x]
+      strategy:
+        matrix:
+          node-version: [8.x, 10.x, 12.x]
 
-    steps:
-      - uses: actions/checkout@v1
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: yarn install, build, and test
-        run: |
-          yarn
-          yarn test
-      - uses: actions/cache@v1
-        with:
-          path: ~/.cache/yarn
-          key: ${{ runner.os }}-yarn-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+      steps:
+        - uses: actions/checkout@v1
+        - name: Use Node.js ${{ matrix.node-version }}
+          uses: actions/setup-node@v1
+          with:
+            node-version: ${{ matrix.node-version }}
+        - name: yarn install, build, and test
+          run: |
+            yarn
+            yarn test
     
-     
