@@ -3,29 +3,11 @@ on:
 
 jobs:
   test_js:
-    needs: build
+
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@master
       - name: Install dependencies
         run: yarn
       - name: Testing the Js
-        uses: ./actions
-
-  build:
-      runs-on: ubuntu-latest
-
-      strategy:
-        matrix:
-          node-version: [12.x]
-
-      steps:
-        - uses: actions/checkout@v1
-        - name: Use Node.js ${{ matrix.node-version }}
-          uses: actions/setup-node@v1
-          with:
-            node-version: ${{ matrix.node-version }}
-        - name: yarn install, build, and test
-          run: |
-            yarn
-    
+        uses: TheShubham99/movingblocks.github.com/actions@master
