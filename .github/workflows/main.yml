@@ -3,8 +3,9 @@ on:
 
 jobs:
   test_js:
-    runs-on: [self-hosted]
+    runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v1
       - name: Testing the Js
       - uses: ./actions
 
