@@ -1,12 +1,12 @@
 on: 
-  [issues,pull_request]
+  [push,issues,pull_request]
 
-jobs:
-  test_js:
-    runs-on: [self-hosted]
-    steps:
-      - name: Testing the Js
-      - uses: ./actions
+
+test_js:
+  runs-on: [self-hosted]
+  steps:
+    - name: Testing the Js
+    - uses: ./actions
 
     
      
