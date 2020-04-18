@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Testing the Js
-        uses: ./.github/actions
+        uses: ././actions
 
     
      
