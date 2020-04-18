@@ -1,0 +1,5 @@
+name: 'JavaScript Run'
+description: 'Test JS Run'
+runs:
+  using: 'node12'
+  main: './test.js'
