@@ -6,8 +6,7 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - name: Install dependencies
-        run: yarn
-      - name: Testing the Js
-        uses: TheShubham99/movingblocks.github.com/actions@master
+      - uses: actions/checkout@v1
+      - name: My first step
+        uses: ./actions
+      
