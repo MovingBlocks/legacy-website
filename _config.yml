@@ -3,7 +3,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Terasology is a game that pays ample tribute to Minecraft in initial look and origin,
   but stakes out its own niche by adopting the NPC-helper and
   caretaker feel from such games as Dwarf Fortress and Dungeon Keeper.
-baseurl: "/"
+baseurl: ""
 url: "https://terasology.org"
 markdown: kramdown
 gems:
