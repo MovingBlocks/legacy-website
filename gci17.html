@@ -63,7 +63,10 @@
             </div>
 
             <script>
-              function makeCard(image, trelloCard_name=" ", github=" ", Country=" ", TimeZone=" ") {
+              //set the list_id to id of mentor list in trello board
+              const list_id = "5e86fe1cdce66d046aa319f8";
+
+              function makeCard(image, trelloCard_name=" ", github=" ", Country=" ", TimeZone=" ", description=" ") {
 
                 const time = moment.tz(moment(), TimeZone).format('HH:mm [(GMT] Z[)]');
                 const webcard = `
@@ -129,7 +132,7 @@
                   <br />
                   <h3>Talk to this mentor about:</h3>
                   <div class="chip light-green lighten-2">
-                  Placeholder for Fields
+                  `+description+`
                   </div>
                   
                 </div>
@@ -145,8 +148,7 @@
 
               }
 
-              const list_id = "5e86fe1cdce66d046aa319f8";
-
+            
               $.getJSON('https://api.trello.com/1/lists/' + list_id + '/cards', function (trelloList) {
 
                 $.each(trelloList, function (index, trelloCards) {
@@ -157,17 +159,22 @@
                   var github;
                   var TimeZone;
                   var Country;
+                  var description;
 
                   $.getJSON(url, function (trelloCard) {
                     var image="/img/profile-placeholder.png";
                     
                     if(trelloCard.cover.scaled!=undefined){
                      image = trelloCard.cover.scaled[4].url;}
-                    
-                    $.each(trelloCard.labels, function (index, element) {
-                      Label = Label + element.name + ' ';
 
-                    });
+                    // uncomment following block to store all labels in Label variable  (Space Sperated)
+                            
+                    // $.each(trelloCard.labels, function (index, element) {
+                    //   Label = Label + element.name + ' ';
+
+                    // });
+
+                    description=trelloCard.desc;
 
                     $.each(trelloCard.customFieldItems, function (index, customFieldItem) {
                       if (customFieldItem.value.text != undefined) {
@@ -189,7 +196,7 @@
                       }
                     });
 
-                    makeCard(image, trelloCard.name, github, Country, TimeZone);
+                    makeCard(image, trelloCard.name, github, Country, TimeZone,description);
 
                     // Init Modal
                     $(document).ready(function () {
