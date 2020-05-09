@@ -1,8 +1,6 @@
 Terasology Splash Site
 -----------------------------
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/MovingBlocks/movingblocks.github.com)
-
 This is our GitHub-hosted "Page" site serving as a splash site for Terasology.
 
 It is meant to be a light-end front for our most popular links and resources,
