@@ -2,12 +2,13 @@
 
 ---
 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="google-site-verification" content="1Zo5ff2j0ysKtpdf-TvSQW6y2-hoD3ASV1CiR9Bq6-0" />
-    <meta name="keywords" content="Terasology, Minecraft, Open, Source, Free, Mahmood, Dhia, Dwarf, Fortress, Dungeon, Keeper, Voxel, Creature, Creatures, Empire, Civilization, Portal, Moving, Blocks">
+    <meta name="keywords" content="Terasology, Minecraft, Open, Source, Free, Dwarf, Fortress, Dungeon, Keeper, Voxel, Creature, Creatures, Empire, Civilization, Portal, Moving, Blocks">
     <meta name="description" content="{{ site.description }}">
     <script type="application/ld+json">
     {
@@ -17,11 +18,11 @@
       "name": "Terasology",
       "url": "http://terasology.org/",
       "image": "http://terasology.org/img/mascot.png",
-      "description": "Terasology is a game that pays ample tribute to Minecraft in initial look and origin, but stakes out its own niche by adopting the NPC-helper and caretaker feel from such games as Dwarf Fortress and Dungeon Keeper.",
+      "description": "Terasology is an open source voxel game originally inspired by Minecraft along with such games as Dwarf Fortress and Dungeon Keeper.",
       "author":{
         "@type":"Organization",
-        "name":"MovingBlocks",
-        "url":"https://github.com/MovingBlocks/"
+        "name":"The Terasology Foundation",
+        "url":"https://terasology.org/"
       },
       "potentialAction": {
         "@type": "SearchAction",
@@ -40,24 +41,26 @@
 <body>
     {% include nav.html %}
     <main>
-        {% include social.html %}
         <div class="parallax-container">
-            <div class="parallax"><img src="{{ site.baseurl }}/img/ss_6.jpg"></div>
+            <div class="parallax"><img alt="Hero Image" src="{{ site.baseurl }}/img/ss_6.jpg"></div>
+              <noscript>
+              <div class="nojs"><img alt="Hero Image" src="{{ site.baseurl }}/img/ss_6.jpg"></div>
+              </noscript>
         </div>
         <div class="section white">
             <div class="container">
                 <div class="row">
-                    <div class="col s3 mascot"><img src="{{ site.baseurl }}/img/mascot.png"></div>
+                    <div class="col s3 mascot"><img alt="Terasology mascot" src="{{ site.baseurl }}/img/mascot.png"></div>
                 </div>
                 <div class="row">
                     <h1 class="header green-text text-darken-3">Welcome to Terasology</h1>
                 </div>
                 <div class="row">
                     <div class="col s12 m6">
-                        <div class="video-container z-depth-3"><iframe src="https://www.youtube.com/embed/Wpa2aiadwE8" frameborder="0" allowfullscreen></iframe></div>
+                        <div class="video-container z-depth-3"><iframe src="https://www.youtube.com/embed/Wpa2aiadwE8" frameborder="0" title="Game Showreel" allowfullscreen></iframe></div>
                     </div>
                     <div class="col s12 m6">
-                        <h3 class="green-text text-darken-3"><i>Like an open-source Minecraft</i></h3>
+                        <h3 class="green-text text-darken-3"><i>An open source voxel world - imagine the possibilities!</i></h3>
                         <p class="green-text">The Terasology project was born from a Minecraft-inspired tech demo and is becoming a stable platform for various types of gameplay settings in a voxel world. The creators and maintainers are a diverse mix of software developers, designers, game testers, graphic artists, and musicians. We encourage others to join!</p>
                         <a href="about.html" class="waves-effect waves btn light-green lighten-1 light-green-text text-darken-3" onclick="Materialize.toast('Redirecting...', 4000)"><i class="material-icons left">live_help</i>Learn more</a>
                     </div>
@@ -70,7 +73,7 @@
                   {% for post in paginator.posts %}
                     <div class="card">
                       <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="{{ site.baseurl }}{{ post.header-img }}">
+                        <img class="activator" alt="{{ post.title }} Banner" src="{{ site.baseurl }}{{ post.header-img }}">
                       </div>
                       <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">{{ post.title }}<i class="material-icons right">more_vert</i></span>
@@ -78,7 +81,7 @@
                       </div>
                       <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">{{ post.title }}<i class="material-icons right">close</i></span>
-                        <p><a href="{{ site.baseurl }}{{ post.url }}">See the full article here</a><p>
+                        <p><a aria-label="Read more about {{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">See the full article here</a><p>
                         <p>{{ post.description }}</p>
                       </div>
                     </div>
@@ -93,7 +96,7 @@
                     <div class="col s12 m6">
                       <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
-                          <img class="activator" src="{{ site.baseurl }}{{ post.header-img }}">
+                          <img class="activator" alt="{{ post.title }} Banner" src="{{ site.baseurl }}{{ post.header-img }}">
                         </div>
                         <div class="card-content">
                           <span class="card-title activator grey-text text-darken-4">{{ post.title }}<i class="material-icons right">more_vert</i></span>
@@ -101,7 +104,7 @@
                         </div>
                         <div class="card-reveal">
                           <span class="card-title grey-text text-darken-4">{{ post.title }}<i class="material-icons right">close</i></span>
-                          <p><a href="{{ site.baseurl }}{{ post.url }}">See the full article here</a><p>
+                          <p><a aria-label="Read more about {{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">See the full article here</a><p>
                           <p>{{ post.description }}</p>
                         </div>
                       </div>
@@ -132,7 +135,10 @@
             </div>
         </div>
         <div class="parallax-container">
-            <div class="parallax"><img src="{{ site.baseurl }}/img/ss_2.jpg"></div>
+            <div class="parallax"><img alt="Terasology Background" src="{{ site.baseurl }}/img/ss_2.jpg"></div>
+              <noscript>
+                <div ><img style="width:100%"src="{{ site.baseurl }}/img/ss_2.jpg"></div>
+              </noscript>
         </div>
     </main>
     {% include footer.html %}
