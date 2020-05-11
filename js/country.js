@@ -248,8 +248,8 @@ var isoCountries = {
 
 function getCountryName (countryCode) {
     if (isoCountries.hasOwnProperty(countryCode)) {
-        document.write(isoCountries[countryCode]);
+        return isoCountries[countryCode];
     } else {
-        document.write(countryCode);
+        return countryCode;
     }
 }
