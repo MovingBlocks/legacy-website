@@ -31,7 +31,7 @@ something fun while at the same time competing for prizes from T-shirts to a
 trip to Google HQ!
 
 And of course we're here to help! There are
-[a lot of mentors](http://terasology.org/gci17.html) ready to answer any
+[a lot of mentors](http://terasology.org/mentors.html) ready to answer any
 questions you may have. For questions about Tiled, you'll also want to try the
 Tiled [IRC channel](https://riot.im/app/#/room/#freenode_#tiled:matrix.org) and
 [forum](http://discourse.mapeditor.org/).
