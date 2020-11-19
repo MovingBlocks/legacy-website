@@ -27,6 +27,7 @@ the world of Terasology! Half blog, half changelog, completely cool._
 
 ## Bug Fixes
 
+- health regen
 - ...
 
 ## Module/Feature Highlights

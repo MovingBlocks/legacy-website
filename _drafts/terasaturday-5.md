@@ -22,18 +22,21 @@ _@immortius_ proposed to switch to [glTF](https://www.khronos.org/gltf/) for mod
 
 Finally, we also made the step towards [LW**JGL**](https://www.lwjgl.org/) thanks to the effort and contributions of _@DarkWeird_. This was initially suggested in December 2015 (now I'm feeling old ... 👴) by _@msteiger_ (see [MovingBlocks/Terasology#2099](https://github.com/MovingBlocks/Terasology/issues/2099)) and just now became reality by [MovingBlocks/Terasology#3969](https://github.com/MovingBlocks/Terasology/pull/3969). As with the other changes, you can see that everything is working if you don't see any difference to how it was before...
 
-## Bug Fixes
+![Cute Monsters]({{ site.baseurl }}/img/terasaturday/5/cute-monsters.png)
 
-- health regen
-- ...
+But it's not all just nerdy changes and improvements. We used the motivation and excitement about the new model format to add [cute monsters](https://www.patreon.com/posts/39982825) (incl. a new custom sheep model) to the game. The models were created by [_@quaternius_](http://quaternius.com/), be sure to check out their [Patreon](https://www.patreon.com/quaternius/posts) for latest news and support.
+These new models are (partially) integrated with the [WildAnimals](https://github.com/Terasology/WildAnimals) module and replace the old low-poly models (like our good ol' deer). We hope you like this new look, and we are looking forward to integrate more mobs and monsters into the gameplay templates so that you can experience them in the game!
 
-## Module/Feature Highlights
+In a similar fashion, [MetalRenegades](https://github.com/Terasology/MetalRenegades) is now way more ... metal 🤘 We replaced some of the Gooey citizens with actual robot models. Representing the good and lawful, sherrif robots will help to keep the piece in the old west towns. Opposing, the bad robots with their bulky, barrell-like bodies bend the boundaries of decency. Which side do you chose?
 
-- cute monsters (incl. new custom model from quaternius)
-- robots in metal renegades
+<!--TODO: replace with screenshot of Metal Renegades robots-->
+![Metal Renegades]({{ site.baseurl }}/img/mr_good-bad-gooey.png)
 
-- falling blocks
-- flowing liquids
+And that's still not all! _@4D enthuasiast_ continues to shape the in-game world. By creating [FallingBlocks](https://github.com/Terasology/FallingBlocks) and reworking [FlowingLiquids](https://github.com/Terasology/FlowingLiquids) the world now feels more dynamic than before.
+With the mass-preserving system of flowing liquids water becomes a valuable resources that should be used with care. 
+Whole bodies of water may vanish in the depth of caves, so be careful which block you break!
+
+<!--TODO: add small video of FallingBlocks and FlowingLiquids in action-->
 
 🕹 Last but not least, you may enjoy this play-test video by _Lowricsec_ who gave the latest release a try. This has slipped our attention for 3 months, but here you go 🎮
 
