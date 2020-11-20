@@ -29,7 +29,6 @@ These new models are (partially) integrated with the [WildAnimals](https://githu
 
 In a similar fashion, [MetalRenegades](https://github.com/Terasology/MetalRenegades) is now way more ... metal 🤘 We replaced some of the Gooey citizens with actual robot models. Representing the good and lawful, sherrif robots will help to keep the piece in the old west towns. Opposing, the bad robots with their bulky, barrell-like bodies bend the boundaries of decency. Which side do you chose?
 
-<!--TODO: replace with screenshot of Metal Renegades robots-->
 ![Metal Renegades Robots]({{ site.baseurl }}/img/terasaturday/5/metal-renegades-robots.png)
 
 And that's still not all! _@4D enthuasiast_ continues to shape the in-game world. By creating [FallingBlocks](https://github.com/Terasology/FallingBlocks) and reworking [FlowingLiquids](https://github.com/Terasology/FlowingLiquids) the world now feels more dynamic than before.
