@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'TeraSaturday #6: '
+title: 'TeraSaturday #6: Hide and Sheep'
 description: >
   An exploration of recent events in Terasology development
 author: Skaldarnar
