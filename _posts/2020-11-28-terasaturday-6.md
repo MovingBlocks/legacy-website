@@ -4,17 +4,11 @@ title: 'TeraSaturday #6: Hide and Sheep'
 description: >
   An exploration of recent events in Terasology development
 author: Skaldarnar
-header-img: "/img/terasaturday/6/logo.png"
+header-img: "/img/terasaturday/6/banner.png"
 ---
 
 _Welcome to the return of TeraSaturday, a not-so-weekly update post about all the neat stuff that has been going on in
 the world of Terasology! Half blog, half changelog, completely cool._
-
-# TeraSaturday #6
-
-### November 28, 2020
-
-------------------------
 
 ## Since last TeraSaturday
 
@@ -26,6 +20,8 @@ the world of Terasology! Half blog, half changelog, completely cool._
 - launcher architecture
 
 ## Bug Fixes
+
+![Cute Monsters]({{ site.baseurl }}/img/terasaturday/6/night-brightness.png)
 
 - health regen
 - ...
