@@ -18,22 +18,33 @@ Use programs like [ImageOptim](https://imageoptim.com/) or services like
 Adding New Blog Post
 -----------
 
-  1. Create a .md file in the `_posts` folder. The file must have a prefix containing the current date in `YYYY-MM-DD-` format followed by the post short/brief title. This file name is going to be used as the article directory.
-  Ex: `2017-06-14-new-splash-site` will be translated to http://terasology.org/2017/06/14/new-splash-site.html
-  2. The new post file must have the following format:
-```yaml
-layout: post
-title: "Say Hello to Our New Website!" #This is your post tile
-description: > #This is a brief description of your post that will show up in post previews.
-  If you have visited our website before you might notice something different now. Yep, we have a new design!
-  Our new website is heavily inspired by Google's Material Design and is inline with the Design Unification Project.
-author: "Scott Moses Sunarto" #This will show up as the post author
-header-img: "/img/ss_8.jpg" #This is the header image that you see above your post and on post previews
----
-#content goes here
-```
-  3. If you created your post file correctly, the post will be visible on the front page of the site automatically. Make sure that all your images, authors, and date and description appear correctly on the post.
+1. Create a .md file in the `_posts` folder. The file must have a prefix containing the publish date in `YYYY-MM-DD`
+     format followed by the post short/brief title. This file name is going to be used as the article directory. 
+     For instance `2017-06-14-new-splash-site` will be translated to http://terasology.org/2017/06/14/new-splash-site.html
 
+2. The new post file must have the following format:
+
+    ```yaml
+    layout: post
+    title: "Say Hello to Our New Website!" #This is your post tile
+    description: > #This is a brief description of your post that will show up in post previews.
+    If you have visited our website before you might notice something different now. Yep, we have a new design!
+    Our new website is heavily inspired by Google's Material Design and is inline with the Design Unification Project.
+    author: "Scott Moses Sunarto" #This will show up as the post author
+    header-img: "/img/ss_8.jpg" #This is the header image that you see above your post and on post previews
+    ---
+    #content goes here
+    ```
+    
+    See https://jekyllrb.com/docs/posts/ for more details.
+
+3. If you created your post file correctly, the post will be visible on the front page of the site automatically.
+    In the gitpod environment the page will also show drafts (in the `_drafts` folder) and posts that are going to be
+    published in the future.
+    ```
+    bundle exec jekyll serve --future --drafts
+    ```
+    Make sure that all your images, authors, and date and description appear correctly on the post.
 
 
 Adding New Gallery Images
