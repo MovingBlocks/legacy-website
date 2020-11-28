@@ -18,11 +18,11 @@ Use programs like [ImageOptim](https://imageoptim.com/) or services like
 Adding New Blog Post
 -----------
 
-  1. Create a .md file in the `_posts` folder. The file must have a prefix containing the publish date in `YYYY-MM-DD`
+1. Create a .md file in the `_posts` folder. The file must have a prefix containing the publish date in `YYYY-MM-DD`
      format followed by the post short/brief title. This file name is going to be used as the article directory. 
      For instance `2017-06-14-new-splash-site` will be translated to http://terasology.org/2017/06/14/new-splash-site.html
 
-  2. The new post file must have the following format:
+2. The new post file must have the following format:
 
     ```yaml
     layout: post
@@ -38,7 +38,7 @@ Adding New Blog Post
     
     See https://jekyllrb.com/docs/posts/ for more details.
 
-  3. If you created your post file correctly, the post will be visible on the front page of the site automatically.
+3. If you created your post file correctly, the post will be visible on the front page of the site automatically.
     In the gitpod environment the page will also show drafts (in the `_drafts` folder) and posts that are going to be
     published in the future.
     ```
