@@ -15,7 +15,7 @@ if (navigator.appVersion.indexOf("Win") != -1) {
 if (navigator.appVersion.indexOf("Mac") != -1) {
     selectElement("macOS");
 }
-if (navigator.appVersion.indexOf("Linux") != -1) {
+if (navigator.appVersion.indexOf("Linux") != -1 || navigator.appVersion.indexOf("X11") != -1) {
     selectElement("Linux (64-Bit)");
 }
 var xmlhttp = new XMLHttpRequest();
