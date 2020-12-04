@@ -32,14 +32,8 @@ function downloadPackage() {
         case "Windows (64-bit)":
             OS = "windows64";
             break;
-        case "Windows (32-bit)":
-            OS = "windows32";
-            break;
         case "Linux (64-Bit)":
             OS = "linux64";
-            break;
-        case "Linux (32-Bit)":
-            OS = "linux32";
             break;
     }
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
