@@ -15,7 +15,7 @@ if (navigator.appVersion.indexOf("Win") != -1) {
 if (navigator.appVersion.indexOf("Mac") != -1) {
     selectElement("macOS");
 }
-if (navigator.appVersion.indexOf("Linux") != -1) {
+if (navigator.appVersion.indexOf("Linux") != -1 || navigator.appVersion.indexOf("X11") != -1) {
     selectElement("Linux (64-Bit)");
 }
 var xmlhttp = new XMLHttpRequest();
@@ -32,14 +32,8 @@ function downloadPackage() {
         case "Windows (64-bit)":
             OS = "windows64";
             break;
-        case "Windows (32-bit)":
-            OS = "windows32";
-            break;
         case "Linux (64-Bit)":
             OS = "linux64";
-            break;
-        case "Linux (32-Bit)":
-            OS = "linux32";
             break;
     }
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
