@@ -16,7 +16,7 @@ Another week has passed, and we just released [Terasology Alpha 17 (Release Cand
 
 _@DarkWeird_ tracked down some zombie threads that stopped the game from exiting properly, _@Michael P_ tweaked the lighting code a bit to remove the overexposure in bright daylight, and _@Skaldarnar_ fixed the issue where killing mobs in Josharia's Survival would crash the server.
 
-Our ... distinctive spawn point features (🙄) have been smoothed out by _@4D enthusiast_ who also continued to erase the remnants of the `SurfaceHeightFacets` from all modules.
+Our ... distinctive spawn point features (🙄) have been smoothed out by _@4D enthusiast_ who also continued to erase the remnants of the deprecated `SurfaceHeightFacets` from all modules.
 _@Niruandaleth_ applied the finishing touches to the glTF models, unifying our Gooey assests in the [MawGooey module](https://github.com/Terasology/MawGooey) and doing some fine tuning of model sizes.
 
 Furthermore, new contributors _@Paul_ and _@Gwhoyanne_ fixed the time synchronization between host and clients and now want to add some permissions to our magic time travel keys (<kbd>F3</kbd> to enable debug mode, then do time travel via <kbd>→</kbd> or <kbd>←</kbd>).
