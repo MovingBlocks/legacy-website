@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'TeraSaturday #7: '
+title: "TeraSaturday #7: It's a new spawn, it's a new day"
 description: >
   An exploration of recent events in Terasology development
 author: Skaldarnar
@@ -27,7 +27,7 @@ In total, that's [21 engine RPs](https://github.com/search?q=org%3AMovingBlocks+
 
 ## 🚀 Module/Feature Highlights
 
-Since we focussed on stabilization and bug fixes this week not much happened regarding the gameplay features. _@Niruandaleth_ and _@Skaldarnar_ did a pass over the in-game help present in Josharia's Survival and worked on some usability aspects. 
+Since we focussed on stabilization and bug fixes this week not much happened regarding gameplay features. _@Niruandaleth_ and _@Skaldarnar_ did a pass over the in-game help present in Josharia's Survival and worked on some usability aspects. 
 Items and Blocks are now sorted by their display name, and the order in which help sections are displayed is now the same all the time. 
 In addition, a few blocks and items got a display name or description added where it was still missing.
 All this is hopefully just the start of improving the in-game help features offered in our gameplays, making Terasology more accessible for new players 🕹
