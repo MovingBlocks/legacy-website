@@ -18,6 +18,8 @@ Since then, albeit the stressful pre-christmas time, we did not lay back and res
 _@DarkWeird_ relieved the main engine system of yet another subsystem - our type handlers now live in their own library, the [TypeHandlerLibrary](https://github.com/MovingBlocks/Terasology/pull/4255).
 Meanwhile, _@keturn_ worked on cleaning up a few Intellij idea workspace issues and [decluttered our module snapshot versioning and dependency resolution](https://github.com/MovingBlocks/Terasology/commit/5d5ffeebcca1c2cc552e81be161d6a899db44ed2) 🔧️.
 
+Our Jenkins setup was modernized by _@e\a_ and _@Cervator_ both of whom did a lot of cleanup work, moving jobs from our legacy Jenkins to the new one, refactoring for more modern tech and so on, so we can finally retire the old one 👴️.
+
 The JOML-ification efforts were continued by _@Michael P_, _@Skaldarnar and _@Niruandaleth_ both in terms of smaller migrations of engine packages and a detailed [API overhaul for `BlockRegion`](https://github.com/MovingBlocks/Terasology/pull/4326).
 Especially the latter required a lot of discussion, multiple revisions and a lot of nerves for all participants 😅️.
 
