@@ -4,7 +4,7 @@ title: "TeraSaturday #8: A Merry, Gooey Christmas!"
 description: >
   An exploration of recent events in Terasology development
 author: Niruandaleth
-header-img: "/img/terasaturday/8/banner.jpg"
+header-img: "/img/2020-12_xmas.jpg"
 ---
 
 _Welcome to the return of TeraSaturday, a not-so-weekly update post about all the neat stuff that has been going on in
@@ -18,10 +18,10 @@ Since then, albeit the stressful pre-christmas time, we did not lay back and res
 _@DarkWeird_ relieved the main engine system of yet another subsystem - our type handlers now live in their own library, the [TypeHandlerLibrary](https://github.com/MovingBlocks/Terasology/pull/4255).
 Meanwhile, _@keturn_ worked on cleaning up a few Intellij idea workspace issues and [decluttered our module snapshot versioning and dependency resolution](https://github.com/MovingBlocks/Terasology/commit/5d5ffeebcca1c2cc552e81be161d6a899db44ed2) 🔧️.
 
-The JOML-ification efforts were continued by _@Michael P_, _@Skaldarnar and _@Niruandaleth_ both in terms of smaller migrations of engine packages and a detailed [API overhaul for `BlockRegion`](https://github.com/MovingBlocks/Terasology/pull/4326).
+The JOML-ification efforts were continued by _@Michael P_, _@Skaldarnar_ and _@Niruandaleth_ both in terms of smaller migrations of engine packages and a detailed [API overhaul for `BlockRegion`](https://github.com/MovingBlocks/Terasology/pull/4326).
 Especially the latter required a lot of discussion, multiple revisions and a lot of nerves for all participants 😅️.
 
-_4D Enthusiast_ went about and fixed an [issue with our atlas regions](https://github.com/MovingBlocks/Terasology/pull/4311) that resulted (on some graphics setups) in weird texture artifacts as well as [a bug that removed the camera on purging a world](https://github.com/MovingBlocks/Terasology/pull/4310) 🐛️.
+_@4D Enthusiast_ went about and fixed an [issue with our atlas regions](https://github.com/MovingBlocks/Terasology/pull/4311) that resulted (on some graphics setups) in weird texture artifacts as well as [a bug that removed the camera on purging a world](https://github.com/MovingBlocks/Terasology/pull/4310) 🐛️.
 Additionally, new contributors _@lasossette_ and _@asma_ lightened the AFKSystem a bit and model assets for Gooey and friends are now available in a general [`Gooey` module](https://github.com/Terasology/gooey).
 
 In total, that's [27 engine RPs](https://github.com/search?p=3&q=org%3AMovingBlocks+type%3Apr+merged%3A2020-12-06..2020-12-25) and [75 PRs on modules](https://github.com/search?q=org:Terasology+type:pr+merged:2020-12-06..2020-12-25) since December 6.
