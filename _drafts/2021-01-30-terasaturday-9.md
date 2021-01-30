@@ -43,6 +43,6 @@ _@DarkWeird_ reduced memory consumption by [deflating arrays for chunk represent
 With these insights we will probably adjust the default settings in the launcher after some testing.
 Furthermore, _@4D Enthusiast_ [fixed an aging issue with chunk generation](https://github.com/MovingBlocks/Terasology/pull/4353) that produced NPEs and rendered some chunks invisible.
 
-> :construction: add screenshot
+![Compare JVM Garbage Collectors]({{ site.baseurl }}/img/terasaturday/9/garbage-collectors.jpg)
 
 Finally, _@keturn_ dug deeper into Gradle, Kotlin, and whathever else the dwarves are doing under the surface to build our gigantuous code base 🤓🧰
