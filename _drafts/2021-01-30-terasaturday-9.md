@@ -28,7 +28,7 @@ Thus, with our [Terasology Launcher v4.3.0](https://github.com/MovingBlocks/Tera
 _@4D Enthusiast_ improved world generation and brought back rough mountains, overhangs, and much more (https://github.com/Terasology/CoreWorlds/pull/18).
 Below, we collected a few screenshots, but (while keeping in mind possible instabilities until the completion of JOML-ification) we encourage everybody to go check out our fancy new worlds themselves 🏞
 
-> :construction: add screenshots
+![World Generation Improvements]({{ site.baseurl }}/img/terasaturday/9/worldgen.jpg)
 
 _@Cervator_ worked together with _@e\_a_ and _@agent\_q1_ on getting our telemetry setup to work.
 The telemetry setup mainly consists of an ELK (Elasticsearch, Logstash, Kibana) stack that allows for collecting, storing and visualizting telemetry data from Terasology game servers.
