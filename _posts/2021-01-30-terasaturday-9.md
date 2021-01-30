@@ -38,7 +38,8 @@ _@Hajdam_ (with help from _@DarkWeird_) [fixed good ol' TeraEd for Linux and Win
 With this foundation laid, _@Hajdam_ plans to add more functionality to TeraEd in the future, any improvement recommendations welcome.
 
 Both, _@4D Enthusiast_ and _@DarkWeird_ worked on various ways to improve performance 🐢🧙‍♂️
-_@4D Enthusiast_ started working on more chunk magic, in particular [rendering chunks in the far distance with less details](https://github.com/MovingBlocks/Terasology/pull/4427) (Level of Detail, LOD) in order to reduce the main memory consumption.
+_@4D Enthusiast_ worked on more chunk magic, in particular [rendering chunks in the far distance even before there's enough data to render them perfectly](https://github.com/MovingBlocks/Terasology/pull/4427) in order to reduce the main memory consumption.
+The next iteration in that area will target rendering even more distant chunks (Level of Details, LOD).
 _@DarkWeird_ reduced memory consumption by [deflating arrays for chunk representation](https://github.com/MovingBlocks/Terasology/pull/4433), [migrated our benchmarks to JMH](https://github.com/MovingBlocks/Terasology/pull/4401), and played around with different garbage collectors, comparing them.
 With these insights we will probably adjust the default settings in the launcher after some testing.
 Furthermore, _@4D Enthusiast_ [fixed an aging issue with chunk generation](https://github.com/MovingBlocks/Terasology/pull/4353) that produced NPEs and rendered some chunks invisible.
