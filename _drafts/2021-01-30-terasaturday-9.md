@@ -4,7 +4,7 @@ title: "TeraSaturday #9: Happy New Year"
 description: >
   An exploration of recent events in Terasology development
 author: Skaldarnar
-header-img: "/img/2020-12_xmas.jpg"
+header-img: "/img/terasaturday/9/banner.jpg"
 ---
 
 _Welcome to the return of TeraSaturday, a not-so-weekly update post about all the neat stuff that has been going on in
