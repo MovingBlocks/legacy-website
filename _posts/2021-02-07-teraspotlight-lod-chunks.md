@@ -36,7 +36,7 @@ But let's hear what _@4D Enthusiast_ has to say about this in detail. 🤓
 
 So, the available levels of details should be sufficient 👍 
 In addition to scaling down the chunk resolution, the visible details are also limited to _world facets_ that support the scaling.
-This is currently only implemented for the basic terrain generation, but we are looking forward to extending this to features like trees.
+This is currently only implemented for the basic terrain generation in _Core Gameplay_ and _Josharias Survival_, but we are looking forward to extending this to features like trees.
 Oh, and the LOD chunks should have a quite low impact on the performance, too:
 
 > After an LOD chunk is finished generating, all of its data except for the mesh is discarded, because they are static and cannot be interacted with, so the mesh is all that's needed. 
@@ -63,7 +63,7 @@ Read on for some technical insights, as well as some more screenshots:
 </div>
 
 > Another issue I had to fix was that the far clipping plane was sometimes too close. 
-> There's a tradeoof in rendering between the accuracy with which it can be determined which of two things is closer (and therefore should be visible in front) and the maximum distance at which you can see something. 
+> There's a trade-off in rendering between the accuracy with which it can be determined which of two things is closer (and therefore should be visible in front) and the maximum distance at which you can see something. 
 > The maximum distance was set to 5000 previously, I suppose as that seemed like obviously plenty (probably even too much), but with LOD chunks, much greater view distances than that are possible, so I had to adjust the far clipping plane distance to adapt to the current render distance and number of LODs.
 > This then had another issue that at the minimum settings, the clipping plane was so close that the sky wasn't visible, and would just appear black instead, so I had to set a minimum limit to avoid that.
 
