@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "TeraSpotlight: Extrem View Distances with LOD Chunks"
+title: "TeraSpotlight: Extreme View Distances with LOD Chunks"
 description: >
   The idea of extreme view distances with LOD chunks is nearly as old as this project, and now it's finally a dream come true.
 author: Skaldarnar
-header-img: "/img/terasaturday/9/banner.jpg"
+header-img: "/img/2021-02-07-teraspotlight-lod-chunks/banner.jpg"
 ---
 
 _Please enjoy this special spotlight post about a new feature we are excited about. We hope you will like it as much as we do!_
@@ -12,7 +12,7 @@ _Please enjoy this special spotlight post about a new feature we are excited abo
 ## 🤩 Spotlight
 
 Thanks to _@4D Enthusiast_ a long-time dream has finally come true. 
-You can experience the worlds of Terasology with [**extrem view and render distances**](https://github.com/MovingBlocks/Terasology/pull/4452) now!
+You can experience the worlds of Terasology with [**extreme view and render distances**](https://github.com/MovingBlocks/Terasology/pull/4452) now!
 This was made possible by allowing for different levels of detail (LOD) for the chunks.
 But let's hear what _@4D Enthusiast_ has to say about this in detail. 🤓
 
@@ -35,7 +35,7 @@ But let's hear what _@4D Enthusiast_ has to say about this in detail. 🤓
 > As an example, with view distance Near (9 * 7 * 9), it would take 16 LODs to have an area the size of the earth visible, and 22 LODs for the moon to be directly visible in the sky (although a block-based moon couldn't actually move).
 
 So, the available levels of details should be sufficient 👍 
-In addition to scaling down the chunk resolution the visible details are also limited to _world facets_ that support the scaling.
+In addition to scaling down the chunk resolution, the visible details are also limited to _world facets_ that support the scaling.
 This is currently only implemented for the basic terrain generation, but we are looking forward to extending this to features like trees.
 Oh, and the LOD chunks should have a quite low impact on the performance, too:
 
