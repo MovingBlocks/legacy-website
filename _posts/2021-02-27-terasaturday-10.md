@@ -43,7 +43,7 @@ Over the past month, since January 31, in total we merged [101 engine RPs](https
 
 ## 🎀️ Community Highlights
 
-_@Cervator_ and _Suhas_ worked on our telemetry integration, so that now you can agree to send logs to our [telemetry stack](https://telemetry.terasology.com) 📝
+_@Cervator_ and _@Suhas_ worked on our telemetry integration, so that now you can agree to send logs to our [telemetry stack](https://telemetry.terasology.com) 📝
 To do so, check the "Metric Menu" in the game menu "Extras" and select to send logs. With this, we hope to get some insights into frequent failures players face.
 
 _@keturn_ showed his passion for meaningful tests and trustworthy test results and worked out the details of the ModuleTestingEnvironment (MTE) in our CI 🔧
