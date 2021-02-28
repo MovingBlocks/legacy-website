@@ -1,26 +1,22 @@
 ---
 layout: post
-title: TeraSaturday #3: Core Explosion
+title: "TeraSaturday #3: Core Explosion"
 description: >
   An exploration of recent events in Terasology development
 author: Jordan H. (Qwertygiy)
-header-img: "/img/terasaturday/3/logo.png"
+header-img: "/img/terasaturday/3/banner.jpg"
 ---
 
 _Welcome to the return of TeraSaturday, a not-so-weekly update post about all the neat stuff that has been going on in 
 the world of Terasology! Half blog, half changelog, completely cool._
 
-## TeraSaturday #3
-
-### May 30, 2020
+------------------------
 
 * It's been a lot longer than I intended since I put together the last TeraSaturday post. Some quiet weeks, some buggy 
 weeks, some apocalyptic weeks! There's been a lot that's happened in the interim, but there's one 
 recent project that deserves the most attention first:
 
-------------------------
-
-#### The Core Explosion
+## The Core Explosion
 
 For years, the Core module of Terasology contained everything needed for some simple gameplay. Basic world generators, 
 the inventory system, grass and stone and trees and chests and all that fun stuff. Even dynamite! There was a bit of a 
@@ -56,8 +52,6 @@ The new modules of [Furnishings] and [Explosives] hold the game logic that those
  
 If you're just playing the game, you probably won't notice much of a difference before and after. But for module 
 developers, it opens a lot of doors (and chests!) for making more cool stuff, more efficiently.
-
----------------------
 
 <!-- References -->
 [CoreAdvancedAssets]: https://github.com/Terasology/CoreAdvancedAssets
