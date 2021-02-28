@@ -1,22 +1,18 @@
 ---
 layout: post
-title: TeraSaturday #4: The Gradle Will Rock
+title: "TeraSaturday #4: The Gradle Will Rock"
 description: >
   An exploration of recent events in Terasology development
 author: Jordan H. (Qwertygiy)
-header-img: "/img/terasaturday/4/logo.png"
+header-img: "/img/terasaturday/4/banner.jpg"
 ---
 
 _Welcome to the return of TeraSaturday, a not-so-weekly update post about all the neat stuff that has been going on in 
 the world of Terasology! Half blog, half changelog, completely cool._
 
-## TeraSaturday #4
-
-### June 6, 2020
-
 ------------------------
 
-#### The Gradle Will Rock
+## The Gradle Will Rock
 
 In addition to the realignment of modules, we've been hard at work overhauling the basic development environment of
 Terasology. Keturn, DarkWeird, and of course Cervator have led the way towards further integration of project setup
@@ -32,7 +28,6 @@ numbered. The basic supported versions of Gradle and Java have been updated -- o
 Gradle 6.4, and while Terasology still supports Java 8, it should work a lot better on Java 11 now, too. Starting with 
 [IDEA 2020.1], it's possible to download and install specific versions of the Java Development Kit right from the IDE, 
 making it much easier to set up a consistent project environment.
-
 
 Because of all these changes, the process to set up a new Terasology workspace has changed. Here's the new process:
 
