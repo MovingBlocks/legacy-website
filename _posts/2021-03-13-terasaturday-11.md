@@ -45,7 +45,7 @@ If no specific direction can be identified, e.g., if the damage is due to thirst
 
 ---
 
-Let's end this post with a "service announcement" which also fits the **T**oday **I** **L**earned category of thigs:
+Let's end this post with a "service announcement" which also fits the **T**oday **I** **L**earned category of things:
 
 > ℹ️ Public Service Announcement: Clean the log files from your ~/.gradle/daemon folder once in a while. I've got over 800 MB in there right now.
 > 
