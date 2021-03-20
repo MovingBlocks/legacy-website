@@ -10,6 +10,11 @@ header-img: "/img/terasaturday/12/banner.jpg"
 _Welcome to the return of TeraSaturday, a not-so-weekly update post about all the neat stuff that has been going on in
 the world of Terasology! Half blog, half changelog, completely cool._
 
+## 📯 Terasology Alpha 19 (v4.3.0) released!
+
+We are happy to announce that we just released Terasology Alpha 19 (v4.3.0).
+While this release mainly consists of foundation work and "under-the-hood" improvements that are not visible in the game, our contributors also added a few quite visible goodies such as visual damage indicators (see TeraSaturday #11) and a world generation plugin for Flying Islands 🛸
+
 ## 📰 Since last TeraSaturday ...
 
 Many thanks to our contributors since last [TeraSaturday #11]({% post_url 2021-03-13-terasaturday-11 %}): _@antag99_, _@DarkWeird_, _@keturn_, _@pollend_, and _@skaldarnar_.
@@ -40,6 +45,8 @@ If no specific direction can be identified, e.g., if the damage is due to thirst
 <p align="center">
 <img src="{{ site.baseurl }}/img/terasaturday/11/damage-flash.gif" alt="Sorted in-game help"/>
 </p>
+
+
 
 ---
 
