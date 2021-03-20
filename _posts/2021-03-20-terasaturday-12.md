@@ -35,7 +35,7 @@ In total, we merged [10 engine PRs](https://github.com/search?q=org%3AMovingBloc
 We start this week's community highlights with the finishing touches to the [Flying Islands][Terasology/FlyingIslands] module, which is in the just released **alpha 19** (engine v4.3.0).
 _@sin3point14_ did a great job implementing a world gen plugin to add flying islands to the world. 
 
-But what power let's these island float in the air (and prevent them from falling down from the sky in case [Falling Blocks][Terasology/FallingBlocks] is enabled)? 
+But what power lets these islands float in the air (and prevent them from falling down from the sky in case [Falling Blocks][Terasology/FallingBlocks] is enabled)? 
 On the tracks of _[Gulliver's Travels](https://en.wikipedia.org/wiki/Laputa)_ we discover that there is a strange block at the core of each of the islands, shimmering of magic.
 
 <video width= "320" height="240" controls>
@@ -43,10 +43,10 @@ On the tracks of _[Gulliver's Travels](https://en.wikipedia.org/wiki/Laputa)_ we
 </video>
 
 > Working on a new block texture for the `Laputa Adamant` block in Flying Islands was pretty fun. 
-> I used the opportunity to try out [aseprite] for the pixel art, and am pretty satsified how intuitive the UX is.
+> I used the opportunity to try out [aseprite] for the pixel art, and am pretty satsified with how intuitive the UX is.
 > I tried to catch the magical essence of the block - it is floating for some non-obvious reason, there has to be magic involved!✨ - by giving it a cracked look, with a purple light shining from the core.
 > 
-> After _@4Denthusiast_ pointed out that we suppurt **animated block tiles** the frame-by-frame animation of aseprite came in pretty handy, and now we have a pulsating, magical block 🙃
+> After _@4Denthusiast_ pointed out that we support **animated block tiles** the frame-by-frame animation of aseprite came in pretty handy, and now we have a pulsating, magical block 🙃
 <p align="center">
   <img src="{{ site.baseurl }}/img/terasaturday/12/laputa_adamant.png" alt="What animal should Terasology become?"/>
 </p>
