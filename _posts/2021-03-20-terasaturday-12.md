@@ -28,7 +28,6 @@ In total, we merged [10 engine PRs](https://github.com/search?q=org%3AMovingBloc
 - laputa + story
 - JS issues + motivation
 - wiki / docs / structure + explanation
-- teaser workshop animals
 
 
 
@@ -44,20 +43,8 @@ If no specific direction can be identified, e.g., if the damage is due to thirst
 
 ---
 
-Let's end this post with a "service announcement" which also fits the **T**oday **I** **L**earned category of things:
+Let's end this post with a teaser for a TeraSpotlight post about our recent community pulse-check workshop that will (hopefully) come up soon: Have you ever thought about what animal Terasology might be? - We neither 😁 But then we decided to try... here's what we came up with.
 
-> ℹ️ Public Service Announcement: Clean the log files from your ~/.gradle/daemon folder once in a while. I've got over 800 MB in there right now.
-> 
-> (That's the gradle user home directory: https://docs.gradle.org/current/userguide/directory_layout.html#dir:gradle_user_home 
-> Windows might name things differently?)
-
-<!-- References -->
-[#4271]: https://github.com/MovingBlocks/Terasology/pull/4271
-[#4557]: https://github.com/MovingBlocks/Terasology/pull/4557
-[#4558]: https://github.com/MovingBlocks/Terasology/pull/4558
-[#4563]: https://github.com/MovingBlocks/Terasology/pull/4563
-[#4564]: https://github.com/MovingBlocks/Terasology/pull/4564
-[#4567]: https://github.com/MovingBlocks/Terasology/pull/4567
-[modules:junit5]: https://github.com/search?q=org%3ATerasology+type%3Apr+merged%3A2021-02-27..2021-03-13+junit
-[Terasology/Health#53]: https://github.com/Terasology/Health/pull/53
-[Terasology/Health#67]: https://github.com/Terasology/Health/pull/67
+<p align="center">
+<img src="{{ site.baseurl }}/img/terasaturday/12/terasology-animal.png" alt="What animal should Terasology become?"/>
+</p>
