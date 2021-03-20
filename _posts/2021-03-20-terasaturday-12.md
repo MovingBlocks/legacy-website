@@ -21,11 +21,15 @@ Many thanks to our contributors since last [TeraSaturday #11]({% post_url 2021-0
 
 After the preparational groundwork of the previous week, the _gestalt v7_ efforts of this week led to moving basically each and every package and file in the engine. As a result most of our omega modules had to be adjusted accordingly. A big thank you to _@keturn_, _@pollend_ and _@DarkWeird_ for their dedication! 🤗
 
-- gestalt DI / DestSol pollend, DarkWeird
-- build stuff keturn
+_@pollend_ and _@DarkWeird_ continued to brainstorm and discuss dependency injection (DI) for/with/in/through/by (🤪) gestalt.
+While this is still in planning, we're looking forward to hear more about it soon™️ - so keep checking the TeraSaturday posts regularly 😉
+
+Apart from his substantial contributions to the gestalt v7 efforts, _@keturn_ continued improving our test situation ([#4573](https://github.com/MovingBlocks/Terasology/pull/4573), [#4574](https://github.com/MovingBlocks/Terasology/pull/4574)) and started to investigate parallelization potential of our tests.
+While he discovered that a parallel approach does indeed offer some speed-up, it was neither a quantum leap nor free of issues. Especially our ModuleTestingEnvironment (MTE) tests are troublesome as well as integration tests colliding on network ports, etc.
+Still, we hope to be able to leverage parallelization especially for decoupled, dependency-less tests like unit tests in the future.
 
 Last but not least, since our recent JOML efforts we had a bug that resulted in the target indication box on a previously targeted block to stay rendered even when rotating the camera upwards so that it points at a block that is not within range.
-We'd like to send out a warm welcome and thank you to our new contributor _@antag99_  who fixed this bug as one of his first contributions within our community 👋
+We'd like to send out a warm welcome and thank you to our new contributor _@antag99_ who [fixed this bug](https://github.com/MovingBlocks/Terasology/pull/4585) as one of his first contributions within our community 👋
 
 In total, we merged [10 engine PRs](https://github.com/search?q=org%3AMovingBlocks+type%3Apr+merged%3A2021-03-14..2021-03-20) and [130 PRs on modules](https://github.com/search?q=org%3ATerasology+type%3Apr+merged%3A2021-03-14..2021-03-20).
 
@@ -56,7 +60,7 @@ On the tracks of _[Gulliver's Travels](https://en.wikipedia.org/wiki/Laputa)_ we
 
 ---
 
-Let's end this post with a teaser for a TeraSpotlight post about our recent community pulse-check workshop that will (hopefully) come up soon: Have you ever thought about what animal Terasology might be? - We neither 😁 But then we decided to try... here's what we came up with.
+Let's end this post with a teaser for a TeraSpotlight post about our recent community pulse-check workshop that will (hopefully) come up soon™️: Have you ever thought about what animal Terasology might be? - We neither 😁 But then we decided to try... here's what we came up with.
 
 <p align="center">
 <img src="{{ site.baseurl }}/img/terasaturday/12/terasology-animal.png" alt="What animal should Terasology become?"/>
