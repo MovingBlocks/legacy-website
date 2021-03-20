@@ -23,7 +23,9 @@ After the preparational groundwork of the previous week, the _gestalt v7_ effort
 
 - gestalt DI / DestSol pollend, DarkWeird
 - build stuff keturn
-- antag99 fix
+
+Last but not least, since our recent JOML efforts we had a bug that resulted in the target indication box on a previously targeted block to stay rendered even when rotating the camera upwards so that it points at a block that is not within range.
+We'd like to send out a warm welcome and thank you to our new contributor _@antag99_  who fixed this bug as one of his first contributions within our community 👋
 
 In total, we merged [10 engine PRs](https://github.com/search?q=org%3AMovingBlocks+type%3Apr+merged%3A2021-03-14..2021-03-20) and [130 PRs on modules](https://github.com/search?q=org%3ATerasology+type%3Apr+merged%3A2021-03-14..2021-03-20).
 
