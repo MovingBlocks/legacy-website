@@ -23,7 +23,9 @@ After the preparational groundwork of the previous week, the _gestalt v7_ effort
 
 - gestalt DI / DestSol pollend, DarkWeird
 - build stuff keturn
-- antag99 fix
+
+Last but not least, since our recent JOML efforts we had a bug that resulted in the target indication box on a previously targeted block to stay rendered even when rotating the camera upwards so that it points at a block that is not within range.
+We'd like to send out a warm welcome and thank you to our new contributor _@antag99_  who fixed this bug as one of his first contributions within our community 👋
 
 In total, we merged [10 engine PRs](https://github.com/search?q=org%3AMovingBlocks+type%3Apr+merged%3A2021-03-14..2021-03-20) and [130 PRs on modules](https://github.com/search?q=org%3ATerasology+type%3Apr+merged%3A2021-03-14..2021-03-20).
 
@@ -35,7 +37,7 @@ In total, we merged [10 engine PRs](https://github.com/search?q=org%3AMovingBloc
 We start this week's community highlights with the finishing touches to the [Flying Islands][Terasology/FlyingIslands] module, which is in the just released **alpha 19** (engine v4.3.0).
 _@sin3point14_ did a great job implementing a world gen plugin to add flying islands to the world. 
 
-But what power let's these island float in the air (and prevent them from falling down from the sky in case [Falling Blocks][Terasology/FallingBlocks] is enabled)? 
+But what power lets these islands float in the air (and prevent them from falling down from the sky in case [Falling Blocks][Terasology/FallingBlocks] is enabled)? 
 On the tracks of _[Gulliver's Travels](https://en.wikipedia.org/wiki/Laputa)_ we discover that there is a strange block at the core of each of the islands, shimmering of magic.
 
 <p align="center">
@@ -45,9 +47,11 @@ On the tracks of _[Gulliver's Travels](https://en.wikipedia.org/wiki/Laputa)_ we
 </p>
 
 > Working on a new block texture for the `Laputa Adamant` block in Flying Islands was pretty fun. 
-> I used the opportunity to try out [aseprite] for the pixel art, and am pretty satsified how intuitive the UX is.
+> I used the opportunity to try out [aseprite] for the pixel art, and am pretty satsified with how intuitive the UX is.
 > I tried to catch the magical essence of the block - it is floating for some non-obvious reason, there has to be magic involved!✨ - by giving it a cracked look, with a purple light shining from the core.
- 
+> 
+> After _@4Denthusiast_ pointed out that we support **animated block tiles** the frame-by-frame animation of aseprite came in pretty handy, and now we have a pulsating, magical block 🙃
+
 <div class="row">
   <div class="col s12 m3 l3"></div>
   <div class="col s12 m6 l6">
