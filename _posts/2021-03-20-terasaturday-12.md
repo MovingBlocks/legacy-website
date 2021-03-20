@@ -24,12 +24,13 @@ After the preparational groundwork of the previous week, the _gestalt v7_ effort
 _@pollend_ and _@DarkWeird_ continued to brainstorm and discuss dependency injection (DI) for/with/in/through/by (🤪) gestalt.
 While this is still in planning, we're looking forward to hear more about it soon™️ - so keep checking the TeraSaturday posts regularly 😉
 
-Apart from his substantial contributions to the gestalt v7 efforts, _@keturn_ continued improving our test situation ([#4573](https://github.com/MovingBlocks/Terasology/pull/4573), [#4574](https://github.com/MovingBlocks/Terasology/pull/4574)) and started to investigate parallelization potential of our tests.
+Apart from his substantial contributions to the gestalt v7 efforts, _@keturn_ continued improving our test situation ([#4573](https://github.com/MovingBlocks/Terasology/pull/4573), [#4574](https://github.com/MovingBlocks/Terasology/pull/4574), [#4579](https://github.com/MovingBlocks/Terasology/pull/4579)) and started to investigate parallelization potential of our tests.
 While he discovered that a parallel approach does indeed offer some speed-up, it was neither a quantum leap nor free of issues. Especially our ModuleTestingEnvironment (MTE) tests are troublesome as well as integration tests colliding on network ports, etc.
 Still, we hope to be able to leverage parallelization especially for decoupled, dependency-less tests like unit tests in the future.
 
-Last but not least, since our recent JOML efforts we had a bug that resulted in the target indication box on a previously targeted block to stay rendered even when rotating the camera upwards so that it points at a block that is not within range.
-We'd like to send out a warm welcome and thank you to our new contributor _@antag99_ who [fixed this bug](https://github.com/MovingBlocks/Terasology/pull/4585) as one of his first contributions within our community 👋
+Last but not least, we'd like to send out a warm welcome and thank you to our new contributor _@antag99_ who made his debut in our community by fixing two recently introduced bugs 🎉
+The first bug he [fixed](https://github.com/MovingBlocks/Terasology/pull/4581) was likely introduced by our recent gestalt v7 preparations: after playing in a Terasology world, exiting to the main menu crashed the game.
+The second bug he [fixed](https://github.com/MovingBlocks/Terasology/pull/4585) was likely introduced by our recent JOML efforts: the target indication box on a previously targeted block to stayed rendered even when rotating the camera upwards so that it points at a block that is not within range.
 
 In total, we merged [10 engine PRs](https://github.com/search?q=org%3AMovingBlocks+type%3Apr+merged%3A2021-03-14..2021-03-20) and [130 PRs on modules](https://github.com/search?q=org%3ATerasology+type%3Apr+merged%3A2021-03-14..2021-03-20).
 
