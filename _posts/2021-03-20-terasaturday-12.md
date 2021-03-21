@@ -65,7 +65,27 @@ On the tracks of _[Gulliver's Travels](https://en.wikipedia.org/wiki/Laputa)_ we
   <div class="col s12 m3 l3"></div>
 </div>
 
-- JS issues + motivation
+### Writing Actionable Action Items
+
+What sounds like a trivial issue is actually something that's rarely done and far from simple - action items are results of tests, discussions, meetings and other efforts that are too often neglected.
+Like taking notes in general, during a discussion, presentation, course or meeting noting down action items seems unnecessary.
+Why? Because in the moment the notes should be taken, everything seems perfectly clear and intuitive to the point of obviousness.
+Why bother writing down the obvious...
+
+Furthermore, not all action items you might be inclined to write down after all are actually feasible.
+Closely related to the art of realistic goal planning, deriving well-sized and feasible action items and writing them down in a clear, structured and understandable manner requires practise and experience.
+If action items are too wide-scoped, they take a lot of effort and time to complete which negatively impacts the sense of achievement.
+However, if they are too small and manifold, they can seem tedious and boring and create a sense of being taken for a fool.
+Further, if action items are not feasible, they will lie around and be ignored to the point that - once they become feasible - everybody will assume they're still not feasible and keep ignoring them.
+
+We recently observed that instead of writing up actionable action items as GitHub issues that are easy for everybody willing to contribute to find, we kept the action items in our org meeting document or as cards on our Trello boards.
+Both of them are neither improve the visibility of the action items for new contributors, nor reduce maintainance efforts in terms of liaising potential contributions with the action item.
+
+That's why, _@pollend_ started an effort to write up GitHub issues based on action items listed in our org meeting document and Trello boards.
+In a first step, this mainly targeted improvements for "Josharias Survival" one of our main gameplays.
+You can find the newly created and actionable items in the [associated "JoshariasSurvival" repository](https://github.com/Terasology/JoshariasSurvival/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
+We hope that these enable interested contributors to get started with contributing gameplay improvements for Terasology.
+
 - wiki / docs / structure + explanation
 
 ---
