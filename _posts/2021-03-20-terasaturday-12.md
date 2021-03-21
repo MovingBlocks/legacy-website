@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TeraSaturday #12: "
+title: "TeraSaturday #12: Whatever floats your Island"
 description: >
   An exploration of recent events in Terasology development
 author: Skaldarnar, Niruandaleth
@@ -12,14 +12,16 @@ the world of Terasology! Half blog, half changelog, completely cool._
 
 ## 📯 Terasology Alpha 19 (v4.3.0) released!
 
-We are happy to announce that we just released Terasology Alpha 19 (v4.3.0).
-While this release mainly consists of foundation work and "under-the-hood" improvements that are not visible in the game, our contributors also added a few quite visible goodies such as visual damage indicators (see TeraSaturday #11) and a world generation plugin for Flying Islands 🛸
+We are happy to announce that we just released [Terasology Alpha 19 (v4.3.0)].
+While this release mainly consists of foundation work and "under-the-hood" improvements that are not visible in the game, our contributors also added a few quite visible goodies such as visual damage indicators (see [TeraSaturday #11]) and a world generation plugin for Flying Islands 🛸
 
 ## 📰 Since last TeraSaturday ...
 
-Many thanks to our contributors since last [TeraSaturday #11]({% post_url 2021-03-13-terasaturday-11 %}): _@antag99_, _@DarkWeird_, _@keturn_, _@pollend_, and _@skaldarnar_.
+Many thanks to our contributors since last [TeraSaturday #11]: _@antag99_, _@DarkWeird_, _@keturn_, _@pollend_, and _@skaldarnar_.
 
-After the preparational groundwork of the previous week, the _gestalt v7_ efforts of this week led to moving basically each and every package and file in the engine. As a result most of our omega modules had to be adjusted accordingly. A big thank you to _@keturn_, _@pollend_ and _@DarkWeird_ for their dedication! 🤗
+After the preparational groundwork of the previous week, the _gestalt v7_ efforts of this week led to moving basically each and every package and file in the engine. 
+As a result most of our Ωmega modules had to be adjusted accordingly.
+A big thank you to _@keturn_, _@pollend_ and _@DarkWeird_ for their dedication! 🤗
 
 _@pollend_ and _@DarkWeird_ continued to brainstorm and discuss dependency injection (DI) for/with/in/through/by (🤪) gestalt.
 While this is still in planning, we're looking forward to hear more about it soon™️ - so keep checking the TeraSaturday posts regularly 😉
@@ -83,14 +85,14 @@ However, if they are too small and manifold, they can seem tedious and boring an
 Further, if action items are not feasible, they will lie around and be ignored to the point that - once they become feasible - everybody will assume they're still not feasible and keep ignoring them.
 
 We recently observed that instead of writing up actionable action items as GitHub issues that are easy for everybody willing to contribute to find, we kept the action items in our org meeting document or as cards on our Trello boards.
-Both of them are neither improve the visibility of the action items for new contributors, nor reduce maintainance efforts in terms of liaising potential contributions with the action item.
+Both of them neither improve the visibility of the action items for new contributors, nor reduce maintainance efforts in terms of liaising potential contributions with the action item.
 
 That's why, _@pollend_ started an effort to write up GitHub issues based on action items listed in our org meeting document and Trello boards.
 In a first step, this mainly targeted improvements for "Josharias Survival" one of our main gameplays.
 You can find the newly created and actionable items in the [associated "JoshariasSurvival" repository](https://github.com/Terasology/JoshariasSurvival/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
 We hope that these enable interested contributors to get started with contributing gameplay improvements for Terasology.
 
-### 📚 Documenation Cleanup
+### 📚 Documentation Cleanup
 
 Spring is around the corner, as are all the GSOC students eager to dive deeper into the Terasology code base, so we put some effort into cleaning up the [Terasology Wiki].
 It all started off with a simple architectural overview of the typical **Terasology workspace** drawn by _@skaldarnar_. 
@@ -121,7 +123,7 @@ Special thanks to _@casals_ and _@Niruandaleth_ for helping with cleaning things
 
 ---
 
-Let's end this post with a teaser for a TeraSpotlight post about our recent community pulse-check workshop that will (hopefully) come up soon™️: Have you ever thought about what animal Terasology might be? - We neither 😁 But then we decided to try... here's what we came up with.
+Let's end this post with a teaser for a TeraSpotlight post about our recent community pulse-check workshop that will (hopefully) come up soon™️: Have you ever thought about what animal Terasology might be? - We neither 😁 But then we decided to try... here's what we came up with ... 🥚 🐑 🐮 🐽
 
 <p align="center">
 <img src="{{ site.baseurl }}/img/terasaturday/12/terasology-animal.png" alt="What animal should Terasology become?"/>
@@ -129,6 +131,7 @@ Let's end this post with a teaser for a TeraSpotlight post about our recent comm
 
 <!-- References -->
 
+[Terasology Alpha 19 (v4.3.0)]: https://github.com/MovingBlocks/Terasology/releases/tag/v4.3.0
 [aseprite]: https://www.aseprite.org/
 [Terasology/FlyingIslands]: https://github.com/Terasology/FlyingIslands
 [Terasology/FallingBlocks]: https://github.com/Terasology/FallingBlocks
@@ -137,3 +140,5 @@ Let's end this post with a teaser for a TeraSpotlight post about our recent comm
 [MovingBlocks/gestalt]: https://github.com/MovingBlocks/gestalt
 [MovingBlocks/TeraNUI]: https://github.com/MovingBlocks/TeraNUI
 [Terasology Github organization]: https://github.com/Terasology
+
+[TeraSaturday #11]: {% post_url 2021-03-13-terasaturday-11 %}
