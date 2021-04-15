@@ -1,8 +1,7 @@
-// For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
-// https://github.com/microsoft/vscode-dev-containers/tree/master/containers/javascript-node-lts
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json
 {
-  "name": "Node.js (latest LTS)",
-  "dockerFile": "Dockerfile",
+  "name": "Jekyll",
+  "image": "jekyll/jekyll:4.2.0",
 
   // Use 'settings' to set *default* container specific settings.json values on container create.
   // You can edit these settings after create using File > Preferences > Settings > Remote.
@@ -11,19 +10,19 @@
   },
 
   // Uncomment the next line if you want to publish any ports.
-  "appPort": ["4000"],
+  "forwardPorts": [4000],
 
   // Uncomment the next line to run commands after the container is created.
-  // "postCreateCommand": "yarn install",
+  "postCreateCommand": "bundle update",
+
+  "postStartCommand": "bundle exec jekyll serve --draft --future --incremental -P 4000",
 
   // Uncomment the next line to use a non-root user. On Linux, this will prevent
   // new files getting created as root, but you may need to update the USER_UID
   // and USER_GID in .devcontainer/Dockerfile to match your user if not 1000.
-  // "runArgs": [ "-u", "node" ],
+  //"runArgs": [ "-u", "1000" ],
 
   // Add the IDs of extensions you want installed when the container is created in the array below.
   "extensions": [
-    "dbaeumer.vscode-eslint",
-    "streetsidesoftware.code-spell-checker"
   ]
 }
