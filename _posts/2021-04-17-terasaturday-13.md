@@ -13,7 +13,7 @@ the world of Terasology! Half blog, half changelog, completely cool._
 ## 📩 GSoC Student Applications arrived!
 
 Over the past weeks, almost 30 students joined our Discord Server, introducing themselves and voicing interest in Google's Summer of Code (GSoC).
-With a round dozen of these students we enjoyed a lot of Q&A, discussion rounds and draft proposal review back-and-forth.
+With a round dozen of these students we enjoyed a lot of Q&A, discussion rounds and draft proposal review back-and-forth - basically setting our Discord on fire 🔥
 We're proud to announce that we received 14 student applications for projects within our community in the context of this year's GSoC 💚
 
 ## 📰 Since last TeraSaturday ...
@@ -22,10 +22,6 @@ Many thanks to our contributors since last [TeraSaturday #12]: _@4Denthusiast_, 
 
 First of all, we doubled up on UI this week 🖥️🖥️ when updating from `TeraNUI` 1.5 to 3.0! You could also say, our user interface got 3D now, but maybe that's too much bad jokes for one blog post 🤪
 While talking about UI, let's also mention that _@DarkWeird_ [migrated `PlayerConfig` to leverage `AutoConfig`](https://github.com/MovingBlocks/Terasology/pull/4599).
-
-Less focused on bad jokes is our current effort to improve our non-engine documentation.
-Until we have enough capacity to introduce some more complex tool like [OrchidDocs](https://orchid.run/bundles/orchiddocs), we'll leverage the light and less intrusive [docsify](https://docsify.js.org/#/).
-Have a look at the fancy new docs of our first migration candidate [`Health`](https://github.com/Terasology/Health): https://terasology.github.io/Health ✨
 
 With our documentation efforts focusing on making it easier for module developers to adjust documentation as part of a PR, we also continuously try to make it easier for our contributors to write blog posts.
 In this context, _@skaldarnar_ fixed the devcontainer setup for our website, such that in addition to using GitPod, blog posts can also be authored using the [Visual Studio Code Remote - Containers extension](https://code.visualstudio.com/docs/remote/containers).
@@ -53,6 +49,18 @@ In total, we merged [34 engine PRs](https://github.com/search?q=org%3AMovingBloc
 
 ## 🎀️ Community Highlights
 
+### ✨ Prettifying Repositories and Documentation
+
+After cleaning up our main documentation in the engine wiki, we're continuing the documentation efforts outside of the engine.
+Until we have enough capacity to introduce some more complex tool like [OrchidDocs](https://orchid.run/bundles/orchiddocs), we'll leverage the light and less intrusive [docsify](https://docsify.js.org/#/).
+Have a look at the fancy new docs of our first migration candidate [`Health`](https://github.com/Terasology/Health): https://terasology.github.io/Health ✨
+
+While in the artistic zone due to creating neat module banner images, _@skaldarnar_ also for our [module/repository archive](https://github.com/Terasology-Archived/).
+
+<div align="center">
+    <img src="{{ site.baseurl }}/img/terasaturday/13/terasology-archived-logo.png" alt="Visualizations in Kibana based on Log Data" width="50%"/>
+</div>
+
 ### ✒️ Breaking Down Proposals and Feature Tasks
 
 _@keturn_ wrote an [incredibly awesome forum post](https://forum.terasology.org/threads/proposals-and-feature-task-breakdown.2345/) as guidance for our prospective students regarding considerations for project time management and planning.
@@ -67,5 +75,5 @@ The student applied for a project targeting log data analysis to help us gain in
 With DPP and GDPR, there's two more big topics to work out before we can move to a consent-based default log collection.
 
 <div align="center">
-    <img src="{{ site.baseurl }}/img/terasaturday/13/kibana-dashboard.svg" alt="Visualizations in Kibana based on Log Data"/>
+    <img src="{{ site.baseurl }}/img/terasaturday/13/kibana-dashboard.png" alt="Visualizations in Kibana based on Log Data" width="100%"/>
 </div>
