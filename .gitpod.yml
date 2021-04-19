@@ -1,5 +1,4 @@
-image:
-  file: .gitpod.Dockerfile
+image: jekyll/jekyll:4.2.0
 
 # List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/config-ports/
 ports:
