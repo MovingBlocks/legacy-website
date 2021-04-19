@@ -8,5 +8,5 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: bundle install # runs during prebuild
-    command: bundle exec jekyll serve --future --drafts
+  - init: bundle update # runs during prebuild
+    command: bundle exec jekyll serve --draft --future --incremental -P 4000
