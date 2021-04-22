@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json
 {
   "name": "Jekyll",
-  "image": "jekyll/jekyll:4.2.0",
+  "dockerFile": "Dockerfile",
 
   // Use 'settings' to set *default* container specific settings.json values on container create.
   // You can edit these settings after create using File > Preferences > Settings > Remote.
@@ -13,7 +13,7 @@
   "forwardPorts": [4000],
 
   // Uncomment the next line to run commands after the container is created.
-  "postCreateCommand": "bundle update",
+  "postCreateCommand": "bundle install",
 
   "postStartCommand": "bundle exec jekyll serve --draft --future --incremental -P 4000",
 
