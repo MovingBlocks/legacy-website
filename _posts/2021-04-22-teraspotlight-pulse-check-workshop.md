@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "TeraSpotlight: Community Pulse Check"
+title: "TeraSpotlight: Contributor Pulse Check"
 description: >
   A short spotlight on the results of our first community workshop targeting what motivates us and what we envision for Terasology's future.
-author: Skaldarnar
+author: Niruandaleth
 header-img: "/img/2021-04-22-teraspotlight-pulse-check-workshop/banner.jpg"
 ---
 
@@ -34,7 +34,7 @@ We act and contribute in different ways and for different reasons.
 This is why, the first question we asked ourselves was: "Which animal do I feel like when contributing to Terasology?"
 
 From ant to elephant, from whale to platypus, from peacock to ant-eater - the spirit animals representing us contributing to Terasology were as different as we are as people.
-While some of us run around all busy, working on a lot of different topics and area, others prefer to contribute with large changes with long term goals.
+While some of us run around all busy, working on a lot of different topics and areas, others prefer to contribute with large changes with long term goals.
 Some even do both, being rather casual for a while and then bursting out in activity.
 At the same time, some of us like to produce fancy, visible features and show them off, while others concentrate on "eating" bugs or work behind the scenes to keep the community going.
 
@@ -107,7 +107,7 @@ Especially in the current "scary world of 2020/2021", Terasology for us is an an
 For us, it's our main non-work activity and a regular part of our weekly focus time off the clock.
 We consider ourselves a community of friends and deeply care for our project.
 
-### "Yay"s & "Ney"s
+### 🔥 "Yay"s & "Ney"s 🧯
 
 Albeit all the love and care, naturally there's factors that demotivate us and slow down our drive.
 The responses to the "When contributing to Terasology, I'm demotivated by/when ..." prompt brought to light both technical and non-technical factors:
@@ -131,6 +131,94 @@ In response to the "When contributing to Terasology, I'm motivated by/when ..." 
 
 
 ## 🔮 Vision
+
+Fully motivated by the first module, in this second workshop module we set out to try to understand what our vision for Terasology is:
+
+* how do we (want to) stand out?
+* what would we like to change and work on?
+* how do we feel about Terasology's future?
+* who do we want Terasology to be built for?
+
+### 🐾 Terasology Spirit Animal
+
+Based on all the different areas of Terasology we work on, we see Terasology from different perspectives.
+Based on all the different dreams, wishes and ideas we have for Terasology, we see it in a different light.
+So the first question we asked ourselves in the context of our vision for Terasology was: "Which animal describes what you would like Terasology to become?"
+
+From butterfly to dragon, from bee to peacock, from owl-bear over spider-pig to egg-laying-wool-milk-sow, again the variety of spirit animals was creative and astounding.
+The most present associated attributes were an attractive and recognizable identity and a large diversity with many pieces that all are useful and work together to build a powerful entity.
+Further, maturity and the transition required to get there was an important topic, too.
+
+<div align="center">
+    <img src="{{ site.baseurl }}/img/2021-04-22-teraspotlight-pulse-check-workshop/terasology-spirit-animals.png" alt="Which animal describes what you would like Terasology to become?" width="50%"/>
+</div>
+
+### 💸 Selling Point
+
+We don't want to be yet another Minecraft clone, we want to be Terasology. But what is it that sets Terasology apart?
+This is what we reflected on in the following prompt: "Terasology stands out from other voxel (engine) projects in that ..."
+Here's what we see as our current "selling points":
+
+* **History** - Terasology is around for almost a decade now (that's longer than quite some start-up companies), so we definitely have long-time project and community management experience to show for 👔
+* **Repository/Contributor Ratio** - mainly a tongue-in-cheek comment, we indeed have quite a number of repositories with currently unfortunately only a low number of very active contributors - resulting in a lot of space to self-actualize yourself 😜
+* **Openness** - our community is both, very open to new collaborators and in general not strictly steered - everybody is free to work on what they like, although we are happy about any contributors that want to join our coordinated efforts 💪
+* **Modding** - Terasology is highly focused on a modular (ECS-based) approach allowing to "make more out of it than just a voxel engine demo" 🤓
+
+### ✨ Genie in a Bottle
+
+Have you ever worked on something and wished you could just snap your finger and make something happen?
+Us, too. So in response to the "If I could change one thing about Terasology with the snap of a finger, I'd change ..." we came up with the following:
+
+* reduced complexity, both in terms of the amount of repositories and the amount of abstraction
+* increased consistency, both in terms of documentation and visuals like menu theme, icon style or generally a full-fledged functional and powerful UI framework
+* integrated infrastructure, both for testing and multi-repo builds and continuous integration
+
+### 💚 Personal Plans
+
+Next to all the upkeep we do, it's important for our vision to understand, what everybody would like to (be able to) work on.
+The responses to the "I would like to spend Terasology time on ..." again showed a lot of overlap:
+
+* **Architecture & Logistics** - we want to fix our codebase by improving architecture and concepts, document them and finish the backbone of automation that supports our build, test and release processes
+* **UI & UX** - we want to work on finding our visual identity by taking time to work on design and assets, customize our UI and improve our user experience issues
+* **Stability** - we want to fix bugs and get our codebase into a more stable and usable state
+* **Dreamland Craziness** - everything from in-game automation to flying cars, we'd love to implement more cool features and provide more end-user content
+* **Community Activity** - we want to collaborate and explore new concepts and opportunities, chat and share what we work on, and first and foremost play our game together with our community more often
+
+### 🔮 Terasology's Future
+
+The combination of personal plans and the awareness, that the current state may be far from being able to act on them created a lot of different emotions when thinking about the future of Terasology.
+Both, hope and concerns were the tenor of the responses to the "When I think about Terasology's future, I ..." prompt.
+
+<div align="center">
+"I feel a <b>mix of excitement and dread</b>"
+</div>
+
+There's definitely a chance of us falling back into old patterns, getting less stable again or being stuck in the past due to not enough time to turn things around.
+However, we do have a lot of potential and although likely being (expectedly) never truly finished, we will never run out of ideas on how to improve.
+
+<div align="center">
+"I hope that Terasology will be a <b>playable game with a strong identity</b>"
+</div>
+
+It already became obvious in the motivation module, but here it was again: We desperately want Terasology to become more than a tech demo and more than a Minecraft clone.
+We want it to be a game that's attractive to play, both for us as for people outside of our community - a game that we can spend hundreds of hours playing.
+And we want it to have it's own recognizable identity to escape the stereotype of "yet another Minecraft clone".
+
+<div align="center">
+"I hope that more people will enjoy Terasology as <b>a platform for their projects</b>"
+</div>
+
+One of the main reasons behind our very modular approach has always been the goal to enable others to build on Terasology.
+We want it to be a platform that can be adopted as the basis for new games and to generally "build nice things".
+
+### 🎯 Target Audience
+
+During this module on our vision for Terasology, we though a lot about what sets us apart, what we want to work on and change and what we see in our crystal balls when we look into Terasology's future.
+All of those and the target group for which we build Terasology are dependant on each other, which is why we tried to state our personal views on the "In my opinion the target group of Terasology should be ..." prompt.
+
+* **Learners** - no matter if student, developer, designer - anybody that is willing to find their footing in game development and want to embrace this in a free and open community is welcome
+* **Modders** - 3rd party developers that want to implement their ideas and visions, change a voxel game to their liking, expand on their own projects or just want a (starting) place to experiment are welcome
+* **Players** - we want to be a strong option for players looking for collaborative, creative and open-world voxel sandbox games
 
 
 ## 💪 Follow-Ups
