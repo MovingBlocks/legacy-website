@@ -22,9 +22,11 @@ _Please enjoy this special spotlight post about results of a workshop we are exc
 ## 🔥 Motivation
 
 This first workshop module was all about motivation:
-* what motivates us to work on an open source project?
-* what made us join and stay with the Terasology community?
-* what factors demotivate and motivate us when working on Terasology?
+<ul>
+<li>what motivates us to work on an open source project?</li>
+<li>what made us join and stay with the Terasology community?</li>
+<li>what factors demotivate and motivate us when working on Terasology?</li>
+</ul>
 
 ### 🐾 Contributor Spirit Animals
 
@@ -62,6 +64,7 @@ Further, we reflected on our relationship to Terasology - what Terasology as a p
 The responses to the "I joined Terasology to ..." varied quite a bit, but still we were able to find a few patterns in our clustering activity.
 While most of us participated in GSoC and stumbled upon Terasology in the process of looking for a suitable project to contribute to, others learned about it in different ways or, in the case of Cervator our project lead, were around from the very start.
 The clusters of the previous reflection also showed up again here - many of us joined for any or multiple of the following reasons:
+
 * to help realize the project's potential of becoming a game we ourselves (would like to) play 🕹️
 * to enable others to build on it, create an alternative to Minecraft or just "have a frame to paint in" 🎨
 * to learn and improve our skills 🎓
@@ -109,9 +112,23 @@ We consider ourselves a community of friends and deeply care for our project.
 
 Albeit all the love and care, naturally there's factors that demotivate us and slow down our drive.
 The responses to the "When contributing to Terasology, I'm demotivated by/when ..." prompt brought to light both technical and non-technical factors:
+
 * review load - efforts often stall due to PRs sitting around unmerged because nobody reviews them - and the few people that do review often don't find time for anything else
 * lack of focus - our recent attempts to channel and streamline our efforts to finish more complex stabilization topics one by one instead of starting multiple ones in parallel that conflict or compete for resources are somewhat successful but we still have a long way to go
-* 
+* complexity - the sheer size of our codebase requires constant upkeep and makes it hard to troubleshoot and understand yet easy to break things by accident
+* lack of usability & adoption - being more of a tech demo and less of a game, Terasology lacks usability which results in low attention from players
+* (inter-)personal issues - as an open and international community, there's always potential for personal conflicts due to poor wording or language barriers, cultural differences as well as differing opinions
+* lack of time - irrespective of student, employed or parent, all of us would love to have more time to spend on Terasology
+
+Fortunately, there are many aspects that counter these demotivating issues and motivate us time and again to stick with the project and keep it going.
+In response to the "When contributing to Terasology, I'm motivated by/when ..." prompt, we collected the following factors that boost our motivation:
+
+* technology - we love it to share interesting things, play around with new tools and tech and find a shiny new use for some piece of logic that's been around a while
+* achievements - getting things done, solving problems, finally fixing "that bug" - improving and seeing how much we achieved recently is a big motivator for us
+* responsibility - we don't like to point fingers, but we share the feeling that it's our responsibility to fix a bug we feel is our fault and this drives us both to investigate and fix it and to test our contributions even more thoroughly the next time
+* activity & collaboration - we are motivated by working together as a team and more people join our cause allowing for even more progress and achievements
+* appreciation - visibility outside of our community in posts and videos as well as inside of it when people enthusiastically share what they've worked on or that they tried something and it worked out nicely - this really makes us glow 😊
+* vision - sharing the crazy dreamland ideas we have and getting everybody excited about what Terasology could become keeps up the spirit and belief in our cause
 
 
 ## 🔮 Vision
