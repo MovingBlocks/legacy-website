@@ -144,3 +144,9 @@ kbd {
     overflow-wrap: break-word;
     white-space: nowrap;
 }
+
+.container li{
+    list-style-type: disc !important;
+    list-style-position: inside;
+    margin-left: 20px;
+}
