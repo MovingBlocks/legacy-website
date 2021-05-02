@@ -9,15 +9,40 @@ header-img: "/img/2021-04-22-teraspotlight-pulse-check-workshop/banner.jpg"
 
 _Please enjoy this special spotlight post about results of a workshop we are excited about. We hope you will like it as much as we do!_
 
+A few weeks ago we had ourselves our first community workshop.
+This workshop was intended to perform a pulse check on us as individual contributors and us as a community.
+With seven people in total, this was a small enough group to allow us to focus on everyone's thoughts yet with the most active contributors present a very representative group for our community.
+
 ## 🗒️ Workshop Format
 
-- workshop rules
-- workshop expectations
-    values and emotions, less technical
-    figure out where we have a lot of overlap and where we don't
-- icebreaker (animal area) 🐾
-- self reflection
-- clustering & discussion
+Every workshop needs some ground rules to allow for a productive session enabling everybody to participate and bring in their ideas and thoughts.
+A basic set of ground rules was given as a start, encouraging everybody to speak up to ask questions or request a break as well as to avoid finger-pointing and technical discussions.
+Based on this, the first part of our workshop concentrated on developing code of conduct for the workshop that we all feel comfortable with and agree on, by asking ourselves, what we expect to make this a "meaningful & pleasant workshop"
+
+<div align="center">
+    <img src="{{ site.baseurl }}/img/2021-04-22-teraspotlight-pulse-check-workshop/workshop-code-of-conduct.png" alt="Workshop Code of Conduct" width="50%"/>
+</div>
+
+The responses made it pretty clear, that we wanted this workshop to be fun, but still talk very honestly and openly about what we value and want for Terasology.
+Reflecting how we interact with each other in our community, another big focus point was fairness.
+It showed that everybody's opinion is important to us and we want to give everybody an equal chance to bring in their ideas.
+On a similar note, it showed that we value honesty and openness while practicing mutual respect in terms of communication and focus.
+
+With this code of conduct in place, it was time to talk agenda.
+The workshop was prepared to allow covering three modules: motivation, vision and community.
+With the content-wise thoughts on what would make this a "meaningful workshop", it already became clear that our main area of interest was finding out what our individual goals and visions for Terasology are and see which overlap and which diverge.
+The planned workshop time allowed us to cover two of the three prepared modules and with "vision" being set, we decided to in addition talk about "motivation".
+
+<div align="center">
+    <img src="{{ site.baseurl }}/img/2021-04-22-teraspotlight-pulse-check-workshop/workshop-module-interest.png" alt="Workshop Module Vote" width="30%"/>
+</div>
+
+With these interactive conduct and agenda alignments done, both modules followed a very similar structure.
+For each module, we started with a fun little "spirit animal" icebreaker exercise asking everybody to post a picture of an animal describing how they view or feel about something 🐾
+Afterwards, we had five different prompts to self-reflect on aimed at being very honest to ourselves and explore our personal opinions and thoughts.
+For each of these prompts, everyone first got some "alone-time" to self-reflect and answer before we made all notes visible to everybody else.
+The second step for each of these prompts was then to read through everything, clarify anything that was unclear and try to cluster everything.
+The clustering allowed us to identify areas of overlap, showing what's important to us collectively, but also areas of divergence, showing individual motivations and visions.
 
 ## 🔥 Motivation
 
@@ -220,13 +245,23 @@ All of those and the target group for which we build Terasology are dependant on
 * **Modders** - 3rd party developers that want to implement their ideas and visions, change a voxel game to their liking, expand on their own projects or just want a (starting) place to experiment are welcome
 * **Players** - we want to be a strong option for players looking for collaborative, creative and open-world voxel sandbox games
 
-
 ## 💪 Follow-Ups
 
-- clustering as "middle-step" -> we need to go beyond that as
-- documenting our "values" as a community and project (both values we already live by and values we need to improve on)
-- documenting our goals and target audiences -> find a state of collaboration / common ground
-- drill down on topics where we are in line -> leverage momentum of interest/motivation
-- drill down on topics where we are not in line
-- decide on target groups, put ourselves in their shoes (empathy map)
-- possible future workshop topics: self reflection on codebase state, documentation, retrospective on GSoC
+This workshop aimed at performing a pulse check on us as individual contributors as well as as a community and I personally believe, that it achieved that goal.
+However, after working on the "motivation" and "vision" modules, we felt like something was missing.
+The nature of a pulse check is to collect a first set of information about the mood in a community and identify on a rather high level what's already working well and where there's room for improvement.
+In this workshop we collected this information and through the clustering already identified both working and problematic aspects of our community and contributing to our project.
+However, this clustering is only an intermediate step and we need to go beyond this.
+
+Our first follow-up is this workshop summary, to broadcast our findings and encourage everybody to share their thoughts on it and join the cause.
+A second follow-up will be documenting our shared "values" (irrespective of whether we already live by them or are working on getting there) we identified as well as our shared vision for Terasology.
+The third step will be drilling down on the high-level areas.
+On one hand, this includes the areas for improvement that we identified and agreed on, in order to leverage the momentum of interest and motivation to figure out what we can do to actually make a change there.
+On the other hand, this includes topics that we diverged on, in order to find a collaborative way to satisfy all our needs while also agreeing on at least a rough course to sail on and avoid pulling on different ends of the same rope.
+
+Here's a (non-exhaustive) list of examples for possible future workshop topics:
+
+* putting ourselves into the shoes of potential players
+* putting ourselves into the shoes of potential modders & contributors
+* retrospective on GSoC
+* brainstorming on code style
