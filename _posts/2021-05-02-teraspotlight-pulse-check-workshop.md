@@ -4,7 +4,7 @@ title: "TeraSpotlight: Contributor Pulse Check"
 description: >
   A short spotlight on the results of our first community workshop targeting what motivates us and what we envision for Terasology's future.
 author: Niruandaleth
-header-img: "/img/2021-04-22-teraspotlight-pulse-check-workshop/banner.jpg"
+header-img: "/img/2021-05-02-teraspotlight-pulse-check-workshop/banner.jpg"
 ---
 
 _Please enjoy this special spotlight post about results of a workshop we are excited about. We hope you will like it as much as we do!_
@@ -15,12 +15,15 @@ With seven people in total, this was a small enough group to allow us to focus o
 
 ## 🗒️ Workshop Format
 
+Before we dive in, a quick shout-out to [Mural](https://www.mural.co/), an awesome tool allowing for very simple collaborative brainstorming for various purposes.
+We're happy to have been accepted for their free nonprofit plan and had a very good time using Mural for our workshop.
+
 Every workshop needs some ground rules to allow for a productive session enabling everybody to participate and bring in their ideas and thoughts.
 A basic set of ground rules was given as a start, encouraging everybody to speak up to ask questions or request a break as well as to avoid finger-pointing and technical discussions.
 Based on this, the first part of our workshop concentrated on developing code of conduct for the workshop that we all feel comfortable with and agree on, by asking ourselves, what we expect to make this a "meaningful & pleasant workshop"
 
 <div align="center">
-    <img src="{{ site.baseurl }}/img/2021-04-22-teraspotlight-pulse-check-workshop/workshop-code-of-conduct.png" alt="Workshop Code of Conduct" width="50%"/>
+    <img src="{{ site.baseurl }}/img/2021-05-02-teraspotlight-pulse-check-workshop/workshop-code-of-conduct.png" alt="Workshop Code of Conduct" width="50%"/>
 </div>
 
 The responses made it pretty clear, that we wanted this workshop to be fun, but still talk very honestly and openly about what we value and want for Terasology.
@@ -34,7 +37,7 @@ With the content-wise thoughts on what would make this a "meaningful workshop", 
 The planned workshop time allowed us to cover two of the three prepared modules and with "vision" being set, we decided to in addition talk about "motivation".
 
 <div align="center">
-    <img src="{{ site.baseurl }}/img/2021-04-22-teraspotlight-pulse-check-workshop/workshop-module-interest.png" alt="Workshop Module Vote" width="30%"/>
+    <img src="{{ site.baseurl }}/img/2021-05-02-teraspotlight-pulse-check-workshop/workshop-module-interest.png" alt="Workshop Module Vote" width="30%"/>
 </div>
 
 With these interactive conduct and agenda alignments done, both modules followed a very similar structure.
@@ -64,7 +67,7 @@ Some even do both, being rather casual for a while and then bursting out in acti
 At the same time, some of us like to produce fancy, visible features and show them off, while others concentrate on "eating" bugs or work behind the scenes to keep the community going.
 
 <div align="center">
-    <img src="{{ site.baseurl }}/img/2021-04-22-teraspotlight-pulse-check-workshop/contributor-spirit-animals.png" alt="Which animal do I feel like when contributing to Terasology?" width="50%"/>
+    <img src="{{ site.baseurl }}/img/2021-05-02-teraspotlight-pulse-check-workshop/contributor-spirit-animals.png" alt="Which animal do I feel like when contributing to Terasology?" width="50%"/>
 </div>
 
 ### 🔍 Project Requirements
@@ -175,7 +178,7 @@ The most present associated attributes were an attractive and recognizable ident
 Further, maturity and the transition required to get there was an important topic, too.
 
 <div align="center">
-    <img src="{{ site.baseurl }}/img/2021-04-22-teraspotlight-pulse-check-workshop/terasology-spirit-animals.png" alt="Which animal describes what you would like Terasology to become?" width="50%"/>
+    <img src="{{ site.baseurl }}/img/2021-05-02-teraspotlight-pulse-check-workshop/terasology-spirit-animals.png" alt="Which animal describes what you would like Terasology to become?" width="50%"/>
 </div>
 
 ### 💸 Selling Point
