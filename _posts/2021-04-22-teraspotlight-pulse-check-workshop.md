@@ -39,7 +39,7 @@ The planned workshop time allowed us to cover two of the three prepared modules 
 
 With these interactive conduct and agenda alignments done, both modules followed a very similar structure.
 For each module, we started with a fun little "spirit animal" icebreaker exercise asking everybody to post a picture of an animal describing how they view or feel about something 🐾
-Afterwards, we had five different prompts to self-reflect on aimed at being very honest to ourselves and explore our personal opinions and thoughts.
+Afterwards, we had five different prompts to self-reflect on, aimed at being very honest to ourselves and explore our personal opinions and thoughts.
 For each of these prompts, everyone first got some "alone-time" to self-reflect and answer before we made all notes visible to everybody else.
 The second step for each of these prompts was then to read through everything, clarify anything that was unclear and try to cluster everything.
 The clustering allowed us to identify areas of overlap, showing what's important to us collectively, but also areas of divergence, showing individual motivations and visions.
@@ -134,7 +134,7 @@ We consider ourselves a community of friends and deeply care for our project.
 
 ### 🔥 "Yay"s & "Ney"s 🧯
 
-Albeit all the love and care, naturally there's factors that demotivate us and slow down our drive.
+Albeit all the love and care, naturally there are factors that demotivate us and slow down our drive.
 The responses to the "When contributing to Terasology, I'm demotivated by/when ..." prompt brought to light both technical and non-technical factors:
 
 * **Review Load** - efforts often stall due to PRs sitting around unmerged because nobody reviews them - and the few people that do review often don't find time for anything else
@@ -150,8 +150,8 @@ In response to the "When contributing to Terasology, I'm motivated by/when ..." 
 * ✨ **Technology** - we love it to share interesting things, play around with new tools and tech and find a shiny new use for some piece of logic that's been around a while
 * 💪 **Achievements** - getting things done, solving problems, finally fixing "that bug" - improving and seeing how much we achieved recently is a big motivator for us
 * 🧐 **Responsibility** - we don't like to point fingers, but we share the feeling that it's our responsibility to fix a bug we feel is our fault and this drives us both to investigate and fix it and to test our contributions even more thoroughly the next time
-* 🤝 **Activity & Collaboration** - we are motivated by working together as a team and more people join our cause allowing for even more progress and achievements
-* 🤗 **Appreciation** - visibility outside of our community in posts and videos as well as inside of it when people enthusiastically share what they've worked on or that they tried something and it worked out nicely - this really makes us glow 😊
+* 🤝 **Activity & Collaboration** - we are motivated by working together as a team and more people joining our cause allowing for even more progress and achievements
+* 🤗 **Appreciation** - visibility outside of our community in posts and videos as well as inside of it when people enthusiastically share what they've worked on or that they tried something and it worked out nicely - this really makes us all smiles 😊
 * 🚀 **Vision** - sharing the crazy dreamland ideas we have and getting everybody excited about what Terasology could become keeps up the spirit and belief in our cause
 
 
@@ -211,7 +211,7 @@ The responses to the "I would like to spend Terasology time on ..." again showed
 
 ### 🔮 Terasology's Future
 
-The combination of personal plans and the awareness, that the current state may be far from being able to act on them created a lot of different emotions when thinking about the future of Terasology.
+The combination of personal plans and the awareness, that the current state may be far from being able to act on them, created a lot of different emotions when thinking about the future of Terasology.
 Both, hope and concerns were the tenor of the responses to the "When I think about Terasology's future, I ..." prompt.
 
 <div align="center">
