@@ -72,7 +72,7 @@ You can use this locally by running `gradlew htmlDependencyReport`, or `gradlew 
 _@Cervator_ shared the news that Jenkins technically is https now. 🔒
 > Not anything particularly special but it worked easier and better than I had thought. I even seem to get auto-redirected to it now.
 
-In other logistical news, the old Jenkins is gone - which essentially lead to the new launcher releases promoted above 🙈
+In other logistical news, the old Jenkins is gone - which essentially led to the new launcher releases promoted above 🙈
 Unfortunately, this also means that most old builds of Terasology are currently no longer available via the launcher.
 But don't worry: if you're getting nostalgic you can crawl through the [releases on Github](https://github.com/MovingBlocks/Terasology/releases) 🏺
 
