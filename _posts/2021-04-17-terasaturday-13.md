@@ -77,3 +77,7 @@ With DPP and GDPR, there's two more big topics to work out before we can move to
 <div align="center">
     <img src="{{ site.baseurl }}/img/terasaturday/13/kibana-dashboard.png" alt="Visualizations in Kibana based on Log Data" width="100%"/>
 </div>
+
+<!-- References -->
+
+[TeraSaturday #12]: {% post_url 2021-03-20-terasaturday-12 %}
