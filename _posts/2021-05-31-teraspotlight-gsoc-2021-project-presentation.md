@@ -14,3 +14,13 @@ header-img: "/img/terasaturday/14/banner.jpg"
   {% include gsoc_card.html github='ryuk156' name='Yash Patel' title='Migrate Web Presence to new Module Site' project='https://summerofcode.withgoogle.com/organizations/5338575677161472/#5855615500419072' %}
   {% include gsoc_card.html github='IsaiahBlanks' name='Isaiah Blanks' title='Destination: Sol World-Gen Modularization' project='https://summerofcode.withgoogle.com/organizations/5338575677161472/#4852389992988672' %}
 </div>
+
+
+
+
+<div align="center">
+
+  {% include 2021-05-gsoc-projects.svg %}
+
+  <figcaption>The Terasology Foundation ecosystem and areas of contribution for the GSOC projects.</figcaption>
+</div>
