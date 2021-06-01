@@ -1,0 +1,2283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:pencil="http://www.evolus.vn/Namespace/Pencil"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1179"
+   height="502"
+   id="exportedSVG"
+   version="1.1"
+   pencil:version="1.2.2"
+   sodipodi:docname="2021-05-gsoc-projects.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata297">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs295" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     id="namedview293"
+     showgrid="false"
+     inkscape:zoom="1.6745443"
+     inkscape:cx="521.8456"
+     inkscape:cy="292.97131"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer_architecture_1" />
+  <g
+     inkscape:label="Architecture (1)"
+     inkscape:groupmode="layer"
+     id="layer_architecture_1"
+     transform="translate(-245,-30)">
+    <rect
+       style="fill:none"
+       id="rect2"
+       height="626"
+       width="1481"
+       y="0"
+       x="0" />
+    <g
+       transform="translate(1040,30)"
+       id="c3d15fb7a04042bfb2e017fbbcfc11cd"
+       pencil:def="tamAnnot:AnnGroupCFA_V002"
+       pencil:type="Shape">
+      <pencil:metadata>
+        <pencil:property
+           name="ENUMareaType">cfa</pencil:property>
+        <pencil:property
+           name="BOOLallowRoundedCorners">true</pencil:property>
+        <pencil:property
+           name="BOOLhasRoundedCorners">false</pencil:property>
+        <pencil:property
+           name="HNDLcornerRadius">25.599999999999998,0</pencil:property>
+        <pencil:property
+           name="box">384,502</pencil:property>
+        <pencil:property
+           name="fillColor">#CCCCCCFF</pencil:property>
+        <pencil:property
+           name="strokeColor">#000000FF</pencil:property>
+        <pencil:property
+           name="strokeStyle">2|</pencil:property>
+        <pencil:property
+           name="TTXTlabel">Destination: Sol (the game)</pencil:property>
+        <pencil:property
+           name="textColor">#000000FF</pencil:property>
+        <pencil:property
+           name="textFont">Sans|900|normal|18px|none|0</pencil:property>
+        <pencil:property
+           name="ALGNtextAlignment">1,0</pencil:property>
+      </pencil:metadata>
+      <rect
+         height="502"
+         width="384"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+         ry="0"
+         rx="0"
+         id="e1d8539a3cf64ca987a3ed4b35c5403f"
+         pencil:name="rect"
+         y="0"
+         x="0" />
+      <text
+         transform="translate(9,23)"
+         style="font-style:normal;font-weight:900;font-size:18px;font-family:Sans;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#000000;fill-opacity:1"
+         id="386abb9b97f641b7b3fb57a66b00acdb"
+         pencil:name="text"
+         xml:space="preserve"><tspan
+           id="tspan5"
+           y="0"
+           x="72.820312">Destination: Sol (the game)</tspan></text>
+    </g>
+    <g
+       transform="translate(585,32)"
+       id="38e1b44b6b664eadb3ecf5ce00447b87"
+       pencil:def="tamAnnot:AnnGroupCFA_V002"
+       pencil:type="Shape">
+      <pencil:metadata>
+        <pencil:property
+           name="ENUMareaType">cfa</pencil:property>
+        <pencil:property
+           name="BOOLallowRoundedCorners">true</pencil:property>
+        <pencil:property
+           name="BOOLhasRoundedCorners">false</pencil:property>
+        <pencil:property
+           name="HNDLcornerRadius">27.466666666666665,0</pencil:property>
+        <pencil:property
+           name="box">412,500</pencil:property>
+        <pencil:property
+           name="fillColor">#CCCCCCFF</pencil:property>
+        <pencil:property
+           name="strokeColor">#000000FF</pencil:property>
+        <pencil:property
+           name="strokeStyle">2|</pencil:property>
+        <pencil:property
+           name="TTXTlabel">Terasology (the game)</pencil:property>
+        <pencil:property
+           name="textColor">#000000FF</pencil:property>
+        <pencil:property
+           name="textFont">Sans|900|normal|18px|none|0</pencil:property>
+        <pencil:property
+           name="ALGNtextAlignment">1,0</pencil:property>
+      </pencil:metadata>
+      <rect
+         height="500"
+         width="412"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+         ry="0"
+         rx="0"
+         id="59fabb79964b414ca9e96bcaf5544012"
+         pencil:name="rect"
+         y="0"
+         x="0" />
+      <text
+         transform="translate(10,23)"
+         style="font-style:normal;font-weight:900;font-size:18px;font-family:Sans;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#000000;fill-opacity:1"
+         id="e04ac494394e4be4a1815f1b210e4d72"
+         pencil:name="text"
+         xml:space="preserve"><tspan
+           id="tspan10"
+           y="0"
+           x="107.07031">Terasology (the game)</tspan></text>
+    </g>
+    <g
+       transform="translate(245,258)"
+       id="77c8ba39937041e3b0173a16c4eafba8"
+       pencil:def="tamAnnot:AnnGroupCFA_V002"
+       pencil:type="Shape">
+      <pencil:metadata>
+        <pencil:property
+           name="ENUMareaType">cfa</pencil:property>
+        <pencil:property
+           name="BOOLallowRoundedCorners">true</pencil:property>
+        <pencil:property
+           name="BOOLhasRoundedCorners">false</pencil:property>
+        <pencil:property
+           name="HNDLcornerRadius">20.4,0</pencil:property>
+        <pencil:property
+           name="box">306,274</pencil:property>
+        <pencil:property
+           name="fillColor">#CCCCCCFF</pencil:property>
+        <pencil:property
+           name="strokeColor">#000000FF</pencil:property>
+        <pencil:property
+           name="strokeStyle">2|</pencil:property>
+        <pencil:property
+           name="TTXTlabel">Web Presence</pencil:property>
+        <pencil:property
+           name="textColor">#000000FF</pencil:property>
+        <pencil:property
+           name="textFont">Sans|900|normal|18px|none|0</pencil:property>
+        <pencil:property
+           name="ALGNtextAlignment">1,0</pencil:property>
+      </pencil:metadata>
+      <rect
+         height="274"
+         width="306"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+         ry="0"
+         rx="0"
+         id="63c2b721b7944ac399e7a49fa44d55ac"
+         pencil:name="rect"
+         y="0"
+         x="0" />
+      <text
+         transform="translate(10,23)"
+         style="font-style:normal;font-weight:900;font-size:18px;font-family:Sans;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#000000;fill-opacity:1"
+         id="eb2de7864845406ba2a626eb4abc33c3"
+         pencil:name="text"
+         xml:space="preserve"><tspan
+           id="tspan15"
+           y="0"
+           x="83.921875">Web Presence</tspan></text>
+    </g>
+    <a
+       id="a5124"
+       xlink:href="https://github.com/MovingBlocks/Terasology"
+       target="_blank"
+       xlink:title="MovingBlocks/Terasology">
+      <g
+         id="g5122">
+        <rect
+           x="632.20001"
+           y="242.39999"
+           pencil:name="rect"
+           id="7869c06e54984316b52ddefbd09d3aec"
+           rx="0"
+           ry="0"
+           style="fill:#88d498;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+           height="139"
+           width="318.60001" />
+        <text
+           xml:space="preserve"
+           pencil:name="text"
+           id="d6aadb66a5004f1e8eeff133303a9c23"
+           style="font-style:normal;font-weight:300;font-size:13px;font-family:Sans;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#232323;fill-opacity:1"
+           x="624.20001"
+           y="373.39999"><tspan
+             x="785.75311"
+             y="373.39999"
+             id="tspan20">MovingBlocks/Terasology</tspan></text>
+        <g
+           transform="translate(674.08801,265)"
+           id="3658b9b3c371451eb33564cedb161634"
+           pencil:def="tamBD:BDAgent_V003"
+           pencil:type="Shape">
+          <pencil:metadata>
+            <pencil:property
+               name="box">224.9199999999999,83.66400000000006</pencil:property>
+            <pencil:property
+               name="BOOLallowMultiple">true</pencil:property>
+            <pencil:property
+               name="BOOLisMultiple">false</pencil:property>
+            <pencil:property
+               name="BOOLallowHuman">true</pencil:property>
+            <pencil:property
+               name="BOOLshowHuman">false</pencil:property>
+            <pencil:property
+               name="HNDLhumanPos">112.45999999999995,41.832000000000036</pencil:property>
+            <pencil:property
+               name="ENUMhumanSize">1.5</pencil:property>
+            <pencil:property
+               name="ENUMmood">happy</pencil:property>
+            <pencil:property
+               name="fillColor">#FFFFFFFF</pencil:property>
+            <pencil:property
+               name="strokeColor">#000000FF</pencil:property>
+            <pencil:property
+               name="strokeStyle">2|</pencil:property>
+            <pencil:property
+               name="TTXTlabel">engine</pencil:property>
+            <pencil:property
+               name="textColor">#000000FF</pencil:property>
+            <pencil:property
+               name="textFont">sans-serif|normal|normal|13px|none|0</pencil:property>
+            <pencil:property
+               name="ALGNtextAlignment">1,1</pencil:property>
+          </pencil:metadata>
+          <rect
+             width="224.92"
+             height="83.664001"
+             style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+             transform="translate(8,-8)"
+             id="c65670342bd54e279c6d05a373e070aa"
+             pencil:name="rectMultiple"
+             y="0"
+             x="0" />
+          <rect
+             width="224.92"
+             height="83.664001"
+             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+             id="2e44e10699f245dcb24c855000458420"
+             pencil:name="rect"
+             y="0"
+             x="0" />
+          <text
+             transform="translate(7,46)"
+             style="font-style:normal;font-weight:normal;font-size:13px;font-family:sans-serif;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#000000;fill-opacity:1"
+             id="6e164ec60fb84b3aaf3dbeae6844d2c1"
+             pencil:name="text"
+             xml:space="preserve"><tspan
+               id="tspan31"
+               y="0"
+               x="85.553749">engine</tspan></text>
+          <g
+             style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+             transform="matrix(1.5,0,0,1.5,112.46,41.832)"
+             id="ffd292c4223941fb9af666a3763d45f9"
+             pencil:name="stickman">
+            <circle
+               r="3"
+               id="1b200fd8a50f4a8ba543a998f09359df"
+               pencil:name="head"
+               cy="-7.5"
+               cx="0"
+               style="opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               id="f27ef0ed69db4058a0398f49e02f1717"
+               pencil:name="body"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M 0,-4.5 V 3" />
+            <path
+               inkscape:connector-curvature="0"
+               id="3f9b4d9d09a34c05b838490e9ae1c161"
+               pencil:name="leftLeg"
+               d="m 0,3 -5,7"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               id="955b9d271cf34620b77cedbc212bcee2"
+               pencil:name="rightLeg"
+               d="m 0,3 5,7"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               d="M 0,-1 -5,-4"
+               id="7de8f9c766094fde9d9b8e3771a00056"
+               pencil:name="leftArm"
+               sodipodi:nodetypes="cc"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               d="M 0,-1 5,-4"
+               id="ec4d3a3898c34d69991f0bdc978f3f69"
+               pencil:name="rightArm"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               sodipodi:nodetypes="cc" />
+          </g>
+        </g>
+      </g>
+    </a>
+    <rect
+       x="632.40002"
+       y="406"
+       pencil:name="rect"
+       id="ea2d83d469ec49c5acc3e24d7c8c043e"
+       rx="0"
+       ry="0"
+       style="fill:#f3e9d2;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+       height="109"
+       width="774.59998" />
+    <text
+       xml:space="preserve"
+       pencil:name="text"
+       id="ac50d314d43549d3a97aa93dd463bf31"
+       style="font-style:normal;font-weight:300;font-size:13px;font-family:Sans;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#232323;fill-opacity:1"
+       x="620.40002"
+       y="507"><tspan
+         x="1247.7969"
+         y="507"
+         id="tspan43">MovingBlocks/&lt;library&gt;</tspan></text>
+    <a
+       id="a5261"
+       xlink:href="https://github.com/MovingBlocks/TeraNUI"
+       target="_blank"
+       xlink:title="MovingBlocks/TeraNUI">
+      <g
+         pencil:type="Shape"
+         pencil:def="tamBD:BDAgent_V003"
+         id="b7986ba5ef464c49aa84ecf871d9bfdc"
+         transform="translate(1164,419)">
+        <pencil:metadata>
+          <pencil:property
+             name="box">225,60</pencil:property>
+          <pencil:property
+             name="BOOLallowMultiple">true</pencil:property>
+          <pencil:property
+             name="BOOLisMultiple">false</pencil:property>
+          <pencil:property
+             name="BOOLallowHuman">true</pencil:property>
+          <pencil:property
+             name="BOOLshowHuman">false</pencil:property>
+          <pencil:property
+             name="HNDLhumanPos">112.5,30</pencil:property>
+          <pencil:property
+             name="ENUMhumanSize">1.5</pencil:property>
+          <pencil:property
+             name="ENUMmood">happy</pencil:property>
+          <pencil:property
+             name="fillColor">#FFFFFFFF</pencil:property>
+          <pencil:property
+             name="strokeColor">#000000FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">2|</pencil:property>
+          <pencil:property
+             name="TTXTlabel">tera-nui</pencil:property>
+          <pencil:property
+             name="textColor">#000000FF</pencil:property>
+          <pencil:property
+             name="textFont">sans-serif|normal|normal|13px|none|0</pencil:property>
+          <pencil:property
+             name="ALGNtextAlignment">1,1</pencil:property>
+        </pencil:metadata>
+        <rect
+           x="0"
+           y="0"
+           pencil:name="rectMultiple"
+           id="a6ac0c76ed3441ee9554736da35289e0"
+           transform="translate(8,-8)"
+           style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+           height="60"
+           width="225" />
+        <rect
+           x="0"
+           y="0"
+           pencil:name="rect"
+           id="a961fd26e8ae4394929331e9a4c0b38e"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+           height="60"
+           width="225" />
+        <text
+           xml:space="preserve"
+           pencil:name="text"
+           id="34dda57822584a5b86a57f172f755a06"
+           style="font-style:normal;font-weight:normal;font-size:13px;font-family:sans-serif;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#000000;fill-opacity:1"
+           transform="translate(8,35)"><tspan
+             x="82.898438"
+             y="0"
+             id="tspan49">tera-nui</tspan></text>
+        <g
+           pencil:name="stickman"
+           id="8def2a3aef0741be93f6fee89d057edb"
+           transform="matrix(1.5,0,0,1.5,112.5,30)"
+           style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1">
+          <circle
+             style="opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             cx="0"
+             cy="-7.5"
+             pencil:name="head"
+             id="3e09303ed7dd482580cbf05a92d0e88f"
+             r="3" />
+          <path
+             d="M 0,-4.5 V 3"
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             pencil:name="body"
+             id="cf5a68894fed4dac8fd2b37dfbdc2f20"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,3 -5,7"
+             pencil:name="leftLeg"
+             id="5f95739cd3a8403495f635f236df5871"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,3 5,7"
+             pencil:name="rightLeg"
+             id="3902cc309e8e46cd80e8751edb48a66a"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             sodipodi:nodetypes="cc"
+             pencil:name="leftArm"
+             id="fb841a551d5f4dd4ad2e24e5abfdad9f"
+             d="M 0,-1 -5,-4"
+             inkscape:connector-curvature="0" />
+          <path
+             sodipodi:nodetypes="cc"
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             pencil:name="rightArm"
+             id="1d53a4d956174435bcaccfd6faa459e6"
+             d="M 0,-1 5,-4"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </a>
+    <a
+       id="a5247"
+       xlink:href="https://github.com/MovingBlocks/gestalt"
+       xlink:title="MovingBlocks/gestalt"
+       target="_blank">
+      <g
+         pencil:type="Shape"
+         pencil:def="tamBD:BDAgent_V003"
+         id="6accdbaee0524f49968537212a77df3f"
+         transform="translate(906,419)">
+        <pencil:metadata>
+          <pencil:property
+             name="box">225,60</pencil:property>
+          <pencil:property
+             name="BOOLallowMultiple">true</pencil:property>
+          <pencil:property
+             name="BOOLisMultiple">false</pencil:property>
+          <pencil:property
+             name="BOOLallowHuman">true</pencil:property>
+          <pencil:property
+             name="BOOLshowHuman">false</pencil:property>
+          <pencil:property
+             name="HNDLhumanPos">112.5,30</pencil:property>
+          <pencil:property
+             name="ENUMhumanSize">1.5</pencil:property>
+          <pencil:property
+             name="ENUMmood">happy</pencil:property>
+          <pencil:property
+             name="fillColor">#FFFFFFFF</pencil:property>
+          <pencil:property
+             name="strokeColor">#000000FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">2|</pencil:property>
+          <pencil:property
+             name="TTXTlabel">gestalt</pencil:property>
+          <pencil:property
+             name="textColor">#000000FF</pencil:property>
+          <pencil:property
+             name="textFont">sans-serif|normal|normal|13px|none|0</pencil:property>
+          <pencil:property
+             name="ALGNtextAlignment">1,1</pencil:property>
+        </pencil:metadata>
+        <rect
+           x="0"
+           y="0"
+           pencil:name="rectMultiple"
+           id="ac89aa89d0af4a459575aab299638390"
+           transform="translate(8,-8)"
+           style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+           height="60"
+           width="225" />
+        <rect
+           x="0"
+           y="0"
+           pencil:name="rect"
+           id="1508e131c688400ab94204cd6320edc3"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+           height="60"
+           width="225" />
+        <text
+           xml:space="preserve"
+           pencil:name="text"
+           id="a9aaf4143f73483c94edc365fad7ff24"
+           style="font-style:normal;font-weight:normal;font-size:13px;font-family:sans-serif;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#000000;fill-opacity:1"
+           transform="translate(8,35)"><tspan
+             x="85.648438"
+             y="0"
+             id="tspan62">gestalt</tspan></text>
+        <g
+           pencil:name="stickman"
+           id="debd03aca3684f589e1c85c0b9267879"
+           transform="matrix(1.5,0,0,1.5,112.5,30)"
+           style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1">
+          <circle
+             style="opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             cx="0"
+             cy="-7.5"
+             pencil:name="head"
+             id="661b0fd040b74f518542f2eef9ebb099"
+             r="3" />
+          <path
+             d="M 0,-4.5 V 3"
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             pencil:name="body"
+             id="72d3677303a04d04af7893f4522857e6"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,3 -5,7"
+             pencil:name="leftLeg"
+             id="caf900d288464073a6a8f138176b3d66"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,3 5,7"
+             pencil:name="rightLeg"
+             id="7b6f196bab7b4a05a25767ae2a4cf4e2"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             sodipodi:nodetypes="cc"
+             pencil:name="leftArm"
+             id="50b9107a99154a0a85ab5b63dd2c24af"
+             d="M 0,-1 -5,-4"
+             inkscape:connector-curvature="0" />
+          <path
+             sodipodi:nodetypes="cc"
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             pencil:name="rightArm"
+             id="01698414c6c04292ba1e4cbcc04b2a78"
+             d="M 0,-1 5,-4"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </a>
+    <a
+       id="a5334"
+       xlink:href="https://github.com/Terasology"
+       target="_blank"
+       xlink:title="Terasology modules">
+      <g
+         id="g5332">
+        <rect
+           x="632.79999"
+           y="73"
+           pencil:name="rect"
+           id="034bc499ccaf4ee0a3c99ac55e5e4f8e"
+           rx="0"
+           ry="0"
+           style="fill:#e9c46a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+           height="161.39999"
+           width="318" />
+        <text
+           xml:space="preserve"
+           pencil:name="text"
+           id="581038ec7b064ab89e79f65563080a0f"
+           style="font-style:normal;font-weight:300;font-size:13px;font-family:Sans;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#232323;fill-opacity:1"
+           x="621.79999"
+           y="226"><tspan
+             x="805.20624"
+             y="226"
+             id="tspan25">Terasology/&lt;module&gt;</tspan></text>
+        <g
+           transform="translate(674.20001,96.200012)"
+           id="f56ec0c7b34c45858a6b25feffd1873f"
+           pencil:def="tamBD:BDAgent_V003"
+           pencil:type="Shape">
+          <pencil:metadata>
+            <pencil:property
+               name="box">227,94.6</pencil:property>
+            <pencil:property
+               name="BOOLallowMultiple">true</pencil:property>
+            <pencil:property
+               name="BOOLisMultiple">true</pencil:property>
+            <pencil:property
+               name="BOOLallowHuman">true</pencil:property>
+            <pencil:property
+               name="BOOLshowHuman">false</pencil:property>
+            <pencil:property
+               name="HNDLhumanPos">113.5,47.3</pencil:property>
+            <pencil:property
+               name="ENUMhumanSize">1.5</pencil:property>
+            <pencil:property
+               name="ENUMmood">happy</pencil:property>
+            <pencil:property
+               name="fillColor">#FFFFFFFF</pencil:property>
+            <pencil:property
+               name="strokeColor">#000000FF</pencil:property>
+            <pencil:property
+               name="strokeStyle">2|</pencil:property>
+            <pencil:property
+               name="TTXTlabel">module</pencil:property>
+            <pencil:property
+               name="textColor">#000000FF</pencil:property>
+            <pencil:property
+               name="textFont">sans-serif|normal|normal|13px|none|0</pencil:property>
+            <pencil:property
+               name="ALGNtextAlignment">1,1</pencil:property>
+          </pencil:metadata>
+          <rect
+             width="227"
+             height="94.599998"
+             style="visibility:visible;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+             transform="translate(8,-8)"
+             id="a4291d486bd947408fa14cdfe4c8f33e"
+             pencil:name="rectMultiple"
+             y="0"
+             x="0" />
+          <rect
+             width="227"
+             height="94.599998"
+             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+             id="840022677f5341faa1487a8c336fbb54"
+             pencil:name="rect"
+             y="0"
+             x="0" />
+          <text
+             transform="translate(8,52)"
+             style="font-style:normal;font-weight:normal;font-size:13px;font-family:sans-serif;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#000000;fill-opacity:1"
+             id="aa8f3c0400d546678e364a24a2a75f8a"
+             pencil:name="text"
+             xml:space="preserve"><tspan
+               id="tspan75"
+               y="0"
+               x="84.789062">module</tspan></text>
+          <g
+             style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+             transform="matrix(1.5,0,0,1.5,113.5,47.3)"
+             id="167ef4776ddd4cdfb9fb0869a81a253f"
+             pencil:name="stickman">
+            <circle
+               r="3"
+               id="0e7edafa90e54e62b66cead5fc27277d"
+               pencil:name="head"
+               cy="-7.5"
+               cx="0"
+               style="opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               id="bad2c6f4152d4e49874592b4ebaae790"
+               pencil:name="body"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M 0,-4.5 V 3" />
+            <path
+               inkscape:connector-curvature="0"
+               id="b709dfe4f18a4fc98fdebf614d0f4e00"
+               pencil:name="leftLeg"
+               d="m 0,3 -5,7"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               id="8ac14afe619d4aedaabea2d76229d5fe"
+               pencil:name="rightLeg"
+               d="m 0,3 5,7"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               d="M 0,-1 -5,-4"
+               id="87c3a6a3d2474320844b36083c6615d9"
+               pencil:name="leftArm"
+               sodipodi:nodetypes="cc"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               d="M 0,-1 5,-4"
+               id="73d89a3596e749bdb0e22c850061f324"
+               pencil:name="rightArm"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               sodipodi:nodetypes="cc" />
+          </g>
+        </g>
+      </g>
+    </a>
+    <a
+       id="a5233"
+       xlink:href="https://github.com/MovingBlocks/joml-ext"
+       target="_blank"
+       xlink:title="MovingBlocks/joml-ext">
+      <g
+         pencil:type="Shape"
+         pencil:def="tamBD:BDAgent_V003"
+         id="41471f7f17b84da7bb0b718f2da0f7b0"
+         transform="translate(653,419)">
+        <pencil:metadata>
+          <pencil:property
+             name="box">225,60</pencil:property>
+          <pencil:property
+             name="BOOLallowMultiple">true</pencil:property>
+          <pencil:property
+             name="BOOLisMultiple">false</pencil:property>
+          <pencil:property
+             name="BOOLallowHuman">true</pencil:property>
+          <pencil:property
+             name="BOOLshowHuman">false</pencil:property>
+          <pencil:property
+             name="HNDLhumanPos">112.5,30</pencil:property>
+          <pencil:property
+             name="ENUMhumanSize">1.5</pencil:property>
+          <pencil:property
+             name="ENUMmood">happy</pencil:property>
+          <pencil:property
+             name="fillColor">#FFFFFFFF</pencil:property>
+          <pencil:property
+             name="strokeColor">#000000FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">2|</pencil:property>
+          <pencil:property
+             name="TTXTlabel">joml-ext</pencil:property>
+          <pencil:property
+             name="textColor">#000000FF</pencil:property>
+          <pencil:property
+             name="textFont">sans-serif|normal|normal|13px|none|0</pencil:property>
+          <pencil:property
+             name="ALGNtextAlignment">1,1</pencil:property>
+        </pencil:metadata>
+        <rect
+           x="0"
+           y="0"
+           pencil:name="rectMultiple"
+           id="e32f8c3ff89a4f7ba1becbbd4ecd3e8e"
+           transform="translate(8,-8)"
+           style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+           height="60"
+           width="225" />
+        <rect
+           x="0"
+           y="0"
+           pencil:name="rect"
+           id="c5d865e2fad541438ff59fd93c4cd380"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+           height="60"
+           width="225" />
+        <text
+           xml:space="preserve"
+           pencil:name="text"
+           id="c4d7a3754da84bb38ef33e500bf02d5a"
+           style="font-style:normal;font-weight:normal;font-size:13px;font-family:sans-serif;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#000000;fill-opacity:1"
+           transform="translate(9,35)"><tspan
+             x="81.546875"
+             y="0"
+             id="tspan88">joml-ext</tspan></text>
+        <g
+           pencil:name="stickman"
+           id="855ffcfe4fb6477f8f808fdd4904bde2"
+           transform="matrix(1.5,0,0,1.5,112.5,30)"
+           style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1">
+          <circle
+             style="opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             cx="0"
+             cy="-7.5"
+             pencil:name="head"
+             id="8911a850fbd749d9a061ec1c50f5e2e2"
+             r="3" />
+          <path
+             d="M 0,-4.5 V 3"
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             pencil:name="body"
+             id="86778cde530641ee88976f400e1ede3c"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,3 -5,7"
+             pencil:name="leftLeg"
+             id="ae63c8dd2561449aacdcdfb4b8c9d1fe"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,3 5,7"
+             pencil:name="rightLeg"
+             id="eca2cfe4ac374a2582acb654a1e6d71a"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             sodipodi:nodetypes="cc"
+             pencil:name="leftArm"
+             id="237b76d437224fbe92f90ab5ed3ad581"
+             d="M 0,-1 -5,-4"
+             inkscape:connector-curvature="0" />
+          <path
+             sodipodi:nodetypes="cc"
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             pencil:name="rightArm"
+             id="dff33001d9c4455aad74d482a74bae3d"
+             d="M 0,-1 5,-4"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </a>
+    <g
+       transform="translate(524.02405,133.224)"
+       id="a57c05139f604189addd03b867a76419"
+       pencil:sc="vert. Access R/W"
+       pencil:def="tamBD:AllDHorVertLine_V002"
+       pencil:type="Shape">
+      <pencil:metadata>
+        <pencil:property
+           name="BOOLhasExtensionA">false</pencil:property>
+        <pencil:property
+           name="BOOLallowDiagonalExtA">false</pencil:property>
+        <pencil:property
+           name="BOOLisExtADiagonal">false</pencil:property>
+        <pencil:property
+           name="BOOLhasExtensionB">false</pencil:property>
+        <pencil:property
+           name="BOOLisHorizontal">false</pencil:property>
+        <pencil:property
+           name="ENUMarrowStyleStart">full</pencil:property>
+        <pencil:property
+           name="ENUMarrowStyleEnd">none</pencil:property>
+        <pencil:property
+           name="ENUMalignType">center</pencil:property>
+        <pencil:property
+           pencil:viay="121.7760009765625"
+           pencil:viax="262.5239648437499"
+           pencil:connectedOutletId="top-center"
+           pencil:connectedShapeId="3658b9b3c371451eb33564cedb161634"
+           name="HNDLp1">262.5239648437499,131.7760009765625</pencil:property>
+        <pencil:property
+           pencil:connectedShapeId="f56ec0c7b34c45858a6b25feffd1873f"
+           pencil:connectedOutletId="bottom-center"
+           pencil:viax="263.67596435546875"
+           pencil:viay="67.57601318359374"
+           name="HNDLp2">263.67596435546875,57.576013183593744</pencil:property>
+        <pencil:property
+           name="HNDLc3">0,87</pencil:property>
+        <pencil:property
+           name="strokeColor">#000000FF</pencil:property>
+        <pencil:property
+           name="strokeStyle">1|</pencil:property>
+        <pencil:property
+           name="HNDLtextPos">40,25</pencil:property>
+        <pencil:property
+           name="TTXTtextContent" />
+        <pencil:property
+           name="textColor">#000000FF</pencil:property>
+        <pencil:property
+           name="textFont">sans-serif|normal|normal|13px|none|0</pencil:property>
+        <pencil:property
+           name="ALGNtextAlignment">0,1</pencil:property>
+      </pencil:metadata>
+      <defs
+         id="defs103">
+        <marker
+           id="9809c77b746a4e7694cf6036b9dcc27a"
+           pencil:name="ArrowEnd"
+           markerUnits="userSpaceOnUse"
+           style="overflow:visible"
+           refX="0"
+           refY="0"
+           orient="auto">
+          <path
+             inkscape:connector-curvature="0"
+             transform="matrix(-0.75,0,0,-0.75,-1,0)"
+             d=""
+             id="5dce0e7682054c71bca17614130d884e"
+             pencil:name="ArrowEndPath"
+             style="display:none;visibility:hidden;fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:0.89999998;stroke-linejoin:round;stroke-opacity:1" />
+        </marker>
+        <marker
+           id="a5bb968cf31b4ef19624110aaaf40efc"
+           pencil:name="ArrowStart"
+           markerUnits="userSpaceOnUse"
+           style="overflow:visible"
+           refX="0"
+           refY="0"
+           orient="auto">
+          <path
+             inkscape:connector-curvature="0"
+             transform="matrix(0.75,0,0,0.75,1,0)"
+             d="M 9,5 -1,0 9,-5 C 7,-2 7,2 9,5 Z"
+             id="43ebd14055674b7cb51bb909bad55b60"
+             pencil:name="ArrowStartPath"
+             style="visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.89999998;stroke-linejoin:round;stroke-opacity:1" />
+        </marker>
+      </defs>
+      <path
+         inkscape:connector-curvature="0"
+         d="M 263.09996,131.776 V 57.576013"
+         id="7b28d71a93cb46b789d42a0971cfc271"
+         pencil:name="line"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-opacity:1;marker-start:url(#a5bb968cf31b4ef19624110aaaf40efc);marker-end:url(#9809c77b746a4e7694cf6036b9dcc27a)" />
+      <path
+         inkscape:connector-curvature="0"
+         d="M 263.09996,131.776 V 57.576013"
+         id="624d73f6e9bf41ed99e6af4326470f1a"
+         pencil:name="lineGrip"
+         style="fill:none;stroke-width:10px" />
+      <text
+         style="font-style:normal;font-weight:normal;font-size:13px;font-family:sans-serif;text-decoration:none;text-decoration-line:none;fill:#000000;fill-opacity:1"
+         transform="translate(40,25)"
+         id="291145d30cec44e0868d155d68a26356"
+         pencil:name="text"
+         xml:space="preserve" />
+    </g>
+    <g
+       transform="translate(269.02402,266.224)"
+       id="409573dec260421fa34c9f7cd339ea58"
+       pencil:sc="vert. Access R/W"
+       pencil:def="tamBD:AllDHorVertLine_V002"
+       pencil:type="Shape">
+      <pencil:metadata>
+        <pencil:property
+           name="BOOLhasExtensionA">false</pencil:property>
+        <pencil:property
+           name="BOOLallowDiagonalExtA">false</pencil:property>
+        <pencil:property
+           name="BOOLisExtADiagonal">false</pencil:property>
+        <pencil:property
+           name="BOOLhasExtensionB">false</pencil:property>
+        <pencil:property
+           name="BOOLisHorizontal">false</pencil:property>
+        <pencil:property
+           name="ENUMarrowStyleStart">full</pencil:property>
+        <pencil:property
+           name="ENUMarrowStyleEnd">none</pencil:property>
+        <pencil:property
+           name="ENUMalignType">center</pencil:property>
+        <pencil:property
+           name="HNDLp1">522,140</pencil:property>
+        <pencil:property
+           name="HNDLp2">523,116</pencil:property>
+        <pencil:property
+           name="HNDLc3">0,125</pencil:property>
+        <pencil:property
+           name="strokeColor">#000000FF</pencil:property>
+        <pencil:property
+           name="strokeStyle">1|</pencil:property>
+        <pencil:property
+           name="HNDLtextPos">40,25</pencil:property>
+        <pencil:property
+           name="TTXTtextContent" />
+        <pencil:property
+           name="textColor">#000000FF</pencil:property>
+        <pencil:property
+           name="textFont">sans-serif|normal|normal|13px|none|0</pencil:property>
+        <pencil:property
+           name="ALGNtextAlignment">0,1</pencil:property>
+      </pencil:metadata>
+      <defs
+         id="defs113">
+        <marker
+           id="73ef41e69ca6497bb3c4f30e2fbf7021"
+           pencil:name="ArrowEnd"
+           markerUnits="userSpaceOnUse"
+           style="overflow:visible"
+           refX="0"
+           refY="0"
+           orient="auto">
+          <path
+             inkscape:connector-curvature="0"
+             transform="matrix(-0.75,0,0,-0.75,-1,0)"
+             d=""
+             id="a6a19466637a487da6cd9da39121ff92"
+             pencil:name="ArrowEndPath"
+             style="display:none;visibility:hidden;fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:0.89999998;stroke-linejoin:round;stroke-opacity:1" />
+        </marker>
+        <marker
+           id="817ddd952b47421faf0570a0a4ee6eb8"
+           pencil:name="ArrowStart"
+           markerUnits="userSpaceOnUse"
+           style="overflow:visible"
+           refX="0"
+           refY="0"
+           orient="auto">
+          <path
+             inkscape:connector-curvature="0"
+             transform="matrix(0.75,0,0,0.75,1,0)"
+             d="M 9,5 -1,0 9,-5 C 7,-2 7,2 9,5 Z"
+             id="8b59d9b2f94d4c9fa146c67d36458336"
+             pencil:name="ArrowStartPath"
+             style="visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.89999998;stroke-linejoin:round;stroke-opacity:1" />
+        </marker>
+      </defs>
+      <path
+         inkscape:connector-curvature="0"
+         d="M 522.5,140 V 116"
+         id="9de3ac7733444651ab418383b3d27fcd"
+         pencil:name="line"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-opacity:1;marker-start:url(#817ddd952b47421faf0570a0a4ee6eb8);marker-end:url(#73ef41e69ca6497bb3c4f30e2fbf7021)" />
+      <path
+         inkscape:connector-curvature="0"
+         d="M 522.5,140 V 116"
+         id="c876d88a8bc649b2a335a946c3890141"
+         pencil:name="lineGrip"
+         style="fill:none;stroke-width:10px" />
+      <text
+         style="font-style:normal;font-weight:normal;font-size:13px;font-family:sans-serif;text-decoration:none;text-decoration-line:none;fill:#000000;fill-opacity:1"
+         transform="translate(40,25)"
+         id="431490597213424699f33549f94216ae"
+         pencil:name="text"
+         xml:space="preserve" />
+    </g>
+    <g
+       transform="translate(280.02402,269.224)"
+       id="4ccf9dcbe306458a904c07754598bbc2"
+       pencil:sc="vert. Access R/W"
+       pencil:def="tamBD:AllDHorVertLine_V002"
+       pencil:type="Shape">
+      <pencil:metadata>
+        <pencil:property
+           name="BOOLhasExtensionA">false</pencil:property>
+        <pencil:property
+           name="BOOLallowDiagonalExtA">false</pencil:property>
+        <pencil:property
+           name="BOOLisExtADiagonal">false</pencil:property>
+        <pencil:property
+           name="BOOLhasExtensionB">false</pencil:property>
+        <pencil:property
+           name="BOOLisHorizontal">false</pencil:property>
+        <pencil:property
+           name="ENUMarrowStyleStart">full</pencil:property>
+        <pencil:property
+           name="ENUMarrowStyleEnd">none</pencil:property>
+        <pencil:property
+           name="ENUMalignType">center</pencil:property>
+        <pencil:property
+           name="HNDLp1">965,137</pencil:property>
+        <pencil:property
+           name="HNDLp2">964,115</pencil:property>
+        <pencil:property
+           name="HNDLc3">0,125</pencil:property>
+        <pencil:property
+           name="strokeColor">#000000FF</pencil:property>
+        <pencil:property
+           name="strokeStyle">1|</pencil:property>
+        <pencil:property
+           name="HNDLtextPos">40,25</pencil:property>
+        <pencil:property
+           name="TTXTtextContent" />
+        <pencil:property
+           name="textColor">#000000FF</pencil:property>
+        <pencil:property
+           name="textFont">sans-serif|normal|normal|13px|none|0</pencil:property>
+        <pencil:property
+           name="ALGNtextAlignment">0,1</pencil:property>
+      </pencil:metadata>
+      <defs
+         id="defs123">
+        <marker
+           id="c3c90f86a2ea413d93fed9650a8fefb9"
+           pencil:name="ArrowEnd"
+           markerUnits="userSpaceOnUse"
+           style="overflow:visible"
+           refX="0"
+           refY="0"
+           orient="auto">
+          <path
+             inkscape:connector-curvature="0"
+             transform="matrix(-0.75,0,0,-0.75,-1,0)"
+             d=""
+             id="ce2f83edc85f45dc81a1ec384e48b355"
+             pencil:name="ArrowEndPath"
+             style="display:none;visibility:hidden;fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:0.89999998;stroke-linejoin:round;stroke-opacity:1" />
+        </marker>
+        <marker
+           id="3aa0cbf30adf4b32ab430d513bfc6066"
+           pencil:name="ArrowStart"
+           markerUnits="userSpaceOnUse"
+           style="overflow:visible"
+           refX="0"
+           refY="0"
+           orient="auto">
+          <path
+             inkscape:connector-curvature="0"
+             transform="matrix(0.75,0,0,0.75,1,0)"
+             d="M 9,5 -1,0 9,-5 C 7,-2 7,2 9,5 Z"
+             id="dfffd0023e6d42e4a1775df297f712dc"
+             pencil:name="ArrowStartPath"
+             style="visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.89999998;stroke-linejoin:round;stroke-opacity:1" />
+        </marker>
+      </defs>
+      <path
+         inkscape:connector-curvature="0"
+         d="M 964.5,137 V 115"
+         id="a8286a3777d64b348d5cd9aa4300a5e3"
+         pencil:name="line"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-opacity:1;marker-start:url(#3aa0cbf30adf4b32ab430d513bfc6066);marker-end:url(#c3c90f86a2ea413d93fed9650a8fefb9)" />
+      <path
+         inkscape:connector-curvature="0"
+         d="M 964.5,137 V 115"
+         id="720e7caa6a864e7ea021d33f0b3d97c8"
+         pencil:name="lineGrip"
+         style="fill:none;stroke-width:10px" />
+      <text
+         style="font-style:normal;font-weight:normal;font-size:13px;font-family:sans-serif;text-decoration:none;text-decoration-line:none;fill:#000000;fill-opacity:1"
+         transform="translate(40,25)"
+         id="eb78edebf6054a2dab2388830baa3dc6"
+         pencil:name="text"
+         xml:space="preserve" />
+    </g>
+    <a
+       id="a5194"
+       xlink:href="https://github.com/MovingBlocks/DestinationSol/"
+       xlink:type=""
+       target="_blank"
+       xlink:role="MovingBlocks/DestinationSol">
+      <g
+         id="g5192">
+        <rect
+           x="1096.2"
+           y="77.399994"
+           pencil:name="rect"
+           id="c2b909de013c4ae492d0542bf011be6a"
+           rx="0"
+           ry="0"
+           style="fill:#66cccc;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+           height="308"
+           width="311.60001" />
+        <text
+           xml:space="preserve"
+           pencil:name="text"
+           id="b1e48449790d47eebe3f142e1f20acf6"
+           style="font-style:normal;font-weight:300;font-size:13px;font-family:Sans;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#232323;fill-opacity:1"
+           x="1090.2"
+           y="377.39999"><tspan
+             x="1262.3938"
+             y="377.39999"
+             id="tspan130">MovingBlocks/DestSol</tspan></text>
+        <g
+           transform="translate(1129.088,264)"
+           id="d9c1b6dc96ce4ebcb53323923c529c8c"
+           pencil:def="tamBD:BDAgent_V003"
+           pencil:type="Shape">
+          <pencil:metadata>
+            <pencil:property
+               name="box">224.9199999999999,84.66400000000006</pencil:property>
+            <pencil:property
+               name="BOOLallowMultiple">true</pencil:property>
+            <pencil:property
+               name="BOOLisMultiple">false</pencil:property>
+            <pencil:property
+               name="BOOLallowHuman">true</pencil:property>
+            <pencil:property
+               name="BOOLshowHuman">false</pencil:property>
+            <pencil:property
+               name="HNDLhumanPos">112.45999999999995,42.332000000000036</pencil:property>
+            <pencil:property
+               name="ENUMhumanSize">1.5</pencil:property>
+            <pencil:property
+               name="ENUMmood">happy</pencil:property>
+            <pencil:property
+               name="fillColor">#FFFFFFFF</pencil:property>
+            <pencil:property
+               name="strokeColor">#000000FF</pencil:property>
+            <pencil:property
+               name="strokeStyle">2|</pencil:property>
+            <pencil:property
+               name="TTXTlabel">engine</pencil:property>
+            <pencil:property
+               name="textColor">#000000FF</pencil:property>
+            <pencil:property
+               name="textFont">sans-serif|normal|normal|13px|none|0</pencil:property>
+            <pencil:property
+               name="ALGNtextAlignment">1,1</pencil:property>
+          </pencil:metadata>
+          <rect
+             width="224.92"
+             height="84.664001"
+             style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+             transform="translate(8,-8)"
+             id="20aac595ebe145469e0504b3da5e0e67"
+             pencil:name="rectMultiple"
+             y="0"
+             x="0" />
+          <rect
+             width="224.92"
+             height="84.664001"
+             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+             id="56c1e1fe78344c48820b21e0a6fcfad9"
+             pencil:name="rect"
+             y="0"
+             x="0" />
+          <text
+             transform="translate(7,47)"
+             style="font-style:normal;font-weight:normal;font-size:13px;font-family:sans-serif;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#000000;fill-opacity:1"
+             id="29af55012abd403387d447e1a8ed9f4d"
+             pencil:name="text"
+             xml:space="preserve"><tspan
+               id="tspan136"
+               y="0"
+               x="85.553749">engine</tspan></text>
+          <g
+             style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+             transform="matrix(1.5,0,0,1.5,112.46,42.332)"
+             id="649b02bebf0a4369ace525500fdb15b2"
+             pencil:name="stickman">
+            <circle
+               r="3"
+               id="98638e1587b3456baffe2c21ed151f3a"
+               pencil:name="head"
+               cy="-7.5"
+               cx="0"
+               style="opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               id="f65d8102ee1a4da0acf34b947ab5c566"
+               pencil:name="body"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M 0,-4.5 V 3" />
+            <path
+               inkscape:connector-curvature="0"
+               id="4651b7c0c6314fbeb28dec00ab05cc47"
+               pencil:name="leftLeg"
+               d="m 0,3 -5,7"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               id="a2243e4d23a5410a8050ce778374ff0b"
+               pencil:name="rightLeg"
+               d="m 0,3 5,7"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               d="M 0,-1 -5,-4"
+               id="766e415d431d459191b0585821936691"
+               pencil:name="leftArm"
+               sodipodi:nodetypes="cc"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               d="M 0,-1 5,-4"
+               id="dc4c075b37f442e5818fddf89ec0f998"
+               pencil:name="rightArm"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               sodipodi:nodetypes="cc" />
+          </g>
+        </g>
+        <g
+           transform="translate(1134.2,96.200012)"
+           id="62ee38e2624c4ed3b2ac5f6123ced65e"
+           pencil:def="tamBD:BDAgent_V003"
+           pencil:type="Shape">
+          <pencil:metadata>
+            <pencil:property
+               name="box">227,94.6</pencil:property>
+            <pencil:property
+               name="BOOLallowMultiple">true</pencil:property>
+            <pencil:property
+               name="BOOLisMultiple">true</pencil:property>
+            <pencil:property
+               name="BOOLallowHuman">true</pencil:property>
+            <pencil:property
+               name="BOOLshowHuman">false</pencil:property>
+            <pencil:property
+               name="HNDLhumanPos">113.5,47.3</pencil:property>
+            <pencil:property
+               name="ENUMhumanSize">1.5</pencil:property>
+            <pencil:property
+               name="ENUMmood">happy</pencil:property>
+            <pencil:property
+               name="fillColor">#FFFFFFFF</pencil:property>
+            <pencil:property
+               name="strokeColor">#000000FF</pencil:property>
+            <pencil:property
+               name="strokeStyle">2|</pencil:property>
+            <pencil:property
+               name="TTXTlabel">module</pencil:property>
+            <pencil:property
+               name="textColor">#000000FF</pencil:property>
+            <pencil:property
+               name="textFont">sans-serif|normal|normal|13px|none|0</pencil:property>
+            <pencil:property
+               name="ALGNtextAlignment">1,1</pencil:property>
+          </pencil:metadata>
+          <rect
+             width="227"
+             height="94.599998"
+             style="visibility:visible;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+             transform="translate(8,-8)"
+             id="0eef0f8a55b84c98928b88fa838bbf3f"
+             pencil:name="rectMultiple"
+             y="0"
+             x="0" />
+          <rect
+             width="227"
+             height="94.599998"
+             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+             id="c4fd4ec004af45d98eaef872afcb7fd1"
+             pencil:name="rect"
+             y="0"
+             x="0" />
+          <text
+             transform="translate(8,52)"
+             style="font-style:normal;font-weight:normal;font-size:13px;font-family:sans-serif;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#000000;fill-opacity:1"
+             id="dde6595363e347bcaa2cf7aa156b8b0c"
+             pencil:name="text"
+             xml:space="preserve"><tspan
+               id="tspan149"
+               y="0"
+               x="84.789062">module</tspan></text>
+          <g
+             style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+             transform="matrix(1.5,0,0,1.5,113.5,47.3)"
+             id="f66554145a534a32a2d7971b15c50256"
+             pencil:name="stickman">
+            <circle
+               r="3"
+               id="c65997f1002c44288c70d1e91fb9272e"
+               pencil:name="head"
+               cy="-7.5"
+               cx="0"
+               style="opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               id="7ffbe7de492542d4b040849cd51c6e7d"
+               pencil:name="body"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M 0,-4.5 V 3" />
+            <path
+               inkscape:connector-curvature="0"
+               id="79aa80467e744b93b07259cd067ec3a4"
+               pencil:name="leftLeg"
+               d="m 0,3 -5,7"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               id="47c34f3c1b114cb0baf507dfa8df9a0c"
+               pencil:name="rightLeg"
+               d="m 0,3 5,7"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               d="M 0,-1 -5,-4"
+               id="5c9a6ba8ee884885a68fa259a0ca4836"
+               pencil:name="leftArm"
+               sodipodi:nodetypes="cc"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               d="M 0,-1 5,-4"
+               id="3e9f52992be443bd8dfecbc6f0fd4fb9"
+               pencil:name="rightArm"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               sodipodi:nodetypes="cc" />
+          </g>
+        </g>
+        <g
+           transform="translate(371.02402,151.224)"
+           id="92e6d382b6d74bf3a02bb9d8e5aff989"
+           pencil:sc="vert. Access R/W"
+           pencil:def="tamBD:AllDHorVertLine_V002"
+           pencil:type="Shape">
+          <pencil:metadata>
+            <pencil:property
+               name="BOOLhasExtensionA">false</pencil:property>
+            <pencil:property
+               name="BOOLallowDiagonalExtA">false</pencil:property>
+            <pencil:property
+               name="BOOLisExtADiagonal">false</pencil:property>
+            <pencil:property
+               name="BOOLhasExtensionB">false</pencil:property>
+            <pencil:property
+               name="BOOLisHorizontal">false</pencil:property>
+            <pencil:property
+               name="ENUMarrowStyleStart">full</pencil:property>
+            <pencil:property
+               name="ENUMarrowStyleEnd">none</pencil:property>
+            <pencil:property
+               name="ENUMalignType">center</pencil:property>
+            <pencil:property
+               pencil:connectedShapeId="d9c1b6dc96ce4ebcb53323923c529c8c"
+               pencil:connectedOutletId="top-center"
+               pencil:viax="870.523995361328"
+               pencil:viay="102.7760009765625"
+               name="HNDLp1">870.523995361328,112.7760009765625</pencil:property>
+            <pencil:property
+               pencil:connectedShapeId="62ee38e2624c4ed3b2ac5f6123ced65e"
+               pencil:connectedOutletId="bottom-center"
+               pencil:viax="876.6759338378906"
+               pencil:viay="49.576013183593744"
+               name="HNDLp2">876.6759338378906,39.576013183593744</pencil:property>
+            <pencil:property
+               name="HNDLc3">0,87</pencil:property>
+            <pencil:property
+               name="strokeColor">#000000FF</pencil:property>
+            <pencil:property
+               name="strokeStyle">1|</pencil:property>
+            <pencil:property
+               name="HNDLtextPos">40,25</pencil:property>
+            <pencil:property
+               name="TTXTtextContent" />
+            <pencil:property
+               name="textColor">#000000FF</pencil:property>
+            <pencil:property
+               name="textFont">sans-serif|normal|normal|13px|none|0</pencil:property>
+            <pencil:property
+               name="ALGNtextAlignment">0,1</pencil:property>
+          </pencil:metadata>
+          <defs
+             id="defs164">
+            <marker
+               id="09d3164fb3384d8ca539a294811c8d69"
+               pencil:name="ArrowEnd"
+               markerUnits="userSpaceOnUse"
+               style="overflow:visible"
+               refX="0"
+               refY="0"
+               orient="auto">
+              <path
+                 inkscape:connector-curvature="0"
+                 transform="matrix(-0.75,0,0,-0.75,-1,0)"
+                 d=""
+                 id="c69ecf46ae774cfdaa609ce294796882"
+                 pencil:name="ArrowEndPath"
+                 style="display:none;visibility:hidden;fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:0.89999998;stroke-linejoin:round;stroke-opacity:1" />
+            </marker>
+            <marker
+               id="9e71057836884eb7894f8fae76cf184b"
+               pencil:name="ArrowStart"
+               markerUnits="userSpaceOnUse"
+               style="overflow:visible"
+               refX="0"
+               refY="0"
+               orient="auto">
+              <path
+                 inkscape:connector-curvature="0"
+                 transform="matrix(0.75,0,0,0.75,1,0)"
+                 d="M 9,5 -1,0 9,-5 C 7,-2 7,2 9,5 Z"
+                 id="50b139338e6242d8bed70a78247317e0"
+                 pencil:name="ArrowStartPath"
+                 style="visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.89999998;stroke-linejoin:round;stroke-opacity:1" />
+            </marker>
+          </defs>
+          <path
+             inkscape:connector-curvature="0"
+             d="M 873.59996,112.776 V 39.576013"
+             id="7d31bbf548744b3295be5d7938e49e58"
+             pencil:name="line"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-opacity:1;marker-start:url(#9e71057836884eb7894f8fae76cf184b);marker-end:url(#09d3164fb3384d8ca539a294811c8d69)" />
+          <path
+             inkscape:connector-curvature="0"
+             d="M 873.59996,112.776 V 39.576013"
+             id="843e9306668b473aa682676ac171819a"
+             pencil:name="lineGrip"
+             style="fill:none;stroke-width:10px" />
+          <text
+             style="font-style:normal;font-weight:normal;font-size:13px;font-family:sans-serif;text-decoration:none;text-decoration-line:none;fill:#000000;fill-opacity:1"
+             transform="translate(40,25)"
+             id="8efa36f8002941168758013adcc81798"
+             pencil:name="text"
+             xml:space="preserve" />
+        </g>
+      </g>
+    </a>
+    <a
+       id="a1388"
+       xlink:href="https://github.com/MovingBlocks/TerasologyLauncher"
+       target="_blank"
+       xlink:title="MovingBlocks/TerasologyLauncher">
+      <g
+         id="g1386">
+        <g
+           transform="translate(277.08801,53)"
+           id="b3ced96f22324f739f1ab457507efcdc"
+           pencil:def="tamBD:BDAgent_V003"
+           pencil:type="Shape">
+          <pencil:metadata>
+            <pencil:property
+               name="box">224.9199999999999,96.66400000000006</pencil:property>
+            <pencil:property
+               name="BOOLallowMultiple">true</pencil:property>
+            <pencil:property
+               name="BOOLisMultiple">false</pencil:property>
+            <pencil:property
+               name="BOOLallowHuman">true</pencil:property>
+            <pencil:property
+               name="BOOLshowHuman">false</pencil:property>
+            <pencil:property
+               name="HNDLhumanPos">112.45999999999995,48.332000000000036</pencil:property>
+            <pencil:property
+               name="ENUMhumanSize">1.5</pencil:property>
+            <pencil:property
+               name="ENUMmood">happy</pencil:property>
+            <pencil:property
+               name="fillColor">#FFFFFFFF</pencil:property>
+            <pencil:property
+               name="strokeColor">#000000FF</pencil:property>
+            <pencil:property
+               name="strokeStyle">2|</pencil:property>
+            <pencil:property
+               name="TTXTlabel">Terasology Launcher</pencil:property>
+            <pencil:property
+               name="textColor">#000000FF</pencil:property>
+            <pencil:property
+               name="textFont">sans-serif|normal|normal|13px|none|0</pencil:property>
+            <pencil:property
+               name="ALGNtextAlignment">1,1</pencil:property>
+          </pencil:metadata>
+          <rect
+             width="224.92"
+             height="96.664001"
+             style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+             transform="translate(8,-8)"
+             id="dad2b5ed41e24b29ac0dd8c1c5c7ab25"
+             pencil:name="rectMultiple"
+             y="0"
+             x="0" />
+          <rect
+             width="224.92"
+             height="96.664001"
+             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+             id="86baa8a6b4de4d9f959f405c0ca8a2a2"
+             pencil:name="rect"
+             y="0"
+             x="0" />
+          <text
+             transform="translate(8,53)"
+             style="font-style:normal;font-weight:normal;font-size:13px;font-family:sans-serif;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#000000;fill-opacity:1"
+             id="40efccefbe1243f6adb2b891ede9735c"
+             pencil:name="text"
+             xml:space="preserve"><tspan
+               id="tspan172"
+               y="0"
+               x="44.280312">Terasology Launcher</tspan></text>
+          <g
+             style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+             transform="matrix(1.5,0,0,1.5,112.46,48.332)"
+             id="3e21a26e2eb649d1bfffeca0b549f646"
+             pencil:name="stickman">
+            <circle
+               r="3"
+               id="0556f791e90b4606b1816dcde137596d"
+               pencil:name="head"
+               cy="-7.5"
+               cx="0"
+               style="opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               id="13f9302667924fb49ae154b317e0520a"
+               pencil:name="body"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M 0,-4.5 V 3" />
+            <path
+               inkscape:connector-curvature="0"
+               id="2fe02e76a66b4a5484e6f262fedac356"
+               pencil:name="leftLeg"
+               d="m 0,3 -5,7"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               id="d1b5627636714dab870f7a68eb05cb89"
+               pencil:name="rightLeg"
+               d="m 0,3 5,7"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               d="M 0,-1 -5,-4"
+               id="a05ed6b1a1d549209fe9f0bfb4926c42"
+               pencil:name="leftArm"
+               sodipodi:nodetypes="cc"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               d="M 0,-1 5,-4"
+               id="199d2ea2cd9b449982eed1e1b921adf3"
+               pencil:name="rightArm"
+               style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               sodipodi:nodetypes="cc" />
+          </g>
+        </g>
+      </g>
+    </a>
+    <a
+       id="a5352"
+       xlink:href="https://github.com/MovingBlocks/movingblocks.github.com"
+       target="_blank"
+       xlink:title="MovingBlocks/movingblocks.github.com">
+      <g
+         pencil:type="Shape"
+         pencil:def="tamBD:BDAgent_V003"
+         id="72949a8fb2334b14850bafb489a3d7ec"
+         transform="translate(277.08801,300)">
+        <pencil:metadata>
+          <pencil:property
+             name="box">224.9199999999999,60.66400000000006</pencil:property>
+          <pencil:property
+             name="BOOLallowMultiple">true</pencil:property>
+          <pencil:property
+             name="BOOLisMultiple">false</pencil:property>
+          <pencil:property
+             name="BOOLallowHuman">true</pencil:property>
+          <pencil:property
+             name="BOOLshowHuman">false</pencil:property>
+          <pencil:property
+             name="HNDLhumanPos">112.45999999999995,30.332000000000036</pencil:property>
+          <pencil:property
+             name="ENUMhumanSize">1.5</pencil:property>
+          <pencil:property
+             name="ENUMmood">happy</pencil:property>
+          <pencil:property
+             name="fillColor">#FFFFFFFF</pencil:property>
+          <pencil:property
+             name="strokeColor">#000000FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">2|</pencil:property>
+          <pencil:property
+             name="TTXTlabel">Website
+(movingblocks.github.com)</pencil:property>
+          <pencil:property
+             name="textColor">#000000FF</pencil:property>
+          <pencil:property
+             name="textFont">sans-serif|normal|normal|13px|none|0</pencil:property>
+          <pencil:property
+             name="ALGNtextAlignment">1,1</pencil:property>
+        </pencil:metadata>
+        <rect
+           x="0"
+           y="0"
+           pencil:name="rectMultiple"
+           id="4f25ad3d62de4d9190e0b04931ef7c66"
+           transform="translate(8,-8)"
+           style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+           height="60.664001"
+           width="224.92" />
+        <rect
+           x="0"
+           y="0"
+           pencil:name="rect"
+           id="c4e9d5d5ccbb4096b32a67ee77efc89d"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+           height="60.664001"
+           width="224.92" />
+        <text
+           xml:space="preserve"
+           pencil:name="text"
+           id="5f942ba64b464e9a99cc717bea9e97d2"
+           style="font-style:normal;font-weight:normal;font-size:13px;font-family:sans-serif;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#000000;fill-opacity:1"
+           transform="translate(8,27)"><tspan
+             x="81.709999"
+             y="0"
+             id="tspan185">Website</tspan><tspan
+             x="27.811562"
+             y="15"
+             id="tspan187">(movingblocks.github.com)</tspan></text>
+        <g
+           pencil:name="stickman"
+           id="4bad66705b0a4702a6a0792cec4be64e"
+           transform="matrix(1.5,0,0,1.5,112.46,30.332)"
+           style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1">
+          <circle
+             style="opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             cx="0"
+             cy="-7.5"
+             pencil:name="head"
+             id="db4477c92c29453a9086654b395cd22d"
+             r="3" />
+          <path
+             d="M 0,-4.5 V 3"
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             pencil:name="body"
+             id="c6d433448c5345b181fd704e605e4a2e"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,3 -5,7"
+             pencil:name="leftLeg"
+             id="9d3a1b9fbe664cad982fd2e81ae2f055"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,3 5,7"
+             pencil:name="rightLeg"
+             id="af877f0c884d468e9cc9b4cbdd868679"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             sodipodi:nodetypes="cc"
+             pencil:name="leftArm"
+             id="952e9a83c3fc4e4e95ef0869cd53723d"
+             d="M 0,-1 -5,-4"
+             inkscape:connector-curvature="0" />
+          <path
+             sodipodi:nodetypes="cc"
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             pencil:name="rightArm"
+             id="238ac0e169af43bb8b3b3df85063adca"
+             d="M 0,-1 5,-4"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </a>
+    <a
+       id="a5367"
+       xlink:href="https://github.com/MovingBlocks/ModuleSite"
+       target="_blank"
+       xlink:title="MovingBlocks/ModuleSite">
+      <g
+         pencil:type="Shape"
+         pencil:def="tamBD:BDAgent_V003"
+         id="c2844b5df6854261b33adc3216025044"
+         transform="translate(277.08801,374)">
+        <pencil:metadata>
+          <pencil:property
+             name="box">224.9199999999999,60.66400000000006</pencil:property>
+          <pencil:property
+             name="BOOLallowMultiple">true</pencil:property>
+          <pencil:property
+             name="BOOLisMultiple">false</pencil:property>
+          <pencil:property
+             name="BOOLallowHuman">true</pencil:property>
+          <pencil:property
+             name="BOOLshowHuman">false</pencil:property>
+          <pencil:property
+             name="HNDLhumanPos">112.45999999999995,30.332000000000036</pencil:property>
+          <pencil:property
+             name="ENUMhumanSize">1.5</pencil:property>
+          <pencil:property
+             name="ENUMmood">happy</pencil:property>
+          <pencil:property
+             name="fillColor">#FFFFFFFF</pencil:property>
+          <pencil:property
+             name="strokeColor">#000000FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">2|</pencil:property>
+          <pencil:property
+             name="TTXTlabel">Module Site</pencil:property>
+          <pencil:property
+             name="textColor">#000000FF</pencil:property>
+          <pencil:property
+             name="textFont">sans-serif|normal|normal|13px|none|0</pencil:property>
+          <pencil:property
+             name="ALGNtextAlignment">1,1</pencil:property>
+        </pencil:metadata>
+        <rect
+           x="0"
+           y="0"
+           pencil:name="rectMultiple"
+           id="1438623c95c14075b818efcb882ba7c4"
+           transform="translate(8,-8)"
+           style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+           height="60.664001"
+           width="224.92" />
+        <rect
+           x="0"
+           y="0"
+           pencil:name="rect"
+           id="60141b22137f475f89a275b94ee2ea46"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+           height="60.664001"
+           width="224.92" />
+        <text
+           xml:space="preserve"
+           pencil:name="text"
+           id="a626dfbffd5144948bdfd7d2635d9bea"
+           style="font-style:normal;font-weight:normal;font-size:13px;font-family:sans-serif;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#000000;fill-opacity:1"
+           transform="translate(7,35)"><tspan
+             x="71.249062"
+             y="0"
+             id="tspan200">Module Site</tspan></text>
+        <g
+           pencil:name="stickman"
+           id="826c5e18d8f3485594f1268be30eaa97"
+           transform="matrix(1.5,0,0,1.5,112.46,30.332)"
+           style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1">
+          <circle
+             style="opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             cx="0"
+             cy="-7.5"
+             pencil:name="head"
+             id="543e9edba53d4790903618575c7838bb"
+             r="3" />
+          <path
+             d="M 0,-4.5 V 3"
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             pencil:name="body"
+             id="5340023c55ed49639d3e6ee06bbf5257"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,3 -5,7"
+             pencil:name="leftLeg"
+             id="6df6468095394f30825d55ff57a97c49"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,3 5,7"
+             pencil:name="rightLeg"
+             id="2096d4e988a441cd9c744ec9b8a4f20e"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             sodipodi:nodetypes="cc"
+             pencil:name="leftArm"
+             id="cc16824aacb7477ca439cb312d6f6a60"
+             d="M 0,-1 -5,-4"
+             inkscape:connector-curvature="0" />
+          <path
+             sodipodi:nodetypes="cc"
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             pencil:name="rightArm"
+             id="c09d4b249a5447f6bd2d409eef471e2e"
+             d="M 0,-1 5,-4"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </a>
+    <a
+       id="a5381"
+       xlink:href="https://github.com/MovingBlocks/AdventureSite"
+       target="_blank"
+       xlink:title="MovingBlocks/AdventureSite">
+      <g
+         pencil:type="Shape"
+         pencil:def="tamBD:BDAgent_V003"
+         id="16bdf848e3ce44968f16de1c18910cbe"
+         transform="translate(277.08801,448)">
+        <pencil:metadata>
+          <pencil:property
+             name="box">224.9199999999999,60.66400000000006</pencil:property>
+          <pencil:property
+             name="BOOLallowMultiple">true</pencil:property>
+          <pencil:property
+             name="BOOLisMultiple">false</pencil:property>
+          <pencil:property
+             name="BOOLallowHuman">true</pencil:property>
+          <pencil:property
+             name="BOOLshowHuman">false</pencil:property>
+          <pencil:property
+             name="HNDLhumanPos">112.45999999999995,30.332000000000036</pencil:property>
+          <pencil:property
+             name="ENUMhumanSize">1.5</pencil:property>
+          <pencil:property
+             name="ENUMmood">happy</pencil:property>
+          <pencil:property
+             name="fillColor">#FFFFFFFF</pencil:property>
+          <pencil:property
+             name="strokeColor">#000000FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">2|</pencil:property>
+          <pencil:property
+             name="TTXTlabel">Adventure Site</pencil:property>
+          <pencil:property
+             name="textColor">#000000FF</pencil:property>
+          <pencil:property
+             name="textFont">sans-serif|normal|normal|13px|none|0</pencil:property>
+          <pencil:property
+             name="ALGNtextAlignment">1,1</pencil:property>
+        </pencil:metadata>
+        <rect
+           x="0"
+           y="0"
+           pencil:name="rectMultiple"
+           id="0a20488a45674c7d876a60129146da82"
+           transform="translate(8,-8)"
+           style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+           height="60.664001"
+           width="224.92" />
+        <rect
+           x="0"
+           y="0"
+           pencil:name="rect"
+           id="02b394f1ae284d3cbad7cae5821a75bc"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+           height="60.664001"
+           width="224.92" />
+        <text
+           xml:space="preserve"
+           pencil:name="text"
+           id="e90ad17ed82f46ff8d014ea8cb95ec3d"
+           style="font-style:normal;font-weight:normal;font-size:13px;font-family:sans-serif;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#000000;fill-opacity:1"
+           transform="translate(8,35)"><tspan
+             x="62.436562"
+             y="0"
+             id="tspan213">Adventure Site</tspan></text>
+        <g
+           pencil:name="stickman"
+           id="7c0bdb0f99224fe7b5deb109a6452e9d"
+           transform="matrix(1.5,0,0,1.5,112.46,30.332)"
+           style="display:none;visibility:hidden;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1">
+          <circle
+             style="opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             cx="0"
+             cy="-7.5"
+             pencil:name="head"
+             id="21da991af8e942dc8071b24183065cb2"
+             r="3" />
+          <path
+             d="M 0,-4.5 V 3"
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             pencil:name="body"
+             id="629158e5aa644a0fb56b9d375eeb4162"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,3 -5,7"
+             pencil:name="leftLeg"
+             id="52af01abab8c4e36b0801c4da73fad95"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,3 5,7"
+             pencil:name="rightLeg"
+             id="15379b7f3f5d43f0be342eccf164e539"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             sodipodi:nodetypes="cc"
+             pencil:name="leftArm"
+             id="0288d4a8fc5f46fc932e4ac854327184"
+             d="M 0,-1 -5,-4"
+             inkscape:connector-curvature="0" />
+          <path
+             sodipodi:nodetypes="cc"
+             style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             pencil:name="rightArm"
+             id="59ed5372ed2946368a538d631d2c3627"
+             d="M 0,-1 5,-4"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </a>
+    <ellipse
+       style="opacity:1;fill:#ffcccc;fill-opacity:1;stroke:none"
+       id="path1182"
+       cx="519.89661"
+       cy="371.11581"
+       rx="29.981041"
+       ry="46.871769" />
+    <ellipse
+       style="opacity:1;fill:#ffcccc;fill-opacity:1;stroke:none"
+       id="path1182-3"
+       cx="717.94037"
+       cy="231.34505"
+       rx="29.981041"
+       ry="46.871769" />
+    <ellipse
+       style="opacity:1;fill:#ffcccc;fill-opacity:1;stroke:none"
+       id="path1182-6"
+       cx="713.71771"
+       cy="124.93346"
+       rx="29.981041"
+       ry="46.871769" />
+    <ellipse
+       style="opacity:1;fill:#ffcccc;fill-opacity:1;stroke:none"
+       id="path1182-7"
+       cx="861.51154"
+       cy="131.68974"
+       rx="29.981041"
+       ry="46.871769" />
+    <ellipse
+       style="opacity:1;fill:#ffcccc;fill-opacity:1;stroke:none"
+       id="path1182-5"
+       cx="1178.1703"
+       cy="229.8609"
+       rx="29.981041"
+       ry="46.871769" />
+    <g
+       id="g2091">
+      <circle
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         cx="520.31885"
+         cy="347.74237"
+         pencil:name="head"
+         id="898fd69bb7374bd4b8ea1119a788522a"
+         r="6" />
+      <path
+         d="m 520.31887,353.74238 v 15"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         pencil:name="body"
+         id="1e5d49a5c25840a596ad87115f2ab59c"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 520.31887,368.74238 -10,14"
+         pencil:name="leftLeg"
+         id="abc56f442c3747408b0aba140f6bbf8c"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 520.31887,368.74238 10,14"
+         pencil:name="rightLeg"
+         id="e12e1970cd2a4db19f43e6df73b008b5"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc"
+         pencil:name="leftArm"
+         id="d339571983fb4638b7f52e866e63c69a"
+         d="m 520.31887,360.74238 -10,-6"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="cc"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         pencil:name="rightArm"
+         id="f4ecbef73e424b6099626c950e48419a"
+         d="m 520.31887,360.74238 10,-6"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="translate(193.46539,-224.38527)"
+       id="g2091-3">
+      <circle
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         cx="520.31885"
+         cy="347.74237"
+         pencil:name="head"
+         id="898fd69bb7374bd4b8ea1119a788522a-5"
+         r="6" />
+      <path
+         d="m 520.31887,353.74238 v 15"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         pencil:name="body"
+         id="1e5d49a5c25840a596ad87115f2ab59c-6"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 520.31887,368.74238 -10,14"
+         pencil:name="leftLeg"
+         id="abc56f442c3747408b0aba140f6bbf8c-2"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 520.31887,368.74238 10,14"
+         pencil:name="rightLeg"
+         id="e12e1970cd2a4db19f43e6df73b008b5-9"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc"
+         pencil:name="leftArm"
+         id="d339571983fb4638b7f52e866e63c69a-1"
+         d="m 520.31887,360.74238 -10,-6"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="cc"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         pencil:name="rightArm"
+         id="f4ecbef73e424b6099626c950e48419a-2"
+         d="m 520.31887,360.74238 10,-6"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="translate(340.37104,-222.10416)"
+       id="g2091-7">
+      <circle
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         cx="520.31885"
+         cy="347.74237"
+         pencil:name="head"
+         id="898fd69bb7374bd4b8ea1119a788522a-0"
+         r="6" />
+      <path
+         d="m 520.31887,353.74238 v 15"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         pencil:name="body"
+         id="1e5d49a5c25840a596ad87115f2ab59c-9"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 520.31887,368.74238 -10,14"
+         pencil:name="leftLeg"
+         id="abc56f442c3747408b0aba140f6bbf8c-3"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 520.31887,368.74238 10,14"
+         pencil:name="rightLeg"
+         id="e12e1970cd2a4db19f43e6df73b008b5-6"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc"
+         pencil:name="leftArm"
+         id="d339571983fb4638b7f52e866e63c69a-0"
+         d="m 520.31887,360.74238 -10,-6"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="cc"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         pencil:name="rightArm"
+         id="f4ecbef73e424b6099626c950e48419a-6"
+         d="m 520.31887,360.74238 10,-6"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="translate(197.57319,-142.3246)"
+       id="g2091-2">
+      <circle
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         cx="520.31885"
+         cy="347.74237"
+         pencil:name="head"
+         id="898fd69bb7374bd4b8ea1119a788522a-6"
+         r="6" />
+      <path
+         d="m 520.31887,353.74238 v 15"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         pencil:name="body"
+         id="1e5d49a5c25840a596ad87115f2ab59c-1"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 520.31887,368.74238 -10,14"
+         pencil:name="leftLeg"
+         id="abc56f442c3747408b0aba140f6bbf8c-8"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 520.31887,368.74238 10,14"
+         pencil:name="rightLeg"
+         id="e12e1970cd2a4db19f43e6df73b008b5-7"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc"
+         pencil:name="leftArm"
+         id="d339571983fb4638b7f52e866e63c69a-9"
+         d="m 520.31887,360.74238 -10,-6"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="cc"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         pencil:name="rightArm"
+         id="f4ecbef73e424b6099626c950e48419a-20"
+         d="m 520.31887,360.74238 10,-6"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="translate(656.87506,-143.76632)"
+       id="g2091-23">
+      <circle
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         cx="520.31885"
+         cy="347.74237"
+         pencil:name="head"
+         id="898fd69bb7374bd4b8ea1119a788522a-7"
+         r="6" />
+      <path
+         d="m 520.31887,353.74238 v 15"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         pencil:name="body"
+         id="1e5d49a5c25840a596ad87115f2ab59c-5"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 520.31887,368.74238 -10,14"
+         pencil:name="leftLeg"
+         id="abc56f442c3747408b0aba140f6bbf8c-9"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 520.31887,368.74238 10,14"
+         pencil:name="rightLeg"
+         id="e12e1970cd2a4db19f43e6df73b008b5-2"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc"
+         pencil:name="leftArm"
+         id="d339571983fb4638b7f52e866e63c69a-2"
+         d="m 520.31887,360.74238 -10,-6"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="cc"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         pencil:name="rightArm"
+         id="f4ecbef73e424b6099626c950e48419a-8"
+         d="m 520.31887,360.74238 10,-6"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       pencil:name="text"
+       id="d6aadb66a5004f1e8eeff133303a9c23-3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;text-decoration:none;text-decoration-line:none;writing-mode:lr-tb;text-anchor:start;fill:#232323;fill-opacity:1"
+       x="339.53232"
+       y="400.02716"><tspan
+         x="501.08545"
+         y="400.02716"
+         id="tspan20-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Yash</tspan></text>
+    <text
+       xml:space="preserve"
+       pencil:name="text"
+       id="d6aadb66a5004f1e8eeff133303a9c23-3-4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;text-decoration:none;text-decoration-line:none;writing-mode:lr-tb;text-anchor:start;fill:#232323;fill-opacity:1"
+       x="533.20917"
+       y="259.08301"><tspan
+         x="694.76227"
+         y="259.08301"
+         id="tspan20-6-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Lorxu</tspan></text>
+    <text
+       xml:space="preserve"
+       pencil:name="text"
+       id="d6aadb66a5004f1e8eeff133303a9c23-3-4-1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;text-decoration:none;text-decoration-line:none;writing-mode:lr-tb;text-anchor:start;fill:#232323;fill-opacity:1"
+       x="531.87427"
+       y="108.94537"><tspan
+         x="693.42737"
+         y="108.94537"
+         id="tspan20-6-7-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Meet</tspan><tspan
+         x="693.42737"
+         y="108.94537"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan2273" /></text>
+    <text
+       xml:space="preserve"
+       pencil:name="text"
+       id="d6aadb66a5004f1e8eeff133303a9c23-3-4-1-5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;text-decoration:none;text-decoration-line:none;writing-mode:lr-tb;text-anchor:start;fill:#232323;fill-opacity:1"
+       x="842.28687"
+       y="110.73689">Alluri</text>
+    <text
+       xml:space="preserve"
+       pencil:name="text"
+       id="d6aadb66a5004f1e8eeff133303a9c23-3-4-1-5-2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;text-decoration:none;text-decoration-line:none;writing-mode:lr-tb;text-anchor:start;fill:#232323;fill-opacity:1"
+       x="1154.9927"
+       y="255.49992">Isaiah</text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<div class="card horizontal">
+  <div class="card-image" style="padding:1em;">
+    <a href="https://github.com/{{ include.student.github }}">
+    <img src="https://avatars.githubusercontent.com/{{ include.student.github }}" style="border-radius:50%; height:8em;" />
+    </a>
+  </div>
+  <div class="card-stacked">
+    <div class="card-content">
+      <p class="grey-text">{{ include.student.name }}</p>
+      <p class="card-title text-darken">{{ include.student.title}}</p>
+    </div>
+    <div class="card-action">
+      <a href="{{ include.student.url }}">Project Card</a>
+    </div>
+  </div>
+</div>
