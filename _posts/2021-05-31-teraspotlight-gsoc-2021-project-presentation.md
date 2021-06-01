@@ -12,14 +12,38 @@ We are happy to announce that we are supported by five students over the summer.
 The students will contribute to different areas of our wide ecosystem: ranging from modernizing our web presence over world generation in space and on earth to gameplay improvements.
 Read on to learn more about the individual projects!
 
-<div class="col s12 m12">
+<div class="col s12 m12" markdown="1">
   {% include gsoc_card.html student=site.data.gsoc2021.ahv %}
   {% include gsoc_card.html student=site.data.gsoc2021.meet %}
   {% include gsoc_card.html student=site.data.gsoc2021.lorxu %}
   {% include gsoc_card.html student=site.data.gsoc2021.yash %}
   {% include gsoc_card.html student=site.data.gsoc2021.isaiah %}
+
+  This project aims to create a modular framework for world generation in Destination: Sol. 
+  This will allow more flexibility in the way the world can be generated.
+  Instead of the current system which has very few options for world generation, this project will lay the foundation for a system which can support many options.
+
+  This world-gen system will consist of a `WorldBuilder` class which will be able to initialize various types of `Generator` classes. 
+  These `Generator` classes will represent the various different entities that make up the Destination: Sol world: solar systems, planets, and mazes.
+
+  The generators will be implementations of abstract classes, such as `PlanetGenerator` for planets or `SolSystemGenerator` for solar systems.
+  Then, there will be specific implementations of these classes, like `DefaultSolSystemGenerator` or `DefaultPlanetGenerator`. 
+
+  This lays the foundation for more interesting generators, allowing for behaviors like `DesertPlanetGenerator` or `WaterPlanetGenerator` etc. 
+
+  > With this project, I hope to add a lot of flair to the way world generation is done in Destination: Sol.
+  >
+  > Look forward to the ability to implement custom SolSystems, Planets, and Mazes!
+
+  <div align="center">
+    <img src="{{ site.baseurl }}/img/2021-05-31-teraspotlight/dest-sol-worldgen.png" />
+    <figcaption>Planned world generation flow for Destination: Sol.</figcaption>
+  </div>
 </div>
 
+---
+
+## The Terasology Foundation Ecosystem
 
 <div align="center">
 
