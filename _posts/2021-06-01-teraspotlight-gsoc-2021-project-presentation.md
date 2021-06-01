@@ -4,7 +4,7 @@ title: "TeraSpotlight: GSOC 2021 Projects"
 description: >
   In this post we are presenting the student projects we accepted for this year's edition of Google Summer of Code (GSOC).
 author: Skaldarnar, Niruandaleth
-header-img: "/img/terasaturday/14/banner.jpg"
+header-img: "/img/2021-06-01-teraspotlight/banner.jpg"
 ---
 
 _We are proud to present these year's student projects for the [Google Summer of Code]._
@@ -27,14 +27,14 @@ You may have heard about our in-house libraries _gestalt_ (module and asset mana
 
 The games also share a similar internal structure, being split into the main `engine` and `modules` that can be used for ad-hoc extension.
 Terasology already makes heavy use of the module concept, and recent GSOC projects aimed to bring this flexibility also to Destination: Sol.
-By modularizing the world generation of Destination: Sol, _@IsaiahBlanks_ will be working somewhere between the engine and module space.
-In a similar position, we find _@Lorxu's_ project on world generation for Metal Renegades.
+By modularizing the world generation of Destination: Sol, Isaiah will be working somewhere between the engine and module space.
+In a similar position, we find Lorxu's project on world generation for Metal Renegades.
 While the goal is to improve the world generation of a gameplay template, many of the world generation concepts are still defined in the engine, or at the very roots of the module dependency tree. 
 We'll see him jumping back and forth between these code locations over the summer.
 
-_@Meet_ and _@ahv_ have a clearer assignment to module space. 
+Meet and Alluri have a clearer assignment to module space. 
 Both students will focus on gameplay improvements, cleaning up modules, and establishing best-practice implementations for new features with the entity component system.
-The two focus areas here are the modules around Light & Shadow (our capture the flag game mode) and Josharia's Survival (well, you guess it - our survival game mode).
+The two focus areas here are the modules around Light & Shadow (our capture the flag game mode) and Josharias' Survival (well, you guess it - our survival game mode).
 
 Beside the games we are developing there are couple of side projects worth mentioning.
 The launcher serves as entry point to the world of Terasology for players, giving them a simple interface to download, update, and start their game.
@@ -44,7 +44,7 @@ Finally, our web presence is distributed over a couple of repositories.
 This includes this website and the linked adventure site to explore contribution paths.
 While the good ol' Jekyll-based page has served us well, the web technology whisperers have told us that the time has come for a modernization.
 We want to take this as an opportunity to make our vast module line-up more accessible to players.
-_@yash_ will mostly focus on this new module site, but also has the task to migrate all the blog posts and other content from this website over to the new stack.
+Yash will mostly focus on this new module site, but also has the task to migrate all the blog posts and other content from this website over to the new stack.
 
 Read on to learn more about the individual projects!
 
@@ -63,7 +63,7 @@ Read on to learn more about the individual projects!
   The project will be mentored by _@Niruandaleth_  and _@Skaldarnar_.
 
   <div align="center">
-    <img src="{{ site.baseurl }}/img/2021-05-31-teraspotlight/las-items.png" width="60%" />
+    <img src="{{ site.baseurl }}/img/2021-06-01-teraspotlight/las-items.png" width="60%" />
     <figcaption>Weapons, Traps and Defensive Mechanisms for Light & Shadow</figcaption>
   </div>
 
@@ -76,7 +76,7 @@ Read on to learn more about the individual projects!
   The main focus for this is achieving a smooth transition between the two sheep models (with wool and without) in the events of shearing and hair regrowth, providing an immersive user experience using audio and visual feedback as well as proper documentation and testing.
 
   <div align="center">
-    <img src="{{ site.baseurl }}/img/2021-05-31-teraspotlight/sheep.png" width="50%" />
+    <img src="{{ site.baseurl }}/img/2021-06-01-teraspotlight/sheep.png" width="50%" />
     <figcaption>Unshorn and shorn sheep</figcaption>
   </div>
 
@@ -112,7 +112,7 @@ Read on to learn more about the individual projects!
   Documenting both pipelines for our fellow contributors shall make it easy for interested parties to join the effort in the future.
 
   <div align="center">
-    <img src="{{ site.baseurl }}/img/2021-05-31-teraspotlight/module-site.png" width="60%" />
+    <img src="{{ site.baseurl }}/img/2021-06-01-teraspotlight/module-site.png" width="60%" />
     <figcaption>Exemplary module overview on the module site</figcaption>
   </div>
 
@@ -147,7 +147,7 @@ Read on to learn more about the individual projects!
   The project will be mentored by _@Michael P_  and _@Cervator_, with additional support from last year's student _@Nicholas Bates_.
 
   <div align="center">
-    <img src="{{ site.baseurl }}/img/2021-05-31-teraspotlight/dest-sol-worldgen.png" />
+    <img src="{{ site.baseurl }}/img/2021-06-01-teraspotlight/dest-sol-worldgen.png" />
     <figcaption>Planned world generation flow for Destination: Sol.</figcaption>
   </div>
 
