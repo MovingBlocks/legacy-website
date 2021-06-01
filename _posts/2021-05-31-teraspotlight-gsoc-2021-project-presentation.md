@@ -15,6 +15,16 @@ Read on to learn more about the individual projects!
 <div class="col s12 m12" markdown="1">
   {% include gsoc_card.html student=site.data.gsoc2021.ahv %}
   {% include gsoc_card.html student=site.data.gsoc2021.meet %}
+
+  Meet (aka _@meetcshah19_) is a second year student working again with Terasology.
+  After overhauling our "Lost" gameplay last year, this yearh they strive to improve animal interaction in "Josharias' Survival".
+
+  The first part will bring a more pacifist way of dealing with sheep: instead of having to kill them to get wool, a new shearing mechanism will be added.
+  The main focus for this is achieving a smooth transition between the two sheep models (with wool and without) in the events of shearing and hair regrowth, providing an immersive user experience using audio and visual feedback as well as proper documentation and testing.
+
+  The rest of the project will focus on improving spawning animals such that in addition to spawning when chunks are loaded, they can also spawn over time in already loaded chunks.
+  Furthermore, Meet will improve the `Fences` module to allow for properly flocking sheep and add behavior that will make sheep follow food, allowing players to lure them.
+
   {% include gsoc_card.html student=site.data.gsoc2021.lorxu %}
   {% include gsoc_card.html student=site.data.gsoc2021.yash %}
 
