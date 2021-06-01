@@ -33,17 +33,17 @@ Read on to learn more about the individual projects!
 
   {% include gsoc_card.html student=site.data.gsoc2021.isaiah %}
 
-  This project aims to create a modular framework for world generation in Destination: Sol. 
-  This will allow more flexibility in the way the world can be generated.
-  Instead of the current system which has very few options for world generation, this project will lay the foundation for a system which can support many options.
+  Isaiah (aka _@IsaiahBlanks_) aims to create a modular framework for world generation in Destination: Sol. 
+  The main motivation behind this project is to allow more flexibility in the way the world can be generated.
+  Instead of the current system which has very few options for world generation, Isaiah's work will lay the foundation for a system which can support many options.
 
-  This world-gen system will consist of a `WorldBuilder` class which will be able to initialize various types of `Generator` classes. 
+  The new world-gen system will consist of a `WorldBuilder` class which will be able to initialize various types of `Generator` classes. 
   These `Generator` classes will represent the various different entities that make up the Destination: Sol world: solar systems, planets, and mazes.
 
   The generators will be implementations of abstract classes, such as `PlanetGenerator` for planets or `SolSystemGenerator` for solar systems.
-  Then, there will be specific implementations of these classes, like `DefaultSolSystemGenerator` or `DefaultPlanetGenerator`. 
+  In addition, there will be specific implementations of these classes, like `DefaultSolSystemGenerator` or `DefaultPlanetGenerator`. 
 
-  This lays the foundation for more interesting generators, allowing for behaviors like `DesertPlanetGenerator` or `WaterPlanetGenerator` etc. 
+  This will serve as the foundation for more interesting generators, allowing for behaviors like `DesertPlanetGenerator` or `WaterPlanetGenerator` etc. 
 
   > With this project, I hope to add a lot of flair to the way world generation is done in Destination: Sol.
   >
