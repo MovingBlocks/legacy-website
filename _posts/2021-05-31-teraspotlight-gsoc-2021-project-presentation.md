@@ -14,6 +14,23 @@ Read on to learn more about the individual projects!
 
 <div class="col s12 m12" markdown="1">
   {% include gsoc_card.html student=site.data.gsoc2021.ahv %}
+
+  Alluri (aka _@ahv15_) will target quality improvements for "Light & Shadow" in their GSoC project.
+  As a first step, this includes overhauling the module in terms of package structure, code quality, bug fixes and documentation.
+  
+  Second, they will bring together and extend on existing mechanisms for economy (`Economy`) and defensive mechanisms (`GooeyDefense`) to allow for a more immersive gameplay experience than the current race for the flag.
+  This will also lay a basic foundation for future work on minion management in "Light & Shadow".
+
+  Finally, Alluri will leverage the weapons and traps provided by `CombatSystem` to empower players to actively influence both their team and their opponents.
+  Using similar effects like the `GooeyDefense` tower effectors, this hopefully turns the current plain race into an exciting fight for the flag.
+
+  The project will be mentored by _@Niruandaleth_  and _@Skaldarnar_.
+
+  <div align="center">
+    <img src="{{ site.baseurl }}/img/2021-05-31-teraspotlight/las-items.png" width="60%" />
+    <figcaption>Weapons, Traps and Defensive Mechanisms for Light & Shadow</figcaption>
+  </div>
+
   {% include gsoc_card.html student=site.data.gsoc2021.meet %}
 
   Meet (aka _@meetcshah19_) is a second year student working again with Terasology.
@@ -31,7 +48,7 @@ Read on to learn more about the individual projects!
 
   Metal Renegades is meant to feel like an immersive Old West-style world. 
   Right now, it’s just a desert, with some mountains made out of sand. 
-  _@Lorxu_ proposed to expand that with more interesting terrain typical of the Old West: 
+  _@Lorxu_ (aka _@tolziplohu_) proposed to expand that with more interesting terrain typical of the Old West: 
   mesas where rock around a plateau has eroded away, canyons where rivers have cut deep into the rock, mountains made of rock instead of sand, and more.
   A "small proof of concept" in shadertoy looks already promising.
   The implementation in Terasology should look somewhat better, using actual multi-octave simplex noise 👨‍🏫.
@@ -57,7 +74,6 @@ Read on to learn more about the individual projects!
     <img src="{{ site.baseurl }}/img/2021-05-31-teraspotlight/module-site.png" width="60%" />
     <figcaption>Exemplary module overview on the module site</figcaption>
   </div>
-</div>
 
   The second part of Yash's project will entail re-designing and improving the module site.
   Amongst others, improving blog and module search, user experience and overhauling the gallery will be working items.
@@ -67,7 +83,7 @@ Read on to learn more about the individual projects!
   The final part of the migration project will be the actual migration of the current website's contents into the module site.
   With everything in place, `terasology.org` can be adjusted to show the module site instead of our current website.
 
-  The project will be mentored by _@majordwarf_  and _@Michael P_, with additional support from _@Niruandaleth_.
+  The project will be mentored by _@majordwarf_  and _@Michael P_, with additional support from _@Niruandaleth_ and _@Cervator_.
 
   {% include gsoc_card.html student=site.data.gsoc2021.isaiah %}
 
