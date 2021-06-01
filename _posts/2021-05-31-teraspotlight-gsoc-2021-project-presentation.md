@@ -26,6 +26,24 @@ Read on to learn more about the individual projects!
   Furthermore, Meet will improve the `Fences` module to allow for properly flocking sheep and add behavior that will make sheep follow food, allowing players to lure them.
 
   {% include gsoc_card.html student=site.data.gsoc2021.lorxu %}
+
+  Metal Renegades is meant to feel like an immersive Old West-style world. 
+  Right now, it’s just a desert, with some mountains made out of sand. 
+  _@Lorxu_ proposed to expand that with more interesting terrain typical of the Old West: 
+  mesas where rock around a plateau has eroded away, canyons where rivers have cut deep into the rock, mountains made of rock instead of sand, and more.
+  A "small proof of concept" in shadertoy looks already promising.
+  The implementation in Terasology should look somewhat better, using actual multi-octave simplex noise 👨‍🏫.
+
+  <div align="center">
+    <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/fdfGDN?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+  </div>
+
+  Additionally, the project covers the creation of a realistic distribution of flora and fauna.
+  On one hand, the terrain generation should be fairly realistic and follow principles of real-life geology.
+  On the other hand, it needs to look nice and work well on the scale of actual gameplay (so features should generally be fairly small, so you can see them all) and be performant in an infinite world (so something like simulating erosion directly wouldn’t work). 
+
+  The project will be mentored by _@Skaldarnar_ and _@keturn_, with additional support from _@Suhas_ (aka _@agent-q1_).
+
   {% include gsoc_card.html student=site.data.gsoc2021.yash %}
 
   Yash (aka _@ryuk156_) will be working on migrating our current web (splash) site to the module site originally started by _@majordwarf_ two years ago.
@@ -58,6 +76,8 @@ Read on to learn more about the individual projects!
   > With this project, I hope to add a lot of flair to the way world generation is done in Destination: Sol.
   >
   > Look forward to the ability to implement custom SolSystems, Planets, and Mazes!
+
+  The project will be mentored by _@Michael P_  and _@Cervator_, with additional support from last year's student _@Nicholas Bates_.
 
   <div align="center">
     <img src="{{ site.baseurl }}/img/2021-05-31-teraspotlight/dest-sol-worldgen.png" />
