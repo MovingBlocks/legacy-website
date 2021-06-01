@@ -25,6 +25,8 @@ Read on to learn more about the individual projects!
   The rest of the project will focus on improving spawning animals such that in addition to spawning when chunks are loaded, they can also spawn over time in already loaded chunks.
   Furthermore, Meet will improve the `Fences` module to allow for properly flocking sheep and add behavior that will make sheep follow food, allowing players to lure them.
 
+  The project will be mentored by _@Niruandaleth_  and _@keturn_, with additional support from _@casals_ and last year's student _@ktksan_.
+
   {% include gsoc_card.html student=site.data.gsoc2021.lorxu %}
 
   Metal Renegades is meant to feel like an immersive Old West-style world. 
@@ -51,6 +53,12 @@ Read on to learn more about the individual projects!
   In addition to that, the module site build and deployment pipeline needs to be revisited to update and properly integrate it into the development processes of Terasology and the module site.
   Documenting both pipelines for our fellow contributors shall make it easy for interested parties to join the effort in the future.
 
+  <div align="center">
+    <img src="{{ site.baseurl }}/img/2021-05-31-teraspotlight/module-site.png" width="60%" />
+    <figcaption>Exemplary module overview on the module site</figcaption>
+  </div>
+</div>
+
   The second part of Yash's project will entail re-designing and improving the module site.
   Amongst others, improving blog and module search, user experience and overhauling the gallery will be working items.
   Furthermore, as a special goodie for current and future blog post authors, Yash will work on automated preview image generation especially for our recurring blog post series "TeraSaturday" and "TeraSpotlight".
@@ -58,6 +66,8 @@ Read on to learn more about the individual projects!
 
   The final part of the migration project will be the actual migration of the current website's contents into the module site.
   With everything in place, `terasology.org` can be adjusted to show the module site instead of our current website.
+
+  The project will be mentored by _@majordwarf_  and _@Michael P_, with additional support from _@Niruandaleth_.
 
   {% include gsoc_card.html student=site.data.gsoc2021.isaiah %}
 
