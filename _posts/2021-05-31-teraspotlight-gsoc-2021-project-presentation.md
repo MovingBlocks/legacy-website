@@ -99,12 +99,39 @@ Read on to learn more about the individual projects!
 
 ## The Terasology Foundation Ecosystem
 
+To give you a better overview where the projects are located in the broad ecosystem of the The Terasology Foundation we've prepared this little diagram.
+You can click on the components to navigate to their respective Github repository.
+Both our games, _Terasology_ and _Destination: Sol_ (get it [on Steam](https://store.steampowered.com/app/342980/Destination_Sol/)), albeit being quite different in their setting and aesthetics, share a common technical foundation. 
+You may have heard about our in-house libraries _gestalt_ (module and asset management, entity component system) and _TeraNUI_ (UI framework) from previous TeraSaturday posts. 😉
+
 <div align="center">
 
   {% include 2021-05-gsoc-projects.svg %}
 
   <figcaption>The Terasology Foundation ecosystem and areas of contribution for the GSOC projects.</figcaption>
 </div>
+
+The games also share a similar internal structure, being split into the main `engine` and `modules` that can be used for ad-hoc extension.
+Terasology already makes heavy use of the module concept, and recent GSOC projects aimed to bring this flexibility also to Destination: Sol.
+By modularizing the world generation of Destination: Sol, _@IsaiahBlanks_ will be working somewhere between the engine and module space.
+In a similar position, we find _@Lorxu's_ project on world generation for Metal Renegades.
+While the goal is to improve the world generation of a gameplay template, many of the world generation concepts are still defined in the engine, or at the very roots of the module dependency tree. 
+We'll see him jumping back and forth between these code locations over the summer.
+
+_@Meet_ and _@ahv_ have a clearer assignment to module space. 
+Both students will focus on gameplay improvements, cleaning up modules, and establishing best-practice implementations for new features with the entity component system.
+The two focus areas here are the modules around Light & Shadow (our capture the flag game mode) and Josharia's Survival (well, you guess it - our survival game mode).
+
+Beside the games we are developing there are couple of side projects worth mentioning.
+The launcher serves as entry point to the world of Terasology for players, giving them a simple interface to download, update, and start their game.
+It is also build in Java, but otherwise shares little code with the main projects.
+
+Finally, our web presence is distributed over a couple of repositories. 
+This includes this website and the linked adventure site to explore contribution paths.
+While the good ol' Jekyll-based page has served us well, the web technology whisperers have told us that the time has come for a modernization.
+We want to take this as an opportunity to make our vast module line-up more accessible to players.
+_@yash_ will mostly focus on this new module site, but also has the task to migrate all the blog posts and other content from this website over to the new stack.
+
 
 <!-- References -->
 [Google Summer of Code]: https://summerofcode.withgoogle.com/
