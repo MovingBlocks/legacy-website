@@ -7,15 +7,15 @@ author: Skaldarnar, Niruandaleth
 header-img: "/img/2021-06-01-teraspotlight/banner.jpg"
 ---
 
-_We are proud to present these year's student projects for the [Google Summer of Code]._
+_We are proud to present this year's student projects for the [Google Summer of Code]._
 _We are happy to announce that we are supported by five students over the summer._
-_The students will contribute to different areas of our wide ecosystem: ranging from modernizing our web presence over world generation in space and on earth to gameplay improvements._
+_The students will contribute to different areas of our wide ecosystem, ranging from modernizing our web presence over world generation both, in space and on earth, to improvements in various gameplays._
 
 ## The Terasology Foundation Ecosystem
 
 To give you a better overview where the projects are located in the broad ecosystem of the The Terasology Foundation we've prepared this little diagram.
 You can click on the components to navigate to their respective Github repository.
-Both our games, _Terasology_ and _Destination: Sol_ (get it [on Steam](https://store.steampowered.com/app/342980/Destination_Sol/)), albeit being quite different in their setting and aesthetics, share a common technical foundation. 
+Both of our games, _Terasology_ and _Destination: Sol_ (get it [on Steam](https://store.steampowered.com/app/342980/Destination_Sol/)), albeit being quite different in their setting and aesthetics, share a common technical foundation. 
 You may have heard about our in-house libraries _gestalt_ (module and asset management, entity component system) and _TeraNUI_ (UI framework) from previous TeraSaturday posts. 😉
 
 <div align="center">
@@ -28,17 +28,17 @@ You may have heard about our in-house libraries _gestalt_ (module and asset mana
 The games also share a similar internal structure, being split into the main `engine` and `modules` that can be used for ad-hoc extension.
 Terasology already makes heavy use of the module concept, and recent GSOC projects aimed to bring this flexibility also to Destination: Sol.
 By modularizing the world generation of Destination: Sol, Isaiah will be working somewhere between the engine and module space.
-In a similar position, we find Lorxu's project on world generation for Metal Renegades.
-While the goal is to improve the world generation of a gameplay template, many of the world generation concepts are still defined in the engine, or at the very roots of the module dependency tree. 
+In a similar position we find Lorxu's project on world generation for Metal Renegades.
+While the goal is to improve the world generation of a gameplay template, many of the world generation concepts are still defined in the engine or at the very roots of the module dependency tree. 
 We'll see him jumping back and forth between these code locations over the summer.
 
 Meet and Alluri have a clearer assignment to module space. 
 Both students will focus on gameplay improvements, cleaning up modules, and establishing best-practice implementations for new features with the entity component system.
-The two focus areas here are the modules around Light & Shadow (our capture the flag game mode) and Josharias' Survival (well, you guess it - our survival game mode).
+The two focus areas here are the modules around Light & Shadow (our capture the flag game mode) and Josharias' Survival (well, you guessed it - our survival game mode).
 
-Beside the games we are developing there are couple of side projects worth mentioning.
-The launcher serves as entry point to the world of Terasology for players, giving them a simple interface to download, update, and start their game.
-It is also build in Java, but otherwise shares little code with the main projects.
+Beside the games we are developing, there are a couple of side projects worth mentioning.
+The launcher serves as the entry point to the world of Terasology for players, giving them a simple interface to download, update, and start their game.
+It is also built in Java, but otherwise shares little code with the main projects.
 
 Finally, our web presence is distributed over a couple of repositories. 
 This includes this website and the linked adventure site to explore contribution paths.
@@ -70,17 +70,17 @@ Read on to learn more about the individual projects!
   {% include gsoc_card.html student=site.data.gsoc2021.meet %}
 
   Meet (aka _@meetcshah19_) is a second year student working again with Terasology.
-  After overhauling our "Lost" gameplay last year, this yearh they strive to improve animal interaction in "Josharias' Survival".
+  After overhauling our "Lost" game mode last year, this year they strive to improve animal interaction in "Josharias' Survival".
 
-  The first part will bring a more pacifist way of dealing with sheep: instead of having to kill them to get wool, a new shearing mechanism will be added.
-  The main focus for this is achieving a smooth transition between the two sheep models (with wool and without) in the events of shearing and hair regrowth, providing an immersive user experience using audio and visual feedback as well as proper documentation and testing.
+  The first part will bring a more pacifist way of collecting wool to craft a nice warm vest: instead of having to kill sheep to get their wool, a new shearing mechanism will be added.
+  The main focus for this is achieving a smooth transition between the two sheep models (unshorn and shorn) in the events of shearing and hair regrowth, providing an immersive user experience using audio and visual feedback as well as proper documentation and testing.
 
   <div align="center">
     <img src="{{ site.baseurl }}/img/2021-06-01-teraspotlight/sheep.png" width="50%" />
     <figcaption>Unshorn and shorn sheep</figcaption>
   </div>
 
-  The rest of the project will focus on improving spawning animals such that in addition to spawning when chunks are loaded, they can also spawn over time in already loaded chunks.
+  The rest of the project will focus on improving spawning animals such that in addition to spawning when chunks are loaded, both, deer and sheep, can also spawn over time in already loaded chunks.
   Furthermore, Meet will improve the `Fences` module to allow for properly flocking sheep and add behavior that will make sheep follow food, allowing players to lure them.
 
   The project will be mentored by _@Niruandaleth_  and _@keturn_, with additional support from _@casals_ and last year's student _@ktksan_.
@@ -117,7 +117,7 @@ Read on to learn more about the individual projects!
   </div>
 
   The second part of Yash's project will entail re-designing and improving the module site.
-  Amongst others, improving blog and module search, user experience and overhauling the gallery will be working items.
+  Amongst others, improving blog and module search, user experience and overhauling the gallery will be items to work on.
   Furthermore, as a special goodie for current and future blog post authors, Yash will work on automated preview image generation especially for our recurring blog post series "TeraSaturday" and "TeraSpotlight".
   The idea for this is to leverage in-game screenshots for the gallery, but also for blog post preview images, by adding a text overlay based on the blog post tag and number.
 
