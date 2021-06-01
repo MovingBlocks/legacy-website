@@ -75,6 +75,11 @@ Read on to learn more about the individual projects!
   The first part will bring a more pacifist way of dealing with sheep: instead of having to kill them to get wool, a new shearing mechanism will be added.
   The main focus for this is achieving a smooth transition between the two sheep models (with wool and without) in the events of shearing and hair regrowth, providing an immersive user experience using audio and visual feedback as well as proper documentation and testing.
 
+  <div align="center">
+    <img src="{{ site.baseurl }}/img/2021-05-31-teraspotlight/sheep.png" width="50%" />
+    <figcaption>Unshorn and shorn sheep</figcaption>
+  </div>
+
   The rest of the project will focus on improving spawning animals such that in addition to spawning when chunks are loaded, they can also spawn over time in already loaded chunks.
   Furthermore, Meet will improve the `Fences` module to allow for properly flocking sheep and add behavior that will make sheep follow food, allowing players to lure them.
 
