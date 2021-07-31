@@ -18,7 +18,7 @@ First of all, our user interface library [TeraNUI] was [released in version 3.0.
 _@pollend_ and _@DarkWeird_ work on experimental features for v4 related to dependency injection in [gestalt].
 
 Talking about [gestalt], the Java library collection providing core game engine capabilities the Terasology Engine is built on, was [released in version 7.1.0](https://github.com/MovingBlocks/gestalt/releases/tag/v7.1.0).
-Iin this release, _@keturn_ fixed some permission issues found in `ModuleEnvironment` and improved compatibility with semantic versioning when comparing snapshot versions.
+In this release, _@keturn_ fixed some permission issues found in `ModuleEnvironment` and improved compatibility with semantic versioning when comparing snapshot versions.
 
 Most importantly, we are happy to announce, that we released [Terasology 5.0.0 / Alpha 20](https://github.com/MovingBlocks/Terasology/releases/tag/v5.0.0) after successfully testing the second release candidate in our [July Playtest](#july-playtest).
 Please note, that starting with this version, the minimal system requirements have changed. The GPU now has to support at least OpenGL 3.3.
@@ -34,7 +34,7 @@ However, we're happy that we still have a lot of things to show for over the pas
 A big shout-out to _@Michael P_ (aka _@pollend_), who tirelessly worked on migrating rendering to OpenGL 3.3, improve performance, and buzzed around the codebase, fixing issues and cleaning up code left and right 🐝
 Another shout-out to _@keturn_, who relentlessly makes sure that we do not forget about investigating and fixing failing tests, and continuously challenges everybody to keep up the quality work 👍
 
-In other news, we split the stages of our build pipeline to allow for a bit more detailed insights into test failures and quality-related analytics. Talking about tests, the [module tests are recovering](https://jenkins.terasology.io/teraorg/job/Terasology/job/Modules/view/Omega/) from the past migration efforts.
+In other news, we split the stages of our build pipeline to allow for a bit more detailed insights into test failures and quality-related analytics. Talking about tests, the [module tests are recovering](https://jenkins.terasology.io/teraorg/job/Terasology/job/Modules/view/Omega/){:target="_blank"} from the past migration efforts.
 
 > We updated some tests to use Module Testing Environment, making some fixes to it along the way. We also removed some other "Environment" test classes (#4830) which were similarly named but not compatible.
 > 
@@ -44,7 +44,7 @@ In other news, we split the stages of our build pipeline to allow for a bit more
 > -- <i>@keturn</i>
 > </div>
 
-These and other minor efforts were coordinated in our weekly Org Meeting (every Saturday, 4PM UTC on our [Discord](https://discord.gg/terasology)) using our [Org Meeting Trello Board](https://trello.com/b/4cw7Q1BJ/org-meeting-board). Feel free to come join us and help make Terasology better and better 😉 
+These and other minor efforts were coordinated in our weekly Org Meeting (every Saturday, 4PM UTC on our [Discord](https://discord.gg/terasology)) using our [Org Meeting Trello Board](https://trello.com/b/4cw7Q1BJ/org-meeting-board){:target="_blank"}. Feel free to come join us and help make Terasology better and better 😉 
 
   <div style="float:left">
     <img src="{{ site.baseurl }}/img/terasaturday/15/org-board-done-1.png" width="20%" />
@@ -81,6 +81,7 @@ Mob programming, similar to pair programming, is an approach to develop software
 Being spread across two continents, _@keturn_, _@Michael P_ (aka _@pollend_), _@skaldarnar_ and I, _@Niruandaleth_ (aka _@jdrueckert_) had to fall back to remote options rather than sitting in the same room. However, with the help of our Discord voice channel and IntelliJ's collaboration tool ["Code With Me"](https://blog.jetbrains.com/blog/2020/09/28/code-with-me-eap/), we actually had a good and productive time investigating module permissions and test issues.
 
 ### 🕹️ July Playtest
+{: #july-playtest}
 
 After a long time of bigger migrations in the underlying foundations of Terasology and the required stabilization efforts in their aftermath, we finally got around to another playtest session. One by one, we started our playtest server with Metal Renegades, Light & Shadow, Josharias' Survival, and Core Gameplay.
 
