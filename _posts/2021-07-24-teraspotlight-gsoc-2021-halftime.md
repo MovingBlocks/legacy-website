@@ -4,7 +4,7 @@ title: "TeraSpotlight: GSOC 2021 Halftime Show & Tell"
 description: >
   In this post we are presenting the achievements of the student projects over the first half of this year's edition of Google Summer of Code (GSOC).
 author: Niruandaleth
-header-img: "/img/2021-07-24-teraspotlight-gsoc-halftime/banner.png"
+header-img: "/img/2021-07-24-teraspotlight-gsoc-halftime/banner.jpg"
 ---
 
 _We are proud to present the achievements of this year's student projects for the first half of the [Google Summer of Code]._
