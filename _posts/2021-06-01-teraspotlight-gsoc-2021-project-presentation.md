@@ -144,7 +144,7 @@ Read on to learn more about the individual projects!
   >
   > Look forward to the ability to implement custom SolSystems, Planets, and Mazes!
 
-  The project will be mentored by _@Michael P_  and _@Cervator_, with additional support from last year's student _@Nicholas Bates_.
+  The project will be mentored by _@Nicholas Bates_  and _@Cervator_, with additional support from last year's student _@Isaac L_.
 
   <div align="center">
     <img src="{{ site.baseurl }}/img/2021-06-01-teraspotlight/dest-sol-worldgen.png" />
