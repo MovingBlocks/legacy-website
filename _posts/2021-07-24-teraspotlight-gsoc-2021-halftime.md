@@ -121,7 +121,7 @@ Read on to learn what the students achieved in the first half of their projects!
 
   In the remaining weeks, Isaiah will continue working on the `PlanetGenerator` class allowing modders to configure planet attributes such as size, sky color, gravity, as well as objects on the planets, such as decorations, ships, and trading posts.
 
-  The project is mentored by _@Michael P_ (aka _@pollend_) and _@Cervator_, with additional support from last year's student _@Nicholas Bates_.
+  The project is mentored by _@Nicholas Bates_ and _@Cervator_, with additional support from last year's student _@Isaac L_.
 
 </div>
 
