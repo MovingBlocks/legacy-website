@@ -4,7 +4,7 @@ title: "TeraSpotlight: GSOC 2021 Halftime Show & Tell"
 description: >
   In this post we are presenting the achievements of the student projects over the first half of this year's edition of Google Summer of Code (GSOC).
 author: Niruandaleth
-header-img: "/img/2021-07-24-teraspotlight-gsoc-halftime/banner.png"
+header-img: "/img/2021-07-24-teraspotlight-gsoc-halftime/banner.jpg"
 ---
 
 _We are proud to present the achievements of this year's student projects for the first half of the [Google Summer of Code]._
@@ -37,7 +37,7 @@ Read on to learn what the students achieved in the first half of their projects!
   Second, Alluri improved the gameplay, for instance by preventing trees from obstructing gameplay-relevant areas such as the fool's platform and the team bases.
   Further improvements targeted the starting and respawning inventory as well as weapon drops and pickups in the event of a player's death.
   Moreover, the student introduced a pre-game phase in which players are invulnerable and restricted to a circular area around their team base.
-  As soon as there is at least one player in each team, the countdown to the begin of the actual game round starts.
+  As soon as there is at least one player in each team, the countdown to the beginning of the actual game round starts.
   This phase should allow players to join teams and prepare themselves for the game without being able to influence it yet.
   Thus, players that join earlier do not have an unfair advantage.
 
@@ -105,7 +105,7 @@ Read on to learn what the students achieved in the first half of their projects!
 
   The preview image generation feature is currently still in progress.
   
-  Make sure to test out the current state at https://terasology.org/ModuleSite/.
+  Make sure to test out the current state at [terasology.org/ModuleSite](https://terasology.org/ModuleSite/).
   For the remaining weeks, Yash plans to improve the search capabilities for blogs and modules and improve the visuals of the Module Site some more before migrating the remaining content - mostly blogs - from the website.
 
   The project is mentored by _@majordwarf_  and _@Michael P_ (aka _@pollend_), with additional support from _@Niruandaleth_ (aka _@jdrueckert_) and _@Cervator_.
@@ -116,6 +116,8 @@ Read on to learn what the students achieved in the first half of their projects!
   The first class to be filled and completed was `WorldBuilder`, which looks through available solar system generators, picks generator types at random and creates instances of them according to the number of systems to be created for a world.
   Based on this, the `SolarSystemGenerators`, that calculate positions for mazes, planets, belts, etc., were approached and completed.
   These generators can now also be configured allowing for more control over the details of the system.
+
+  Read more about [World Generation Up and Running](https://destinationsol.org/2021/07/23/gsoc-world-gen-in-action.html) in Isaiah's blog post.
 
   In the remaining weeks, Isaiah will continue working on the `PlanetGenerator` class allowing modders to configure planet attributes such as size, sky color, gravity, as well as objects on the planets, such as decorations, ships, and trading posts.
 
