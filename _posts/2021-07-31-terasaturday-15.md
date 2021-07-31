@@ -4,7 +4,7 @@ title: "TeraSaturday #15: A Summer of Code"
 description: >
   An exploration of recent events in Terasology development
 author: Niruandaleth
-header-img: "/img/terasaturday/15/banner.jpg"
+header-img: "/img/terasaturday/15/banner.png"
 ---
 
 _Welcome to the return of TeraSaturday, a not-so-weekly update post about all the neat stuff that has been going on in
