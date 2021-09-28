@@ -41,7 +41,7 @@ Read on to learn what the students achieved in their projects!
   The new `Shearable` component even allows the mechanism to be extended to other animals in the future.
 
   <div align="center">
-    <img src="{{ site.baseurl }}/img/2021-09-11-teraspotlight-gsoc-summary/js_shearing.png" width="60%" />
+    <img src="{{ site.baseurl }}/img/2021-09-11-teraspotlight-gsoc-summary/js_shearing.png" width="80%" />
     <figcaption>Josharias' Survival - Sheep Shearing</figcaption>
   </div>
 
@@ -49,7 +49,7 @@ Read on to learn what the students achieved in their projects!
   This allows the player to gather sheep at a desired place and is the first step towards enabling players to fulfill their dream and become a shepard.
 
   <div align="center">
-    <img src="{{ site.baseurl }}/img/2021-09-11-teraspotlight-gsoc-summary/js_luring.png" width="60%" />
+    <img src="{{ site.baseurl }}/img/2021-09-11-teraspotlight-gsoc-summary/js_luring.png" width="80%" />
     <figcaption>Josharias' Survival - Sheep Luring</figcaption>
   </div>
 
