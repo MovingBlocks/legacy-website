@@ -1,4 +1,4 @@
-FROM ruby:2.7.3-alpine3.13
+FROM ruby:2.7.7-alpine3.16
 
 RUN apk update \
     && apk add bash gcc g++ git gnupg libc-dev make openssh
@@ -11,4 +11,4 @@ RUN addgroup -g $GID jekyll \
 
 USER jekyll
 
-RUN gem install bundler:2.2.16
+RUN gem install bundler:2.3.26
